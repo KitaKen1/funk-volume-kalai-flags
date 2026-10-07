@@ -1,0 +1,688 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[margin=25mm,headheight=14pt]{geometry}
+\usepackage[breakable,skins]{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage[hidelinks,hypertexnames=false]{hyperref}
+\hypersetup{pdftitle={Funk volume and Kalai's flag conjecture},pdfsubject={Proof of the symmetric Funk volume bound and the complete-flag bound}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{2em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Funk volume and Kalai's flag conjecture}
+\fancyhead[R]{\small Proof manuscript}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\tcbset{proofbox/.style={enhanced,breakable,colback=white,colframe=black!65,boxrule=0.5pt,arc=0pt,left=9pt,right=9pt,top=7pt,bottom=7pt,before skip=10pt,after skip=8pt}}
+\newenvironment{statement}[1]{\begin{tcolorbox}[proofbox]\textbf{#1}\par\smallskip}{\end{tcolorbox}}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\D}{\mathbb D}
+\newcommand{\vol}{\operatorname{vol}_n}
+\newcommand{\conv}{\operatorname{conv}}
+\newcommand{\intr}{\operatorname{int}}
+\newcommand{\ri}{\operatorname{relint}}
+\newcommand{\artanh}{\operatorname{artanh}}
+\newcommand{\Flags}{\operatorname{Flags}}
+\newcommand{\pair}[2]{\langle #1,#2\rangle}
+\newcommand{\sect}[1]{\section*{#1}}
+\begin{document}
+\thispagestyle{plain}
+{\Large\bfseries Funk volume and Kalai's flag conjecture}\par
+{\large Proof}\par\vspace{8pt}
+
+Let $n\geq1$. All volumes and integrals use ordinary Lebesgue measure.
+For a convex body $K\subset\R^n$ with $K=-K$ and $0\in\intr K$, define
+\[
+ C^\circ=\{y\in\R^n:\pair yz\leq1\ \text{for every }z\in C\},
+ \qquad V_K(\tau)=\int_{\tau K}\vol((K-x)^\circ)\,dx.
+\]
+No Euclidean unit-ball normalization is included in $V_K$.
+
+\begin{statement}{Conjecture 1. Symmetric Funk volume}
+For every symmetric convex body $K\subset\R^n$ and $0<\tau<1$,
+\[
+ V_K(\tau)\geq\frac{(4\artanh\tau)^n}{n!}.
+\]
+\end{statement}
+
+A complete flag of an $n$-dimensional polytope $P$ is a chain
+$F_0\subsetneq\cdots\subsetneq F_{n-1}$ of nonempty proper faces with
+$\dim F_i=i$. Appending $P$ to every chain does not change their number.
+
+\begin{statement}{Conjecture 2. Kalai's flag conjecture}
+Every centrally symmetric $n$-dimensional convex polytope $P$ satisfies
+\[
+ \#\Flags(P)\geq2^n n!.
+\]
+\end{statement}
+
+\begin{statement}{Theorem 1. Funk volume and complete flags}
+Conjectures 1 and 2 hold. In particular, for every symmetric convex body
+$K\subset\R^n$ and every $0<\tau<1$,
+\[
+ \frac{(4\artanh\tau)^n}{n!}\leq V_K(\tau)<\infty,
+\]
+and every symmetric $n$-dimensional polytope has at least $2^n n!$
+complete flags. The volume constant is attained by the cube.
+\end{statement}
+
+The proof first constructs a holomorphic lens whose boundary density
+matches translated-polar simplex volumes. A holomorphic mass estimate
+then supplies the boundary probability inequality. Almost-everywhere
+packing and convex approximation prove the volume bound. Finally, a
+flag upper estimate yields the complete-flag inequality.
+
+\newpage
+\sect{1. Finiteness and normalization}
+\begin{statement}{Lemma 2. Finiteness and linear invariance}
+For $0<\tau<1$, the quantity $V_K(\tau)$ is finite. If
+$A\in\mathrm{GL}_n(\R)$, then $V_{AK}(\tau)=V_K(\tau)$.
+\end{statement}
+\begin{proof}
+Choose $r>0$ with $rB_2^n\subset K$. If $x=\tau X$ and $X\in K$, convexity
+and symmetry give
+\[
+ (1-\tau)K\subset K-\tau X,
+ \qquad (K-\tau X)^\circ\subset\frac1{r(1-\tau)}B_2^n.
+\]
+Thus the integrand has a uniform finite bound on the bounded domain $\tau K$.
+It is measurable: the relation $\pair y{z-x}\leq1$ for all $z\in K$ is
+closed in $(x,y)$, so integration of its indicator in $y$ gives a measurable
+function of $x$. This also justifies the nonnegative integrals below.
+
+For invariance, $(AK-Ax)^\circ=A^{-T}(K-x)^\circ$. The polar-volume factor
+$|\det A|^{-1}$ cancels the change-of-variables factor $|\det A|$.
+\end{proof}
+
+\begin{statement}{Lemma 3. The cube attains the stated constant}
+For $Q=[-1,1]^n$ and $0<\tau<1$,
+\[
+ V_Q(\tau)=\frac{(4\artanh\tau)^n}{n!}.
+\]
+\end{statement}
+\begin{proof}
+For $x\in(-1,1)^n$, the polar of $Q-x$ is the convex hull of
+\[
+ \frac{e_i}{1-x_i},\quad\frac{-e_i}{1+x_i}\qquad(1\leq i\leq n).
+\]
+Its intersection with each coordinate orthant is a simplex with vertex
+$0$. These $2^n$ simplices have disjoint interiors. Consequently,
+\[
+ \vol((Q-x)^\circ)
+ =\frac1{n!}\prod_{i=1}^n
+ \left(\frac1{1-x_i}+\frac1{1+x_i}\right).
+\]
+Tonelli's theorem separates the integral over $[-\tau,\tau]^n$, and
+\[
+ \int_{-\tau}^{\tau}\left(\frac1{1-t}+\frac1{1+t}\right)dt
+ =2\log\frac{1+\tau}{1-\tau}=4\artanh\tau.
+\]
+Multiplying these $n$ equal factors proves the claim.
+\end{proof}
+
+The radius parameter used later is $\tau_R=1-e^{-R}$, for which
+\begin{equation}\label{radius}
+ 4\artanh\tau_R=2\log(2e^R-1),\qquad
+ \lim_{R\to\infty}\frac{4\artanh\tau_R}{R}=2.
+\end{equation}
+
+\newpage
+\sect{2. The explicit holomorphic lens}
+Fix $0<\tau<1$ and set
+\[
+ b=\frac{2\artanh\tau}{\pi},\quad c=\sqrt{1-\tau^2},
+ \quad\kappa=\frac{4b}{\pi\tau},\qquad
+ F(z)=\kappa\sum_{j=0}^{\infty}
+ \frac{(-1)^jz^{2j+1}}{(2j+1)(2j+1-ib)}.
+\]
+\begin{statement}{Lemma 4. Lens geometry}
+The map $F$ is holomorphic on $\D$, continuous on $\overline\D$, and
+maps $\D$ biholomorphically onto the interior of a symmetric convex body
+$L_\tau\subset\C$. It maps $\partial\D$ homeomorphically onto
+$\partial L_\tau$. On the right semicircle its height is
+\begin{equation}\label{height}
+ T(\theta)=\Im F(e^{i\theta})=\frac{1-ce^{-b\theta}}{\tau},
+ \qquad-\frac\pi2\leq\theta\leq\frac\pi2.
+\end{equation}
+The two boundary branches, written as $f_\pm(t)+it$, have nonzero second
+derivatives for $-1<t<1$.
+\end{statement}
+\begin{proof}
+The coefficients are bounded in modulus by $(2j+1)^{-2}$, up to the
+constant $\kappa$. Uniform convergence on $\overline\D$ gives continuity,
+and termwise differentiation inside the disk yields
+\[
+ zF'(z)-ibF(z)=\kappa\arctan z.
+\]
+Away from $z=\pm i$ this differential equation extends the boundary
+derivatives. On the open right semicircle,
+$\Re\arctan(e^{i\theta})=\pi/4$ and
+$\frac d{d\theta}\arctan(e^{i\theta})=i/(2\cos\theta)$.
+Writing $F(e^{i\theta})=x(\theta)+iT(\theta)$ gives
+\[
+ T'+bT=b/\tau,\qquad x''+bx'=-\frac\kappa{2\cos\theta}.
+\]
+Oddness of $F$ implies $T(-\pi/2)=-T(\pi/2)$. Solving the first
+equation with this relation gives \eqref{height}, since
+$c=1/\cosh(b\pi/2)$. In particular $T(\pm\pi/2)=\pm1$ and $T'>0$.
+
+Put $\alpha=\Re F(i)$ and $Q(\theta)=x(\theta)-\alpha T(\theta)$.
+Then $Q(\pm\pi/2)=0$ and
+$(e^{b\theta}Q')'=-\kappa e^{b\theta}/(2\cos\theta)<0$.
+A negative interior minimum would have $Q'=0$ and $Q''\geq0$,
+contradicting this equation; the same argument excludes an interior zero.
+Thus $Q>0$ inside. Define $q(T(\theta))=Q(\theta)$. Then
+\[
+ q''(T(\theta))=-\frac\kappa{2\cos\theta\,T'(\theta)^2}<0.
+\]
+The opposite branch is obtained by oddness, so the boundary is the simple
+closed curve of the convex body
+\[
+ L_\tau=\{x+it:-1\leq t\leq1,
+ \ -q(-t)\leq x-\alpha t\leq q(t)\}.
+\]
+Here $q(\pm1)=0$ and $q>0$ inside; hence $0\in\intr L_\tau$.
+For any point off the boundary, uniform convergence of $F(re^{i\theta})$
+as $r\uparrow1$ identifies its winding number with that of this Jordan
+curve. The argument principle counts zeros with multiplicity. The count
+at $0$ is positive, so the interior winding number is $1$; outside it is
+$0$. Thus every interior point has exactly one simple preimage, proving
+biholomorphy. Finally $f_+(t)=\alpha t+q(t)$ and
+$f_-(t)=\alpha t-q(-t)$ have strictly negative and positive second
+derivatives, respectively.
+\end{proof}
+
+\newpage
+\sect{3. Boundary probability and polar simplices}
+Let $\mu_\tau$ be the image of $d\theta/(2\pi)$ under
+$\theta\mapsto F(e^{i\theta})$. Let $a_1,\ldots,a_m\in\R^n$ give a
+bounded strip body
+\[
+ P=\{X:|\pair{a_j}X|\leq1\ (1\leq j\leq m)\}.
+\]
+Assume the presentation is \emph{signed irredundant}: no $a_j$ lies in
+$\conv\{\pm a_\ell:\ell\ne j\}$. Every symmetric full-dimensional
+polytope has such a presentation, by taking one vertex from each opposite
+pair of vertices of its polar.
+
+For an increasing $n$-element selection $I=(i_1,\ldots,i_n)$ with
+invertible row matrix $B_I$, and $\varepsilon\in\{\pm1\}^n$, set
+\[
+ Y_{I,\varepsilon}(X)=B_I^{-1}
+       \big(f_{\varepsilon_k}(\pair{a_{i_k}}X)\big)_{k=1}^n.
+\]
+Let $S_{I,\varepsilon}\subset P$ consist of those $X$ for which
+$\pair{a_j}{Y_{I,\varepsilon}(X)}+i\pair{a_j}X\in L_\tau$ for all $j$.
+These are measurable sets, by continuity of the displayed maps.
+
+\begin{statement}{Lemma 5. Exact probability-volume identity}
+The joint density of branch $\varepsilon$ and height $t$ under $\mu_\tau$ is
+\[
+ \rho_\varepsilon(t)=
+ \frac{\tau}{4\artanh\tau\,(1-\varepsilon\tau t)},\qquad -1<t<1.
+\]
+For $X\in P$, define
+\[
+ \Delta_{I,\varepsilon}(X)=\conv\left(0,
+ \frac{\varepsilon_k a_{i_k}}{1-\varepsilon_k\tau\pair{a_{i_k}}X}
+ \ (1\leq k\leq n)\right).
+\]
+Writing $E_I=\{w\in(\partial L_\tau)^n:
+\pair{a_j}{B_I^{-1}w}\in L_\tau\ \forall j\}$, one has
+\begin{equation}\label{probability}
+ \mu_\tau^{\otimes n}(E_I)=
+ n!\left(\frac{\tau}{4\artanh\tau}\right)^n
+ \sum_{\varepsilon}\int_{S_{I,\varepsilon}}
+                  \vol(\Delta_{I,\varepsilon}(X))\,dX.
+\end{equation}
+\end{statement}
+\begin{proof}
+On the right branch, $T'=(b/\tau)(1-\tau T)$, so
+$d\theta/(2\pi)=\rho_+(t)dt$. Oddness gives
+$\rho_-(t)=\rho_+(-t)$. Each branch has mass $1/2$, and the endpoints
+have mass zero.
+
+For fixed signs, use $t=B_IX$. Its Jacobian is $|\det B_I|$. The
+interpolant is exactly $Y_{I,\varepsilon}(X)+iX$, and its feasibility
+is exactly $X\in S_{I,\varepsilon}$. The simplex determinant gives
+\[
+ \vol(\Delta_{I,\varepsilon}(X))=
+ \frac{|\det B_I|}{n!\prod_k(1-\varepsilon_k\tau\pair{a_{i_k}}X)}.
+\]
+All denominators are positive. Substitution of the densities proves
+\eqref{probability}, after summing the disjoint branch events. No
+independence between branch and height is used.
+\end{proof}
+
+\newpage
+\sect{4. Almost-everywhere packing}
+\begin{statement}{Lemma 6. Packing inequality}
+For the signed irredundant presentation above,
+\begin{equation}\label{packing}
+ \sum_I\mu_\tau^{\otimes n}(E_I)
+ \leq\frac{n!}{(4\artanh\tau)^n}V_P(\tau).
+\end{equation}
+\end{statement}
+\begin{proof}
+Each vertex $v=\varepsilon a_j/(1-\varepsilon\tau\pair{a_j}X)$ belongs
+to $(P-\tau X)^\circ$: for $p\in P$,
+\[
+ \pair v{p-\tau X}
+ =\frac{\varepsilon\pair{a_j}p-\varepsilon\tau\pair{a_j}X}
+ {1-\varepsilon\tau\pair{a_j}X}\leq1.
+\]
+Thus all the displayed simplices lie in that polar.
+
+First compare two feasible choices with distinct real witnesses $Y,Z$.
+The branch point selected at $Y$ is the appropriate horizontal endpoint
+of its slice of $L_\tau$. Hence its corresponding polar vertex satisfies
+$\pair v{Y-Z}\geq0$. Vertices selected at $Z$ satisfy the opposite
+inequality. The nonzero functional $\pair{\,\cdot\,}{Y-Z}$ separates
+the two full-dimensional simplices. Their intersection has zero volume.
+
+It remains to exclude coincident witnesses for distinct choices, outside
+a null set of $X$. Distinct signs on the same basis give distinct
+witnesses whenever all heights are strict. Distinct bases at one witness
+force an extra active row $a_j$ beyond the first basis. Write
+$a_j=\sum_k d_k a_{i_k}$. Signed irredundancy implies at least two $d_k$
+are nonzero: a one-coordinate representation would make one of the two
+parallel rows belong to the signed hull of the other rows. Also no row
+is zero.
+
+In basis height coordinates $t=B_IX$, activity on branch $\delta$ requires
+\[
+ H(t)=\sum_k d_k f_{\varepsilon_k}(t_k)-f_\delta(d\cdot t)=0.
+\]
+On the open domain of strict heights, choose $r\ne s$ with $d_rd_s\ne0$.
+Lemma 4 gives
+\[
+ \partial_s\partial_r H(t)=-d_rd_s f_\delta''(d\cdot t)\ne0.
+\]
+The portion of $\{H=0\}$ where $\partial_rH\ne0$ is locally a
+$C^1$ hypersurface. The remaining portion lies in
+$\{\partial_rH=0\}$, which is also locally a $C^1$ hypersurface,
+because its $s$-derivative is nonzero. A countable collection of such
+charts shows that both portions are null. The invertible map $B_I$
+preserves nullity. Endpoint heights lie in finitely many hyperplanes.
+There are finitely many row, basis and sign choices, so their exceptional
+sets have null union.
+
+For almost every $X\in P$, the feasible simplices consequently have
+pairwise disjoint interiors. Their boundaries are null, and therefore
+\[
+ \sum_{I,\varepsilon}\mathbf1_{S_{I,\varepsilon}}(X)
+       \vol(\Delta_{I,\varepsilon}(X))
+ \leq\vol((P-\tau X)^\circ).
+\]
+Integrate, use \eqref{probability}, and substitute $x=\tau X$.
+The factor $\tau^n$ cancels, proving \eqref{packing}.
+\end{proof}
+
+\newpage
+\sect{5. Holomorphic mass at an isolated zero}
+For a real smooth function on $\C^n$, use
+\[
+ d^c=\frac i2(\bar\partial-\partial),\qquad
+ dd^c=i\partial\bar\partial,\qquad
+ (dd^cv)^n=2^n n!\det(v_{\bar z_i z_j})\,dV_{2n}.
+\]
+The orientation is $dx_1\wedge dy_1\wedge\cdots\wedge dx_n\wedge dy_n$.
+
+\begin{statement}{Lemma 7. Holomorphic mass estimate}
+Let $U\subset\C^n$ be open with $0\in U$, and let
+$f:U\to\C^m$ be holomorphic. Assume $f^{-1}(0)=\{0\}$ and
+\[
+ f(z)=H(z)+O(|z|^{k+1}),\qquad k\geq1,
+\]
+where $H$ is homogeneous of degree $k$ and has no nonzero common zero.
+Assume also that $\{z\in U:|f(z)|^2\leq s\}$ is compact in $U$ for
+every $0<s<1$. Then
+\begin{equation}\label{mass}
+ \int_{\{|f|^2<1\}}\sum_{|I|=n}|\det Df_I(z)|^2\,dV_{2n}(z)
+ \geq\frac{\pi^n k^n}{n!}.
+\end{equation}
+\end{statement}
+\begin{proof}
+Write $u=|f|^2$. The Hermitian Hessian of $u$ is $(Df)^*Df$. Away
+from $0$, that of $\log u$ is positive semidefinite because its value
+on a complex direction $\xi$ is
+\[
+ \frac{|f|^2|Df\,\xi|^2-|\langle Df\,\xi,f\rangle|^2}{|f|^4}\geq0.
+\]
+Fix a regular value $s\in(0,1)$ and put $U_s=\{u<s\}$. Its closure
+is a compact smooth manifold with boundary. Set $\eta=d^c\log u$.
+On $\partial U_s$, the pullback of $du$ is zero, and therefore
+\[
+ s^{-n}\int_{U_s}(dd^cu)^n
+ =\int_{\partial U_s}\eta\wedge(d\eta)^{n-1}.
+\]
+This follows from Stokes and the identity
+$dd^c\log u=u^{-1}dd^cu-u^{-2}du\wedge d^cu$.
+For a small closed ball $\overline B_r\subset U_s$, another application
+of Stokes gives
+\begin{equation}\label{fluxineq}
+ s^{-n}\int_{U_s}(dd^cu)^n
+ \geq\int_{\partial B_r}\eta\wedge(d\eta)^{n-1},
+\end{equation}
+since the difference is the integral of the nonnegative form
+$(dd^c\log u)^n$ over $U_s\setminus\overline B_r$.
+
+On an annulus around the unit sphere, the holomorphic Taylor expansion
+implies $r^{-2k}u(rz)\to T(z):=|H(z)|^2$ in $C^2$. The function $T$
+is strictly positive there. Pullback under $z\mapsto rz$ and continuity
+of the logarithmic derivatives thus show that the right side of
+\eqref{fluxineq} tends to
+\[
+ \int_{S^{2n-1}}\alpha\wedge(d\alpha)^{n-1},\qquad
+ \alpha=d^c\log T\big|_{S^{2n-1}}.
+\]
+We calculate this integral next.
+\renewcommand{\qedsymbol}{}
+\end{proof}
+
+\newpage
+\sect{6. The homogeneous flux and its normalization}
+\begin{proof}[Proof of Lemma 7, continued]
+On $S=S^{2n-1}$ define
+\[
+ \alpha_0=d^c\log|z|^2\big|_S,\qquad
+ \beta=d^c\big(\log T-k\log|z|^2\big)\big|_S,
+ \qquad\alpha_t=k\alpha_0+t\beta.
+\]
+Let $W(z)=iz$ be the tangent field generating common phase rotation.
+Homogeneity implies that $\log T-k\log|z|^2$ is invariant both under
+positive dilation and under this rotation. Since
+$d^cv(\xi)=-\tfrac12dv(i\xi)$, it follows that
+\[
+ \beta(W)=0,\qquad\alpha_0(W)=1,\qquad
+ \mathcal L_W\alpha_t=0.
+\]
+Cartan's formula now gives
+$\iota_Wd\alpha_t=\mathcal L_W\alpha_t-d(\alpha_t(W))=0$.
+Consequently the top-degree form $\beta\wedge(d\alpha_t)^{n-1}$ on
+$S$ has zero contraction with a nowhere-zero tangent field, and hence
+vanishes identically.
+
+Differentiation under the integral and integration by parts on the
+closed sphere give
+\[
+ \frac d{dt}\int_S\alpha_t\wedge(d\alpha_t)^{n-1}
+ =n\int_S\beta\wedge(d\alpha_t)^{n-1}=0.
+\]
+For $n=1$ the same equality is just differentiation of the integral
+of a one-form. Evaluating at $t=0$ and $t=1$ yields
+\begin{align*}
+ \int_S\alpha\wedge(d\alpha)^{n-1}
+ &=k^n\int_S\alpha_0\wedge(d\alpha_0)^{n-1}\\
+ &=k^n\int_{B_1}(dd^c|z|^2)^n\\
+ &=k^n2^n n!\,\operatorname{vol}_{2n}(B_1)
+ =(2\pi k)^n.
+\end{align*}
+In the middle line, the restrictions of $d^c\log|z|^2$ and
+$dd^c\log|z|^2$ to $S$ equal those of $d^c|z|^2$ and $dd^c|z|^2$.
+The last line uses $\operatorname{vol}_{2n}(B_1)=\pi^n/n!$.
+
+Returning to \eqref{fluxineq}, we have, for each regular $s\in(0,1)$,
+\[
+ \int_{U_s}(dd^cu)^n\geq s^n(2\pi k)^n.
+\]
+Sard's theorem gives an increasing sequence of regular values tending
+to $1$. Their sublevel sets exhaust $\{u<1\}$. Monotone convergence
+of the nonnegative density implies
+\[
+ \int_{\{u<1\}}(dd^cu)^n\geq(2\pi k)^n.
+\]
+Finally, Cauchy--Binet and the displayed Hessian normalization give
+\[
+ (dd^cu)^n=2^n n!\sum_{|I|=n}|\det Df_I|^2\,dV_{2n}.
+\]
+Dividing by $2^n n!$ proves \eqref{mass}.
+\end{proof}
+
+\newpage
+\sect{7. The boundary probability inequality}
+\begin{statement}{Lemma 8. Power maps meet the mass hypotheses}
+Let $D=\intr L_\tau$, $g=F^{-1}$, and
+\[
+ \Omega=\{z\in\C^n:\pair{a_j}z\in D\ \forall j\},\qquad
+ h_j(z)=g(\pair{a_j}z),\qquad f_k=(h_j^k)_{j=1}^m.
+\]
+For each $k\geq1$, the map $f_k$ satisfies Lemma 7.
+\end{statement}
+\begin{proof}
+The rows span, so a basis bounds $z$ whenever its row values lie in the
+bounded set $D$. Thus $\Omega$ is bounded and open, and contains $0$.
+The functions $h_j$ are holomorphic. They vanish simultaneously only at
+$0$. With $c_0=g'(0)\ne0$, their powers have leading terms
+$(c_0\pair{a_j}z)^k$, which have no nonzero common zero. If
+$\sum_j|h_j|^{2k}\leq s<1$, every row value lies in the compact subset
+$F(\{|w|\leq s^{1/(2k)}\})$ of $D$. A basis bounds all such $z$,
+and limits retain these inclusions and the sublevel inequality. The
+sublevel is therefore compact in $\Omega$.
+\end{proof}
+
+\begin{statement}{Theorem 9. Boundary probability bound}
+For the events $E_I$ of Lemma 5,
+\begin{equation}\tag{C}\label{cover}
+ \sum_I\mu_\tau^{\otimes n}(E_I)\geq1.
+\end{equation}
+\end{statement}
+\begin{proof}
+Let $M_{I,k}$ be the integral of $|\det D(f_k)_I|^2$ over
+$\{|f_k|^2<1\}$. Derivative rows are multiples of the corresponding
+$a_j$, so dependent selections contribute zero. Lemmas 7 and 8 give
+$\sum_I M_{I,k}\geq k^n\pi^n/n!$.
+
+For a fixed basis use coordinates $u_i=h_{i}(z)$, $i\in I$, whose inverse
+is $z=B_I^{-1}(F(u_i))$. The squared complex Jacobian is the real
+Jacobian. Dropping the unselected terms from $\sum_j|h_j|^{2k}<1$
+enlarges the transformed domain. Substituting
+$u_i=\rho_i^{1/k}e^{i\theta_i}$ then gives
+\[
+ \frac{M_{I,k}}{k^n}\leq
+ \int_{\substack{\rho_i>0,\ \sum_i\rho_i^2<1\\0\leq\theta_i<2\pi}}
+ \mathbf1\{\pair{a_j}{B_I^{-1}(F(\rho_i^{1/k}e^{i\theta_i}))}\in D\ \forall j\}
+ \prod_i\rho_i\,d\rho\,d\theta.
+\]
+The factor follows from
+$k^2|u_i|^{2k-2}dV_2(u_i)=k\rho_i\,d\rho_i\,d\theta_i$.
+This fixed measure space has mass $\pi^n/n!$. At every positive $\rho_i$,
+the interpolants converge to the boundary interpolant. A limiting row
+outside $L_\tau=\overline D$ eventually violates its constraint. The
+limsup of the indicator is thus at most the indicator of $E_I$.
+Reverse Fatou on this finite space yields
+\[
+ \limsup_{k\to\infty}\frac{M_{I,k}}{k^n}
+ \leq\frac{\pi^n}{n!}\mu_\tau^{\otimes n}(E_I).
+\]
+Summing the finitely many inequalities and combining with the mass
+lower bound proves (C).
+\end{proof}
+
+\newpage
+\sect{8. From polytopes to arbitrary convex bodies}
+\begin{statement}{Theorem 10. Symmetric Funk volume lower bound}
+For every symmetric convex body $K\subset\R^n$ and $0<\tau<1$,
+\[
+ V_K(\tau)\geq\frac{(4\artanh\tau)^n}{n!}.
+\]
+\end{statement}
+\begin{proof}
+For a symmetric polytope $P$, choose its signed irredundant strip
+presentation. Combining Theorem 9 and Lemma 6 gives
+\[
+ 1\leq\frac{n!}{(4\artanh\tau)^n}V_P(\tau),
+\]
+which is the required bound.
+
+Now let $K$ be an arbitrary symmetric convex body and fix
+$0<\sigma<\tau<1$. We first construct a symmetric polytope $P$ with
+\[
+ K\subset P\subset(\tau/\sigma)K.
+\]
+Put $\lambda=\sigma/\tau<1$ and choose a finite symmetric set of
+points in $K^\circ$ whose convex hull $Q$ satisfies
+$\lambda K^\circ\subset Q\subset K^\circ$.
+For completeness, such a set is obtained from a sufficiently fine finite
+net in $K^\circ$: its support function differs from $h_{K^\circ}$ by
+at most the mesh size on the unit sphere. Since $K^\circ$ contains a
+ball, choose the mesh size smaller than
+$(1-\lambda)\min_{|u|=1}h_{K^\circ}(u)$.
+Support-function comparison then gives the first inclusion. Take
+$P=Q^\circ$. This is a bounded symmetric polytope, and polarity gives
+the required sandwich.
+
+For $x\in\sigma P$ one has $x\in\tau K$ and
+$K-x\subset P-x$, hence $(P-x)^\circ\subset(K-x)^\circ$. Nonnegativity
+of the integrand implies
+\[
+ \frac{(4\artanh\sigma)^n}{n!}
+ \leq V_P(\sigma)\leq V_K(\tau).
+\]
+Let $\sigma\uparrow\tau$. Only the scalar expression on the left needs
+continuity; no limit is interchanged with the body integral. Lemma 2
+already gives finiteness of the quantity on the right.
+\end{proof}
+
+\newpage
+\sect{9. An upper bound in terms of flags}
+\begin{statement}{Theorem 11. Flag upper estimate}
+For every symmetric $n$-dimensional polytope $P$,
+\begin{equation}\label{flagupper}
+ \limsup_{R\to\infty}\frac{V_P(1-e^{-R})}{R^n}
+ \leq\frac{\#\Flags(P)}{(n!)^2}.
+\end{equation}
+\end{statement}
+\begin{proof}
+For each nonempty proper face choose a point in its relative interior,
+using the same point whenever the face recurs. For a flag $F$, write
+these points as $p_0,\ldots,p_{n-1}$ and set $p_n=0$.
+The simplices $\conv(p_0,\ldots,p_n)$ cover $P$: triangulate each face
+recursively by coning its boundary triangulation to its chosen interior
+point, and cone the boundary of $P$ to $0$. Their vertex matrices are
+nondegenerate by the strict face chain. Use the same construction for
+$P^\circ$, with proper-face points $q_0,\ldots,q_{n-1}$ along a flag $G$.
+
+For $x\in\intr P$, the projective map
+\[
+ T_x(q)=\frac{q}{1-\pair qx}
+\]
+maps $P^\circ$ onto $(P-x)^\circ$. Indeed, for $q\in P^\circ$ the
+defining polar inequalities prove one inclusion. Conversely, if
+$y\in(P-x)^\circ$, the bound $h_P(y)\leq1+\pair yx$ makes the latter
+denominator positive and puts $y/(1+\pair yx)$ in $P^\circ$.
+On a convex combination the projective map reweights its coefficients
+by positive denominators. It therefore maps each polar flag simplex
+onto the simplex with vertices $0,T_x(q_0),\ldots,T_x(q_{n-1})$.
+
+Using both finite covers and the determinant formula for simplex volume,
+\[
+ V_P(\tau)\leq\frac1{n!}\sum_{F,G}
+ \int_{D_{F,G}(\tau)}\frac{du_0\cdots du_{n-1}}{u_0\cdots u_{n-1}},
+\]
+where $u_i=1-\pair{q_i}x$ and $D_{F,G}(\tau)$ is the image of
+$\tau\conv(p_0,\ldots,p_n)$. The Jacobian $|\det(q_i)|$ cancels.
+Its vertices have coordinates
+\[
+ u_i=e^{-R}+(1-e^{-R})a_{ki},\qquad
+ a_{ki}=1-\pair{q_i}{p_k},\qquad\tau=1-e^{-R}.
+\]
+Here $0\leq a_{ki}\leq2$, and $a_{ni}=1$. Set
+$S_i=\{k:a_{ki}>0\}$. If a supporting linear functional attains its
+maximum at a relative-interior point of a face, it is constant on that
+face. Applying this fact first to the primal flag and then to the polar
+flag shows that each $S_i$ is a final interval of $\{0,\ldots,n\}$ and
+\[
+ S_0\subseteq S_1\subseteq\cdots\subseteq S_{n-1}.
+\]
+The remainder of the estimate uses only these support relations.
+\renewcommand{\qedsymbol}{}
+\end{proof}
+
+\newpage
+\sect{10. The leading coefficient of the flag upper bound}
+\begin{proof}[Proof of Theorem 11, continued]
+Put $z_i=\log u_i$. The integral for a pair $(F,G)$ is $1/n!$ times
+the ordinary volume of its logarithmic image $Z_{F,G}(R)$. Since
+$e^{-R}\leq u_i\leq2$, this image lies in $[-R,\log2]^n$.
+
+The inclusion $S_i\subseteq S_{i+1}$ supplies a constant $C_i\geq1$
+with $a_{ki}\leq C_i a_{k,i+1}$ for every $k$. This is a finite
+coefficient comparison, including zeros. Convex combinations of the
+vertices then satisfy $u_i\leq C_i u_{i+1}$. Choose positive constants
+$d_i$ recursively so that $d_{i+1}=C_i d_i$. The shifted coordinates
+$z_i+\log d_i$ are ordered increasingly and all lie in an interval of
+length $R+C_{F,G}$, for a fixed sufficiently large $C_{F,G}$. Consequently,
+\begin{equation}\label{pairupper}
+ \vol(Z_{F,G}(R))\leq\frac{(R+C_{F,G})^n}{n!}.
+\end{equation}
+Indeed, the $n!$ coordinate orderings partition a cube up to null
+hyperplanes and have equal volume.
+
+If $S_i=S_j$ for $i\ne j$, finite coefficient comparison in both
+directions bounds $u_i/u_j$ above and below by positive constants.
+Thus $z_i-z_j$ lies in a fixed bounded interval. Slicing the surrounding
+box gives $\vol(Z_{F,G}(R))=O(R^{n-1})$. If some $S_i$ is all of
+$\{0,\ldots,n\}$, all its coefficients have a positive minimum; hence
+$u_i$ has a positive lower bound independent of large $R$. The same
+degree estimate follows. Constants may depend on this fixed flag pair.
+
+The only remaining case consists of $n$ distinct proper final intervals
+containing $n$. They must have cutoffs $n,n-1,\ldots,1$, in this order.
+Equivalently the pair has the contact pattern
+\begin{equation}\label{contact}
+ \pair{q_i}{p_k}=1\quad\Longleftrightarrow\quad k+i<n.
+\end{equation}
+For a fixed primal flag, at most one polar flag has this pattern. To see
+this, fix $i$ and consider the face
+\[
+ D_i=\{q\in P^\circ:\pair q{p_{n-i-1}}=1\}.
+\]
+If \eqref{contact} holds, relative-interior contact gives $G_i\subset D_i$.
+Every $q\in D_i$ equals $1$ on the whole primal face $F_{n-i-1}$, and
+therefore on $p_0,\ldots,p_{n-i-1}$. These $n-i$ vectors are linearly
+independent: affine independence follows successively from the face
+chain, and their affine span is in a supporting hyperplane avoiding $0$.
+Hence $\dim D_i\leq i$. Since $\dim G_i=i$, the two nested faces are
+equal. Each $G_i$ is thus forced by $F$.
+
+There are at most $\#\Flags(P)$ pairs with the contact pattern. Each
+contributes at most $1/(n!)^2$ to the normalized limsup, by
+\eqref{pairupper} and the preceding factor $1/n!$. All other pairs
+contribute zero. The number of pairs is finite, so summing these bounds
+proves \eqref{flagupper}.
+\end{proof}
+
+\newpage
+\sect{11. The complete-flag bound}\label{conclusion}
+\begin{proof}[Proof of Theorem 1]
+Theorem 10 proves the Funk lower bound, and Lemma 2 proves finiteness.
+Let $P$ be a symmetric $n$-dimensional polytope and put
+$N=\#\Flags(P)$. For every $R>0$, Theorem 10 and \eqref{radius} give
+\[
+ \frac{V_P(1-e^{-R})}{R^n}
+ \geq\frac1{n!}\left(\frac{2\log(2e^R-1)}R\right)^n.
+\]
+The expression on the right tends to $2^n/n!$. Theorem 11 therefore
+implies
+\[
+ \frac{2^n}{n!}
+ \leq\liminf_{R\to\infty}\frac{V_P(1-e^{-R})}{R^n}
+ \leq\limsup_{R\to\infty}\frac{V_P(1-e^{-R})}{R^n}
+ \leq\frac{N}{(n!)^2}.
+\]
+Multiplication by $(n!)^2$ yields
+\[
+ \boxed{\#\Flags(P)\geq2^n n!}.
+\]
+Lemma 3 shows that the cube attains the volume bound. It also has exactly
+$2^n n!$ complete flags: choose one of its $2^n$ vertices and then an
+ordering of the $n$ coordinates to be released successively along the
+flag. Thus the numerical constants in both inequalities are sharp.
+\end{proof}
+\end{document}
