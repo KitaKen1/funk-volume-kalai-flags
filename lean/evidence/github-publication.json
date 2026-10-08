@@ -1,0 +1,15 @@
+{
+  "format": 1,
+  "status": "published",
+  "checked_at": "2026-10-08T01:14:31.322297+00:00",
+  "repository": "https://github.com/KitaKen1/funk-volume-kalai-flags",
+  "branch": "main",
+  "content_commit": "1c2663ee2aa717ecc3a40c460ff9d2ad3a4b1bf0",
+  "previous_commit": "79f98e41646dd3ea0ee2ff3358d714d68d088a7b",
+  "remote_content_commit_verified": true,
+  "content_files": 456,
+  "lean4web_raw_url": "https://raw.githubusercontent.com/KitaKen1/funk-volume-kalai-flags/main/lean4web/FunkKalaiLean4Web.lean",
+  "lean4web_raw_matches_verified_source": true,
+  "lean4web_sha256": "3e4ebf438f4f963a5fcad26e87f613ebe408562f7a46bd702347f0643bd81304",
+  "receipt_scope": "The content commit is already public; this record is added in a subsequent evidence-only commit."
+}

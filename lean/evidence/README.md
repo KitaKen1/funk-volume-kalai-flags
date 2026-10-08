@@ -11,6 +11,7 @@
 | [lean4web-live.json](lean4web-live.json) | Public Lean4Web: zero errors, two main proof reports without `sorryAx` |
 | [lean4web-live-diagnostics.json](lean4web-live-diagnostics.json) | Public-server diagnostics |
 | [distribution-check.json](distribution-check.json) | Package scope and source correspondence |
+| [github-publication.json](github-publication.json) | Published content commit and matching public Lean4Web source |
 | [proof-sources.json](proof-sources.json) | Proof/configuration source hashes |
 | [standalone-4.34.1-build.log](standalone-4.34.1-build.log) | Original single-file edition |
 

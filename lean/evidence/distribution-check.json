@@ -78,7 +78,7 @@
   "public_lean4web_mathlib": "9e6b3aac99b624d10c84653ab9c5357283b9b3b8",
   "no_sorryAx_in_complete_proofs": true,
   "third_party_semantic_review_complete": false,
-  "github_published": false,
+  "github_published": true,
   "fc_style_reference": "https://github.com/KitaKen1/bapat-lal-q-permanent-lean/blob/main/FClikelean/QPermanentMonotonicity.lean",
   "fc_style_reference_sha256": "52e26cf79c1ef5a3ea0b1cf8a399e558015d7185bbf1f17ac18ab62896a6d5de",
   "fc_statement_files": [
@@ -98,5 +98,8 @@
   "fc_statement_role": "two separate FC problem statements with intentional by sorry",
   "fc_statement_compilation_sha256": "c5c32715a76ed5994f098407b3ed3fde5406ca003bce8b6c850b44a7edffd1ca",
   "unchanged_complete_web_sources_this_update": true,
-  "github_repository": "https://github.com/KitaKen1/funk-volume-kalai-flags"
+  "github_repository": "https://github.com/KitaKen1/funk-volume-kalai-flags",
+  "github_content_commit": "1c2663ee2aa717ecc3a40c460ff9d2ad3a4b1bf0",
+  "github_publication_checked_at": "2026-10-08T01:14:31.322297+00:00",
+  "github_publication_record": "github-publication.json"
 }
