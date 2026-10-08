@@ -132,8 +132,8 @@
   "fc_statement_compilation_sha256": "138b3c2504925c21a2aa8eb2f41b6a1624f3146aab53a8124c39b841e4a0d68b",
   "unchanged_complete_web_sources_this_update": false,
   "github_repository": "https://github.com/KitaKen1/funk-volume-kalai-flags",
-  "github_content_commit": "1c2663ee2aa717ecc3a40c460ff9d2ad3a4b1bf0",
-  "github_publication_checked_at": "2026-10-08T01:14:31.322297+00:00",
+  "github_content_commit": "5b92194f6b5ed49f380a6412b120ad256d850740",
+  "github_publication_checked_at": "2026-10-08T01:55:50.352253+00:00",
   "github_publication_record": "github-publication.json",
   "added_final_proof_file": "lean/FinalTheorems.lean",
   "exact_fc_target_type_checks": 2,
@@ -142,5 +142,6 @@
   "final_proved_targets": [
     "FunkVolume.symmetricFunkVolume",
     "Funk.FormalConjectures.kalaiFullFlags"
-  ]
+  ],
+  "published_final_theorems_sha256": "439a32a78778723f73dad12df36bce189926021b98bb5a849916cb353a965b95"
 }

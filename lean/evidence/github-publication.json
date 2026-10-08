@@ -1,15 +1,26 @@
 {
   "format": 1,
   "status": "published",
-  "checked_at": "2026-10-08T01:14:31.322297+00:00",
+  "checked_at": "2026-10-08T01:55:50.352253+00:00",
   "repository": "https://github.com/KitaKen1/funk-volume-kalai-flags",
   "branch": "main",
-  "content_commit": "1c2663ee2aa717ecc3a40c460ff9d2ad3a4b1bf0",
-  "previous_commit": "79f98e41646dd3ea0ee2ff3358d714d68d088a7b",
+  "content_commit": "5b92194f6b5ed49f380a6412b120ad256d850740",
+  "previous_commit": "b9a384bafcebe1f9ead81811a682dd19e4dc7e9a",
   "remote_content_commit_verified": true,
-  "content_files": 456,
+  "content_files": 463,
   "lean4web_raw_url": "https://raw.githubusercontent.com/KitaKen1/funk-volume-kalai-flags/main/lean4web/FunkKalaiLean4Web.lean",
   "lean4web_raw_matches_verified_source": true,
-  "lean4web_sha256": "3e4ebf438f4f963a5fcad26e87f613ebe408562f7a46bd702347f0643bd81304",
-  "receipt_scope": "The content commit is already public; this record is added in a subsequent evidence-only commit."
+  "lean4web_sha256": "2617bb82530b5ccf39159f58f1573be3b76c36ba62ac1fdbe07366fa846eb168",
+  "receipt_scope": "The content commit is already public; this record is added in a subsequent evidence-only commit.",
+  "final_theorems_file": "lean/FinalTheorems.lean",
+  "final_theorems_sha256": "439a32a78778723f73dad12df36bce189926021b98bb5a849916cb353a965b95",
+  "final_theorems_raw_matches_verified_source": true,
+  "exact_fc_target_evidence": "fc-exact-targets.json",
+  "readme_math_delivery": {
+    "math_renderer_elements": 156,
+    "operatorname_removed": true,
+    "escaped_hash_and_braces_preserved": true,
+    "html_sha256": "8c2cc7ca3588bedea552e21e6b3822a019b1ed7ef2933324c18129ebc2048b3d",
+    "check_scope": "GitHub-delivered math source; no browser screenshot inspection."
+  }
 }
