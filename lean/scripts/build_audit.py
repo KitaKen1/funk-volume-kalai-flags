@@ -21,6 +21,7 @@ ROOTS = [
     "Funk.symmetricFunk_explicit", "Funk.symmetricFunk_metric_radius",
     "Funk.kalai_halfspace_full_flags", "Funk.translated_coordinatePolar_closure",
     "Funk.translated_coordinatePolar_interior", "Funk.funkVolume_open_body_eq",
+    "FunkVolume.symmetricFunkVolume", "Funk.FormalConjectures.kalaiFullFlags",
 ]
 
 
@@ -82,6 +83,7 @@ def check_sources():
         path = (LEAN / "vendor/formal-conjectures").joinpath(*item["module"].split(".")).with_suffix(".lean")
         if digest(path) != item["sha256"]:
             raise ValueError(f"FC utility source changed: {item['module']}")
+    subprocess.run(["python3", str(LEAN / "scripts/make_final_theorems.py"), "--check"], check=True)
     subprocess.run(["python3", str(LEAN / "scripts/make_lean4web.py"), "--check"], check=True)
     subprocess.run(["python3", str(LEAN / "scripts/make_lean4web.py"), "--edition", "pinned", "--check"], check=True)
     return len(manifest["sha256"]), upstream["count"]
@@ -109,7 +111,11 @@ def main():
     count, vendor_count = check_sources()
     if not args.skip_build:
         run(["lake", "--wfail", "build"], LEAN, "package-build.log", stages)
-    source = "import Funk.OpenBodyConvention\n\n#eval Lean.versionString\n"
+        # The reference statements are built only for the separate-environment
+        # type comparison; they are not dependencies of FinalTheorems.
+        run(["lake", "--wfail", "build", "KalaiFullFlags", "SymmetricFunkVolume"],
+            LEAN, "fc-statement-build.log", stages)
+    source = "import Funk.OpenBodyConvention\nimport FinalTheorems\n\n#eval Lean.versionString\n"
     source += "example : Funk.FunkLowerBoundGoal := Funk.symmetricFunk_lower_bound\n"
     source += "example : Funk.KalaiFullFlagsGoal := Funk.kalai_full_flags\n"
     source += "\n".join(f"#check {name}\n#print axioms {name}" for name in ROOTS) + "\n"
@@ -134,6 +140,11 @@ def main():
         axioms[name] = sorted(used)
     if set(axioms) != set(ROOTS):
         raise ValueError("Missing or unexpected axiom reports")
+    run(["lake", "env", "lean", "-j1", "-Ewarning", "evidence/CheckFCTargets.lean"],
+        LEAN, "fc-exact-targets.log", stages)
+    fc_log = (EVIDENCE / "fc-exact-targets.log").read_text()
+    if fc_log.count("Exact FC target type match:") != 2:
+        raise ValueError("FC target type comparisons incomplete")
     web_map = json.loads((ROOT / "lean4web/source-map.json").read_text())
     if args.include_web:
         web = ROOT / "lean4web"
@@ -145,7 +156,7 @@ def main():
         if re.search(r": error:", web_log):
             raise ValueError("Standalone error diagnostic")
         web_reports = re.findall(r"'([^']+)' depends on axioms: \[([^\]]*)\]", web_log)
-        expected_web = set(ROOTS[:2])
+        expected_web = set(ROOTS[:2] + ROOTS[-2:])
         if {name for name, _ in web_reports} != expected_web:
             raise ValueError("Standalone axiom reports incomplete")
         for name, values in web_reports:
@@ -155,6 +166,7 @@ def main():
     record = {"format": 1, "status": "passed", "checked_at": datetime.now(timezone.utc).isoformat(),
               "lean": "4.34.1", "source_files_checked": count, "unchanged_upstream_modules": vendor_count,
               "exact_goal_type_checks": 2, "axioms": axioms, "executions": stages,
+              "exact_fc_target_type_checks": 2, "fc_model_declaration_checks": 15,
               "ordinary_lean_compilation": True, "independent_kernel_replay_this_run": False,
               "standalone_compiled_this_run": args.include_web,
               "standalone_lean": web_map["lean"], "standalone_mathlib": web_map["mathlib"],

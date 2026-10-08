@@ -49,7 +49,7 @@ noncomputable def funkVolume {n : ℕ} (K : Set (Fin n → ℝ)) (τ : ℝ) : �
 /-- The numerical lower bound in the symmetric Funk-volume conjecture
 [FVW23, Conjecture 1.1], together with finiteness. The answer is affirmative [Ki26]. -/
 @[category research solved, AMS 52,
-    formal_proof using lean4 at "https://github.com/KitaKen1/funk-volume-kalai-flags/blob/main/lean/Funk/MainTheorems.lean"]
+    formal_proof using lean4 at "https://github.com/KitaKen1/funk-volume-kalai-flags/blob/main/lean/FinalTheorems.lean"]
 theorem symmetricFunkVolume :
     answer(True) ↔
       ∀ (n : ℕ), 1 ≤ n → ∀ (K : Set (Fin n → ℝ)),

@@ -6,8 +6,9 @@
 
 Each file has explicit geometric definitions, references and the official FC
 annotations, with a `by sorry` proof slot. The complete proofs are in
-[MainTheorems.lean](../lean/Funk/MainTheorems.lean)
-and [Lean4Web](../lean4web/FunkKalaiLean4Web.lean).
+[FinalTheorems.lean](../lean/FinalTheorems.lean)
+and [Lean4Web](../lean4web/FunkKalaiLean4Web.lean), with the same target
+statements and `#print axioms` at the end.
 
 Check the statements:
 

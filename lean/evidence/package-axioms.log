@@ -50,3 +50,25 @@ Funk.funkVolume_open_body_eq {n : ℕ} {K : Set (Funk.Space n)} (hK : Funk.IsSym
       MeasureTheory.volume (Funk.coordinatePolar (Funk.translate (interior K) x)) =
     Funk.funkVolume K τ
 'Funk.funkVolume_open_body_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+FunkVolume.symmetricFunkVolume :
+  True ↔
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (K : Set (Fin n → ℝ)),
+          FunkVolume.IsSymmetricConvexBody K →
+            ∀ (τ : ℝ),
+              0 < τ →
+                τ < 1 →
+                  FunkVolume.funkVolume K τ < ⊤ ∧
+                    ENNReal.ofReal ((4 * Real.artanh τ) ^ n / ↑n.factorial) ≤ FunkVolume.funkVolume K τ
+'FunkVolume.symmetricFunkVolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.FormalConjectures.kalaiFullFlags :
+  True ↔
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (P : Set (Fin n → ℝ)),
+          Funk.FormalConjectures.IsFinitePolytope P →
+            Funk.FormalConjectures.IsSymmetricConvexBody P →
+              Finite (Funk.FormalConjectures.FullFlag P) ∧
+                2 ^ n * n.factorial ≤ Nat.card (Funk.FormalConjectures.FullFlag P)
+'Funk.FormalConjectures.kalaiFullFlags' depends on axioms: [propext, Classical.choice, Quot.sound]

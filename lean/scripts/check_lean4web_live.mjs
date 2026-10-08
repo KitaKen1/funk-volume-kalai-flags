@@ -14,7 +14,8 @@ const sha = x => crypto.createHash('sha256').update(x).digest('hex');
 const expectedLean = 'leanprover/lean4:v4.35.0-rc4';
 const expectedMathlib = process.env.FUNK_LEAN4WEB_MATHLIB_REV ??
   '021ce68bf125a049beee22b3fc7664d78728e21d';
-const roots = ['Funk.symmetricFunk_lower_bound', 'Funk.kalai_full_flags'];
+const roots = ['Funk.symmetricFunk_lower_bound', 'Funk.kalai_full_flags',
+  'FunkVolume.symmetricFunkVolume', 'Funk.FormalConjectures.kalaiFullFlags'];
 const allowed = new Set(['propext', 'Classical.choice', 'Quot.sound']);
 const record = {format: 1, status: 'running', started_at: new Date().toISOString(),
   server: 'https://live.lean-lang.org/', project: 'MathlibDemo',

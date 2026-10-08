@@ -1,4 +1,4 @@
-ℹ [4126/4129] Replayed FinalTheorems
+ℹ [4121/4122] Built FinalTheorems (79s)
 info: FinalTheorems.lean:110:0: FunkVolume.symmetricFunkVolume :
   True ↔
     ∀ (n : ℕ),
@@ -21,4 +21,4 @@ info: FinalTheorems.lean:112:0: Funk.FormalConjectures.kalaiFullFlags :
               Finite (Funk.FormalConjectures.FullFlag P) ∧
                 2 ^ n * n.factorial ≤ Nat.card (Funk.FormalConjectures.FullFlag P)
 info: FinalTheorems.lean:113:0: 'Funk.FormalConjectures.kalaiFullFlags' depends on axioms: [propext, Classical.choice, Quot.sound]
-Build completed successfully (4129 jobs).
+Build completed successfully (4122 jobs).

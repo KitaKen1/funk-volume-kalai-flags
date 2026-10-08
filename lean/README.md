@@ -11,6 +11,15 @@ The audit builds the complete proof library. To check the FC-style statements
 in the sibling `FClikelean/` directory, run
 `lake --wfail build KalaiFullFlags SymmetricFunkVolume`.
 
-- [MainTheorems.lean](Funk/MainTheorems.lean): final proofs.
+- [FinalTheorems.lean](FinalTheorems.lean): the exact FC targets, proved, followed
+  by `#print axioms`.
+- [MainTheorems.lean](Funk/MainTheorems.lean): core proofs.
 - [Targets.lean](Funk/Targets.lean): geometric definitions and theorem specifications.
 - [PublicationStatements.lean](Funk/PublicationStatements.lean): explicit formulas.
+
+The final definitions and statements are generated from the FC files:
+
+```bash
+python3 scripts/make_final_theorems.py --check
+lake env lean -j1 -Ewarning evidence/CheckFCTargets.lean
+```

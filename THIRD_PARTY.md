@@ -17,6 +17,12 @@ recorded in [source-map.json](lean4web/source-map.json).
 - Included: four unchanged modules providing `answer` and the FC attributes in `lean/vendor/formal-conjectures/`.
 - License: Apache-2.0; [original license](lean/vendor/formal-conjectures/LICENSE) and [source manifest](lean/vendor/formal-conjectures/manifest.json).
 
+The single-file editions embed the official `answer` syntax and elaborator.
+They fix its original default mode (`AnswerSetting.alwaysTrue`) because Lean
+cannot read an option initializer in the same file that defines it. FC metadata
+attributes are omitted there; geometric definitions and target types are retained.
+The vendored utility sources are unchanged.
+
 Mathlib and its dependencies are fetched at the revisions in the Lake manifests.
 
 The directory layout follows [bapat-lal-q-permanent-lean](https://github.com/KitaKen1/bapat-lal-q-permanent-lean).

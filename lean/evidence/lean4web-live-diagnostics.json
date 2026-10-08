@@ -3,22 +3,22 @@
     "fullRange": {
       "end": {
         "character": 5,
-        "line": 204
+        "line": 208
       },
       "start": {
         "character": 0,
-        "line": 204
+        "line": 208
       }
     },
     "message": "\"4.35.0-rc4\"",
     "range": {
       "end": {
         "character": 5,
-        "line": 204
+        "line": 208
       },
       "start": {
         "character": 0,
-        "line": 204
+        "line": 208
       }
     },
     "severity": 3,
@@ -28,22 +28,22 @@
     "fullRange": {
       "end": {
         "character": 29,
-        "line": 304
+        "line": 308
       },
       "start": {
         "character": 4,
-        "line": 304
+        "line": 308
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 29,
-        "line": 304
+        "line": 308
       },
       "start": {
         "character": 4,
-        "line": 304
+        "line": 308
       }
     },
     "severity": 2,
@@ -56,22 +56,22 @@
     "fullRange": {
       "end": {
         "character": 66,
-        "line": 489
+        "line": 493
       },
       "start": {
         "character": 41,
-        "line": 489
+        "line": 493
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 66,
-        "line": 489
+        "line": 493
       },
       "start": {
         "character": 41,
-        "line": 489
+        "line": 493
       }
     },
     "severity": 2,
@@ -84,22 +84,22 @@
     "fullRange": {
       "end": {
         "character": 66,
-        "line": 507
+        "line": 511
       },
       "start": {
         "character": 41,
-        "line": 507
+        "line": 511
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 66,
-        "line": 507
+        "line": 511
       },
       "start": {
         "character": 41,
-        "line": 507
+        "line": 511
       }
     },
     "severity": 2,
@@ -112,22 +112,22 @@
     "fullRange": {
       "end": {
         "character": 46,
-        "line": 585
+        "line": 589
       },
       "start": {
         "character": 8,
-        "line": 585
+        "line": 589
       }
     },
     "message": "`MultilinearMap.domCoprod_alternization` has been deprecated: Use `MultilinearMap.domCoprod_alternatization` instead\n\nHint: Replace the deprecated name:\n  MultilinearMap.domCoprod_alterna̲t̲ization",
     "range": {
       "end": {
         "character": 46,
-        "line": 585
+        "line": 589
       },
       "start": {
         "character": 8,
-        "line": 585
+        "line": 589
       }
     },
     "severity": 2,
@@ -140,22 +140,22 @@
     "fullRange": {
       "end": {
         "character": 66,
-        "line": 489
+        "line": 493
       },
       "start": {
         "character": 41,
-        "line": 489
+        "line": 493
       }
     },
     "message": "This simp argument is unused:\n  AlternatingMap.smul_apply\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [AlternatingMap.domCoprod.summand_mk'', smul_apply, MultilinearMap.domDomCongr_apply,\n    MultilinearMap.domCoprod_apply, AlternatingMap.coe_multilinearMap, smul_eq_mul]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
     "range": {
       "end": {
         "character": 66,
-        "line": 489
+        "line": 493
       },
       "start": {
         "character": 41,
-        "line": 489
+        "line": 493
       }
     },
     "severity": 2,
@@ -165,22 +165,22 @@
     "fullRange": {
       "end": {
         "character": 66,
-        "line": 507
+        "line": 511
       },
       "start": {
         "character": 41,
-        "line": 507
+        "line": 511
       }
     },
     "message": "This simp argument is unused:\n  AlternatingMap.smul_apply\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [AlternatingMap.domCoprod.summand_mk'', smul_apply, MultilinearMap.domDomCongr_apply,\n    MultilinearMap.domCoprod_apply, AlternatingMap.coe_multilinearMap, smul_eq_mul]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
     "range": {
       "end": {
         "character": 66,
-        "line": 507
+        "line": 511
       },
       "start": {
         "character": 41,
-        "line": 507
+        "line": 511
       }
     },
     "severity": 2,
@@ -190,22 +190,22 @@
     "fullRange": {
       "end": {
         "character": 48,
-        "line": 670
+        "line": 674
       },
       "start": {
         "character": 24,
-        "line": 670
+        "line": 674
       }
     },
     "message": "`AlternatingMap.neg_apply` has been deprecated: Use `_root_.neg_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `_root_.neg_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵n̵e̵g̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲n̲e̲g̲_̲a̲p̲p̲l̲y̲",
     "range": {
       "end": {
         "character": 48,
-        "line": 670
+        "line": 674
       },
       "start": {
         "character": 24,
-        "line": 670
+        "line": 674
       }
     },
     "severity": 2,
@@ -218,22 +218,22 @@
     "fullRange": {
       "end": {
         "character": 48,
-        "line": 877
+        "line": 881
       },
       "start": {
         "character": 24,
-        "line": 877
+        "line": 881
       }
     },
     "message": "`AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲",
     "range": {
       "end": {
         "character": 48,
-        "line": 877
+        "line": 881
       },
       "start": {
         "character": 24,
-        "line": 877
+        "line": 881
       }
     },
     "severity": 2,
@@ -246,22 +246,22 @@
     "fullRange": {
       "end": {
         "character": 82,
-        "line": 971
+        "line": 975
       },
       "start": {
         "character": 57,
-        "line": 971
+        "line": 975
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲",
     "range": {
       "end": {
         "character": 82,
-        "line": 971
+        "line": 975
       },
       "start": {
         "character": 57,
-        "line": 971
+        "line": 975
       }
     },
     "severity": 2,
@@ -274,22 +274,22 @@
     "fullRange": {
       "end": {
         "character": 83,
-        "line": 979
+        "line": 983
       },
       "start": {
         "character": 58,
-        "line": 979
+        "line": 983
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲",
     "range": {
       "end": {
         "character": 83,
-        "line": 979
+        "line": 983
       },
       "start": {
         "character": 58,
-        "line": 979
+        "line": 983
       }
     },
     "severity": 2,
@@ -302,22 +302,22 @@
     "fullRange": {
       "end": {
         "character": 46,
-        "line": 2809
+        "line": 2813
       },
       "start": {
         "character": 8,
-        "line": 2809
+        "line": 2813
       }
     },
     "message": "`MultilinearMap.domCoprod_alternization` has been deprecated: Use `MultilinearMap.domCoprod_alternatization` instead\n\nHint: Replace the deprecated name:\n  MultilinearMap.domCoprod_alterna̲t̲ization",
     "range": {
       "end": {
         "character": 46,
-        "line": 2809
+        "line": 2813
       },
       "start": {
         "character": 8,
-        "line": 2809
+        "line": 2813
       }
     },
     "severity": 2,
@@ -330,22 +330,22 @@
     "fullRange": {
       "end": {
         "character": 53,
-        "line": 3203
+        "line": 3207
       },
       "start": {
         "character": 28,
-        "line": 3203
+        "line": 3207
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 53,
-        "line": 3203
+        "line": 3207
       },
       "start": {
         "character": 28,
-        "line": 3203
+        "line": 3207
       }
     },
     "severity": 2,
@@ -358,22 +358,22 @@
     "fullRange": {
       "end": {
         "character": 38,
-        "line": 3339
+        "line": 3343
       },
       "start": {
         "character": 13,
-        "line": 3339
+        "line": 3343
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 38,
-        "line": 3339
+        "line": 3343
       },
       "start": {
         "character": 13,
-        "line": 3339
+        "line": 3343
       }
     },
     "severity": 2,
@@ -386,22 +386,22 @@
     "fullRange": {
       "end": {
         "character": 38,
-        "line": 4151
+        "line": 4155
       },
       "start": {
         "character": 13,
-        "line": 4151
+        "line": 4155
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 38,
-        "line": 4151
+        "line": 4155
       },
       "start": {
         "character": 13,
-        "line": 4151
+        "line": 4155
       }
     },
     "severity": 2,
@@ -414,22 +414,22 @@
     "fullRange": {
       "end": {
         "character": 38,
-        "line": 5766
+        "line": 5770
       },
       "start": {
         "character": 13,
-        "line": 5766
+        "line": 5770
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲",
     "range": {
       "end": {
         "character": 38,
-        "line": 5766
+        "line": 5770
       },
       "start": {
         "character": 13,
-        "line": 5766
+        "line": 5770
       }
     },
     "severity": 2,
@@ -442,22 +442,22 @@
     "fullRange": {
       "end": {
         "character": 65,
-        "line": 6731
+        "line": 6735
       },
       "start": {
         "character": 40,
-        "line": 6731
+        "line": 6735
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲",
     "range": {
       "end": {
         "character": 65,
-        "line": 6731
+        "line": 6735
       },
       "start": {
         "character": 40,
-        "line": 6731
+        "line": 6735
       }
     },
     "severity": 2,
@@ -470,22 +470,22 @@
     "fullRange": {
       "end": {
         "character": 65,
-        "line": 22579
+        "line": 22583
       },
       "start": {
         "character": 40,
-        "line": 22579
+        "line": 22583
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 65,
-        "line": 22579
+        "line": 22583
       },
       "start": {
         "character": 40,
-        "line": 22579
+        "line": 22583
       }
     },
     "severity": 2,
@@ -498,22 +498,22 @@
     "fullRange": {
       "end": {
         "character": 65,
-        "line": 22579
+        "line": 22583
       },
       "start": {
         "character": 40,
-        "line": 22579
+        "line": 22583
       }
     },
     "message": "This simp argument is unused:\n  AlternatingMap.smul_apply\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [MultilinearMap.alternatization_apply, smul_apply, MultilinearMap.domDomCongr_apply,\n    Finset.smul_sum]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
     "range": {
       "end": {
         "character": 65,
-        "line": 22579
+        "line": 22583
       },
       "start": {
         "character": 40,
-        "line": 22579
+        "line": 22583
       }
     },
     "severity": 2,
@@ -523,22 +523,22 @@
     "fullRange": {
       "end": {
         "character": 44,
-        "line": 22741
+        "line": 22745
       },
       "start": {
         "character": 19,
-        "line": 22741
+        "line": 22745
       }
     },
     "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
     "range": {
       "end": {
         "character": 44,
-        "line": 22741
+        "line": 22745
       },
       "start": {
         "character": 19,
-        "line": 22741
+        "line": 22745
       }
     },
     "severity": 2,
@@ -551,22 +551,22 @@
     "fullRange": {
       "end": {
         "character": 61,
-        "line": 22743
+        "line": 22747
       },
       "start": {
         "character": 37,
-        "line": 22743
+        "line": 22747
       }
     },
     "message": "`AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲",
     "range": {
       "end": {
         "character": 61,
-        "line": 22743
+        "line": 22747
       },
       "start": {
         "character": 37,
-        "line": 22743
+        "line": 22747
       }
     },
     "severity": 2,
@@ -579,22 +579,22 @@
     "fullRange": {
       "end": {
         "character": 44,
-        "line": 22741
+        "line": 22745
       },
       "start": {
         "character": 19,
-        "line": 22741
+        "line": 22745
       }
     },
     "message": "This simp argument is unused:\n  AlternatingMap.zero_apply\n\nHint: Omit it from the simp argument list.\n  [apply] simp\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
     "range": {
       "end": {
         "character": 44,
-        "line": 22741
+        "line": 22745
       },
       "start": {
         "character": 19,
-        "line": 22741
+        "line": 22745
       }
     },
     "severity": 2,
@@ -604,22 +604,22 @@
     "fullRange": {
       "end": {
         "character": 60,
-        "line": 22754
+        "line": 22758
       },
       "start": {
         "character": 35,
-        "line": 22754
+        "line": 22758
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 60,
-        "line": 22754
+        "line": 22758
       },
       "start": {
         "character": 35,
-        "line": 22754
+        "line": 22758
       }
     },
     "severity": 2,
@@ -632,22 +632,22 @@
     "fullRange": {
       "end": {
         "character": 92,
-        "line": 22961
+        "line": 22965
       },
       "start": {
         "character": 67,
-        "line": 22961
+        "line": 22965
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 92,
-        "line": 22961
+        "line": 22965
       },
       "start": {
         "character": 67,
-        "line": 22961
+        "line": 22965
       }
     },
     "severity": 2,
@@ -660,22 +660,22 @@
     "fullRange": {
       "end": {
         "character": 29,
-        "line": 23032
+        "line": 23036
       },
       "start": {
         "character": 4,
-        "line": 23032
+        "line": 23036
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 29,
-        "line": 23032
+        "line": 23036
       },
       "start": {
         "character": 4,
-        "line": 23032
+        "line": 23036
       }
     },
     "severity": 2,
@@ -688,22 +688,22 @@
     "fullRange": {
       "end": {
         "character": 38,
-        "line": 23326
+        "line": 23330
       },
       "start": {
         "character": 13,
-        "line": 23326
+        "line": 23330
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 38,
-        "line": 23326
+        "line": 23330
       },
       "start": {
         "character": 13,
-        "line": 23326
+        "line": 23330
       }
     },
     "severity": 2,
@@ -716,22 +716,22 @@
     "fullRange": {
       "end": {
         "character": 65,
-        "line": 23346
+        "line": 23350
       },
       "start": {
         "character": 40,
-        "line": 23346
+        "line": 23350
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 65,
-        "line": 23346
+        "line": 23350
       },
       "start": {
         "character": 40,
-        "line": 23346
+        "line": 23350
       }
     },
     "severity": 2,
@@ -744,22 +744,22 @@
     "fullRange": {
       "end": {
         "character": 54,
-        "line": 23473
+        "line": 23477
       },
       "start": {
         "character": 29,
-        "line": 23473
+        "line": 23477
       }
     },
     "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
     "range": {
       "end": {
         "character": 54,
-        "line": 23473
+        "line": 23477
       },
       "start": {
         "character": 29,
-        "line": 23473
+        "line": 23477
       }
     },
     "severity": 2,
@@ -772,22 +772,22 @@
     "fullRange": {
       "end": {
         "character": 51,
-        "line": 23891
+        "line": 23895
       },
       "start": {
         "character": 26,
-        "line": 23891
+        "line": 23895
       }
     },
     "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
     "range": {
       "end": {
         "character": 51,
-        "line": 23891
+        "line": 23895
       },
       "start": {
         "character": 26,
-        "line": 23891
+        "line": 23895
       }
     },
     "severity": 2,
@@ -800,22 +800,22 @@
     "fullRange": {
       "end": {
         "character": 73,
-        "line": 23904
+        "line": 23908
       },
       "start": {
         "character": 49,
-        "line": 23904
+        "line": 23908
       }
     },
     "message": "`AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲",
     "range": {
       "end": {
         "character": 73,
-        "line": 23904
+        "line": 23908
       },
       "start": {
         "character": 49,
-        "line": 23904
+        "line": 23908
       }
     },
     "severity": 2,
@@ -828,22 +828,22 @@
     "fullRange": {
       "end": {
         "character": 38,
-        "line": 24016
+        "line": 24020
       },
       "start": {
         "character": 13,
-        "line": 24016
+        "line": 24020
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 38,
-        "line": 24016
+        "line": 24020
       },
       "start": {
         "character": 13,
-        "line": 24016
+        "line": 24020
       }
     },
     "severity": 2,
@@ -856,22 +856,22 @@
     "fullRange": {
       "end": {
         "character": 74,
-        "line": 24332
+        "line": 24336
       },
       "start": {
         "character": 49,
-        "line": 24332
+        "line": 24336
       }
     },
     "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
     "range": {
       "end": {
         "character": 74,
-        "line": 24332
+        "line": 24336
       },
       "start": {
         "character": 49,
-        "line": 24332
+        "line": 24336
       }
     },
     "severity": 2,
@@ -884,22 +884,22 @@
     "fullRange": {
       "end": {
         "character": 74,
-        "line": 24332
+        "line": 24336
       },
       "start": {
         "character": 49,
-        "line": 24332
+        "line": 24336
       }
     },
     "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
     "range": {
       "end": {
         "character": 74,
-        "line": 24332
+        "line": 24336
       },
       "start": {
         "character": 49,
-        "line": 24332
+        "line": 24336
       }
     },
     "severity": 2,
@@ -912,22 +912,22 @@
     "fullRange": {
       "end": {
         "character": 37,
-        "line": 24785
+        "line": 24789
       },
       "start": {
         "character": 13,
-        "line": 24785
+        "line": 24789
       }
     },
     "message": "`AlternatingMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲u̲b̲_̲a̲p̲p̲l̲y̲",
     "range": {
       "end": {
         "character": 37,
-        "line": 24785
+        "line": 24789
       },
       "start": {
         "character": 13,
-        "line": 24785
+        "line": 24789
       }
     },
     "severity": 2,
@@ -940,22 +940,22 @@
     "fullRange": {
       "end": {
         "character": 31,
-        "line": 25107
+        "line": 25111
       },
       "start": {
         "character": 6,
-        "line": 25107
+        "line": 25111
       }
     },
     "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
     "range": {
       "end": {
         "character": 31,
-        "line": 25107
+        "line": 25111
       },
       "start": {
         "character": 6,
-        "line": 25107
+        "line": 25111
       }
     },
     "severity": 2,
@@ -968,22 +968,22 @@
     "fullRange": {
       "end": {
         "character": 57,
-        "line": 25114
+        "line": 25118
       },
       "start": {
         "character": 32,
-        "line": 25114
+        "line": 25118
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 57,
-        "line": 25114
+        "line": 25118
       },
       "start": {
         "character": 32,
-        "line": 25114
+        "line": 25118
       }
     },
     "severity": 2,
@@ -996,22 +996,22 @@
     "fullRange": {
       "end": {
         "character": 55,
-        "line": 25211
+        "line": 25215
       },
       "start": {
         "character": 30,
-        "line": 25211
+        "line": 25215
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲",
     "range": {
       "end": {
         "character": 55,
-        "line": 25211
+        "line": 25215
       },
       "start": {
         "character": 30,
-        "line": 25211
+        "line": 25215
       }
     },
     "severity": 2,
@@ -1024,22 +1024,22 @@
     "fullRange": {
       "end": {
         "character": 33,
-        "line": 25605
+        "line": 25609
       },
       "start": {
         "character": 8,
-        "line": 25605
+        "line": 25609
       }
     },
     "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
     "range": {
       "end": {
         "character": 33,
-        "line": 25605
+        "line": 25609
       },
       "start": {
         "character": 8,
-        "line": 25605
+        "line": 25609
       }
     },
     "severity": 2,
@@ -1052,22 +1052,22 @@
     "fullRange": {
       "end": {
         "character": 33,
-        "line": 25605
+        "line": 25609
       },
       "start": {
         "character": 8,
-        "line": 25605
+        "line": 25609
       }
     },
     "message": "This simp argument is unused:\n  AlternatingMap.smul_apply\n\nHint: Omit it from the simp argument list.\n  [apply] simp [smul_eq_mul, Complex.real_smul, Fintype.card_sum, card_wedgePowerSlots, add_comm]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
     "range": {
       "end": {
         "character": 33,
-        "line": 25605
+        "line": 25609
       },
       "start": {
         "character": 8,
-        "line": 25605
+        "line": 25609
       }
     },
     "severity": 2,
@@ -1077,22 +1077,22 @@
     "fullRange": {
       "end": {
         "character": 66,
-        "line": 34425
+        "line": 34429
       },
       "start": {
         "character": 50,
-        "line": 34425
+        "line": 34429
       }
     },
     "message": "This simp argument is unused:\n  wedge_zero_right\n\nHint: Omit it from the simp argument list.\n  [apply] simp [boundaryResidualFin, wedgePowerVariation]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
     "range": {
       "end": {
         "character": 66,
-        "line": 34425
+        "line": 34429
       },
       "start": {
         "character": 50,
-        "line": 34425
+        "line": 34429
       }
     },
     "severity": 2,
@@ -1102,22 +1102,22 @@
     "fullRange": {
       "end": {
         "character": 6,
-        "line": 39462
+        "line": 39789
       },
       "start": {
         "character": 0,
-        "line": 39462
+        "line": 39789
       }
     },
     "message": "Funk.symmetricFunk_lower_bound : Funk.FunkLowerBoundGoal",
     "range": {
       "end": {
         "character": 6,
-        "line": 39462
+        "line": 39789
       },
       "start": {
         "character": 0,
-        "line": 39462
+        "line": 39789
       }
     },
     "severity": 3,
@@ -1127,22 +1127,22 @@
     "fullRange": {
       "end": {
         "character": 6,
-        "line": 39463
+        "line": 39790
       },
       "start": {
         "character": 0,
-        "line": 39463
+        "line": 39790
       }
     },
     "message": "Funk.kalai_full_flags : Funk.KalaiFullFlagsGoal",
     "range": {
       "end": {
         "character": 6,
-        "line": 39463
+        "line": 39790
       },
       "start": {
         "character": 0,
-        "line": 39463
+        "line": 39790
       }
     },
     "severity": 3,
@@ -1152,22 +1152,22 @@
     "fullRange": {
       "end": {
         "character": 6,
-        "line": 39464
+        "line": 39791
       },
       "start": {
         "character": 0,
-        "line": 39464
+        "line": 39791
       }
     },
     "message": "Funk.symmetricFunk_metric_radius {n : ℕ} (hn : 1 ≤ n) (K : Set (Funk.Space n)) (hK : Funk.IsSymmetricConvexBody K)\n  {R : ℝ} (hR : 0 < R) :\n  Funk.funkVolume K (1 - Real.exp (-R)) < ⊤ ∧\n    ENNReal.ofReal (2 ^ n / ↑n.factorial * Real.log (2 * Real.exp R - 1) ^ n) ≤ Funk.funkVolume K (1 - Real.exp (-R))",
     "range": {
       "end": {
         "character": 6,
-        "line": 39464
+        "line": 39791
       },
       "start": {
         "character": 0,
-        "line": 39464
+        "line": 39791
       }
     },
     "severity": 3,
@@ -1177,22 +1177,22 @@
     "fullRange": {
       "end": {
         "character": 6,
-        "line": 39465
+        "line": 39792
       },
       "start": {
         "character": 0,
-        "line": 39465
+        "line": 39792
       }
     },
     "message": "Funk.kalai_halfspace_full_flags {n : ℕ} (hn : 1 ≤ n) (P : Set (Funk.Space n)) (hp : Funk.IsFinitePolytope P)\n  (hP : Funk.IsSymmetricConvexBody P) :\n  Finite (Funk.HalfspaceFullFlag P) ∧ 2 ^ n * n.factorial ≤ Nat.card (Funk.HalfspaceFullFlag P)",
     "range": {
       "end": {
         "character": 6,
-        "line": 39465
+        "line": 39792
       },
       "start": {
         "character": 0,
-        "line": 39465
+        "line": 39792
       }
     },
     "severity": 3,
@@ -1202,22 +1202,22 @@
     "fullRange": {
       "end": {
         "character": 6,
-        "line": 39466
+        "line": 39793
       },
       "start": {
         "character": 0,
-        "line": 39466
+        "line": 39793
       }
     },
     "message": "'Funk.symmetricFunk_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]",
     "range": {
       "end": {
         "character": 6,
-        "line": 39466
+        "line": 39793
       },
       "start": {
         "character": 0,
-        "line": 39466
+        "line": 39793
       }
     },
     "severity": 3,
@@ -1227,22 +1227,122 @@
     "fullRange": {
       "end": {
         "character": 6,
-        "line": 39467
+        "line": 39794
       },
       "start": {
         "character": 0,
-        "line": 39467
+        "line": 39794
       }
     },
     "message": "'Funk.kalai_full_flags' depends on axioms: [propext, Classical.choice, Quot.sound]",
     "range": {
       "end": {
         "character": 6,
-        "line": 39467
+        "line": 39794
       },
       "start": {
         "character": 0,
-        "line": 39467
+        "line": 39794
+      }
+    },
+    "severity": 3,
+    "source": "Lean 4"
+  },
+  {
+    "fullRange": {
+      "end": {
+        "character": 6,
+        "line": 39795
+      },
+      "start": {
+        "character": 0,
+        "line": 39795
+      }
+    },
+    "message": "FunkVolume.symmetricFunkVolume :\n  True ↔\n    ∀ (n : ℕ),\n      1 ≤ n →\n        ∀ (K : Set (Fin n → ℝ)),\n          FunkVolume.IsSymmetricConvexBody K →\n            ∀ (τ : ℝ),\n              0 < τ →\n                τ < 1 →\n                  FunkVolume.funkVolume K τ < ⊤ ∧\n                    ENNReal.ofReal ((4 * Real.artanh τ) ^ n / ↑n.factorial) ≤ FunkVolume.funkVolume K τ",
+    "range": {
+      "end": {
+        "character": 6,
+        "line": 39795
+      },
+      "start": {
+        "character": 0,
+        "line": 39795
+      }
+    },
+    "severity": 3,
+    "source": "Lean 4"
+  },
+  {
+    "fullRange": {
+      "end": {
+        "character": 6,
+        "line": 39796
+      },
+      "start": {
+        "character": 0,
+        "line": 39796
+      }
+    },
+    "message": "'FunkVolume.symmetricFunkVolume' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "range": {
+      "end": {
+        "character": 6,
+        "line": 39796
+      },
+      "start": {
+        "character": 0,
+        "line": 39796
+      }
+    },
+    "severity": 3,
+    "source": "Lean 4"
+  },
+  {
+    "fullRange": {
+      "end": {
+        "character": 6,
+        "line": 39797
+      },
+      "start": {
+        "character": 0,
+        "line": 39797
+      }
+    },
+    "message": "Funk.FormalConjectures.kalaiFullFlags :\n  True ↔\n    ∀ (n : ℕ),\n      1 ≤ n →\n        ∀ (P : Set (Fin n → ℝ)),\n          Funk.FormalConjectures.IsFinitePolytope P →\n            Funk.FormalConjectures.IsSymmetricConvexBody P →\n              Finite (Funk.FormalConjectures.FullFlag P) ∧\n                2 ^ n * n.factorial ≤ Nat.card (Funk.FormalConjectures.FullFlag P)",
+    "range": {
+      "end": {
+        "character": 6,
+        "line": 39797
+      },
+      "start": {
+        "character": 0,
+        "line": 39797
+      }
+    },
+    "severity": 3,
+    "source": "Lean 4"
+  },
+  {
+    "fullRange": {
+      "end": {
+        "character": 6,
+        "line": 39798
+      },
+      "start": {
+        "character": 0,
+        "line": 39798
+      }
+    },
+    "message": "'Funk.FormalConjectures.kalaiFullFlags' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "range": {
+      "end": {
+        "character": 6,
+        "line": 39798
+      },
+      "start": {
+        "character": 0,
+        "line": 39798
       }
     },
     "severity": 3,

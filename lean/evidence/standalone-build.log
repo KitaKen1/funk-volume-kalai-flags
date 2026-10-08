@@ -1,17 +1,17 @@
 "4.35.0-rc4"
-FunkKalaiLean4Web.lean:305:4: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:309:4: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:490:41: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:494:41: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:490:41: warning: This simp argument is unused:
+FunkKalaiLean4Web.lean:494:41: warning: This simp argument is unused:
   AlternatingMap.smul_apply
 
 Hint: Omit it from the simp argument list.
@@ -19,13 +19,13 @@ Hint: Omit it from the simp argument list.
     MultilinearMap.domCoprod_apply, AlternatingMap.coe_multilinearMap, smul_eq_mul]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-FunkKalaiLean4Web.lean:508:41: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:512:41: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:508:41: warning: This simp argument is unused:
+FunkKalaiLean4Web.lean:512:41: warning: This simp argument is unused:
   AlternatingMap.smul_apply
 
 Hint: Omit it from the simp argument list.
@@ -33,75 +33,75 @@ Hint: Omit it from the simp argument list.
     MultilinearMap.domCoprod_apply, AlternatingMap.coe_multilinearMap, smul_eq_mul]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-FunkKalaiLean4Web.lean:586:8: warning: `MultilinearMap.domCoprod_alternization` has been deprecated: Use `MultilinearMap.domCoprod_alternatization` instead
+FunkKalaiLean4Web.lean:590:8: warning: `MultilinearMap.domCoprod_alternization` has been deprecated: Use `MultilinearMap.domCoprod_alternatization` instead
 
 Hint: Replace the deprecated name:
   MultilinearMap.domCoprod_alterna̲t̲ization
-FunkKalaiLean4Web.lean:671:24: warning: `AlternatingMap.neg_apply` has been deprecated: Use `_root_.neg_apply` instead
+FunkKalaiLean4Web.lean:675:24: warning: `AlternatingMap.neg_apply` has been deprecated: Use `_root_.neg_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `_root_.neg_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵n̵e̵g̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲n̲e̲g̲_̲a̲p̲p̲l̲y̲
-FunkKalaiLean4Web.lean:878:24: warning: `AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead
+FunkKalaiLean4Web.lean:882:24: warning: `AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
-FunkKalaiLean4Web.lean:972:57: warning: `AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+FunkKalaiLean4Web.lean:976:57: warning: `AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
-FunkKalaiLean4Web.lean:980:58: warning: `AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+FunkKalaiLean4Web.lean:984:58: warning: `AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
-FunkKalaiLean4Web.lean:2810:8: warning: `MultilinearMap.domCoprod_alternization` has been deprecated: Use `MultilinearMap.domCoprod_alternatization` instead
+FunkKalaiLean4Web.lean:2814:8: warning: `MultilinearMap.domCoprod_alternization` has been deprecated: Use `MultilinearMap.domCoprod_alternatization` instead
 
 Hint: Replace the deprecated name:
   MultilinearMap.domCoprod_alterna̲t̲ization
-FunkKalaiLean4Web.lean:3204:28: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:3208:28: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:3340:13: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:3344:13: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:4152:13: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:4156:13: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:5767:13: warning: `AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+FunkKalaiLean4Web.lean:5771:13: warning: `AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
-FunkKalaiLean4Web.lean:6732:40: warning: `AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+FunkKalaiLean4Web.lean:6736:40: warning: `AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
-FunkKalaiLean4Web.lean:22580:40: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:22584:40: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:22580:40: warning: This simp argument is unused:
+FunkKalaiLean4Web.lean:22584:40: warning: This simp argument is unused:
   AlternatingMap.smul_apply
 
 Hint: Omit it from the simp argument list.
@@ -109,129 +109,129 @@ Hint: Omit it from the simp argument list.
     Finset.smul_sum]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-FunkKalaiLean4Web.lean:22742:19: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
+FunkKalaiLean4Web.lean:22746:19: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply
-FunkKalaiLean4Web.lean:22744:37: warning: `AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead
+FunkKalaiLean4Web.lean:22748:37: warning: `AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
-FunkKalaiLean4Web.lean:22742:19: warning: This simp argument is unused:
+FunkKalaiLean4Web.lean:22746:19: warning: This simp argument is unused:
   AlternatingMap.zero_apply
 
 Hint: Omit it from the simp argument list.
   [apply] simp
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-FunkKalaiLean4Web.lean:22755:35: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:22759:35: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:22962:67: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:22966:67: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:23033:4: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:23037:4: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:23327:13: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:23331:13: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:23347:40: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:23351:40: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:23474:29: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
+FunkKalaiLean4Web.lean:23478:29: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply
-FunkKalaiLean4Web.lean:23892:26: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
+FunkKalaiLean4Web.lean:23896:26: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply
-FunkKalaiLean4Web.lean:23905:49: warning: `AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead
+FunkKalaiLean4Web.lean:23909:49: warning: `AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
-FunkKalaiLean4Web.lean:24017:13: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:24021:13: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:24333:49: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
+FunkKalaiLean4Web.lean:24337:49: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply
-FunkKalaiLean4Web.lean:24333:49: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
+FunkKalaiLean4Web.lean:24337:49: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply
-FunkKalaiLean4Web.lean:24786:13: warning: `AlternatingMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+FunkKalaiLean4Web.lean:24790:13: warning: `AlternatingMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲u̲b̲_̲a̲p̲p̲l̲y̲
-FunkKalaiLean4Web.lean:25108:6: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
+FunkKalaiLean4Web.lean:25112:6: warning: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply
-FunkKalaiLean4Web.lean:25115:32: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:25119:32: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:25212:30: warning: `AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+FunkKalaiLean4Web.lean:25216:30: warning: `AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
-FunkKalaiLean4Web.lean:25606:8: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
+FunkKalaiLean4Web.lean:25610:8: warning: `AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead
 
 Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
 
 Hint: Replace the deprecated name:
   A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply
-FunkKalaiLean4Web.lean:25606:8: warning: This simp argument is unused:
+FunkKalaiLean4Web.lean:25610:8: warning: This simp argument is unused:
   AlternatingMap.smul_apply
 
 Hint: Omit it from the simp argument list.
   [apply] simp [smul_eq_mul, Complex.real_smul, Fintype.card_sum, card_wedgePowerSlots, add_comm]
 
 Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
-FunkKalaiLean4Web.lean:34426:50: warning: This simp argument is unused:
+FunkKalaiLean4Web.lean:34430:50: warning: This simp argument is unused:
   wedge_zero_right
 
 Hint: Omit it from the simp argument list.
@@ -249,3 +249,25 @@ Funk.kalai_halfspace_full_flags {n : ℕ} (hn : 1 ≤ n) (P : Set (Funk.Space n)
   Finite (Funk.HalfspaceFullFlag P) ∧ 2 ^ n * n.factorial ≤ Nat.card (Funk.HalfspaceFullFlag P)
 'Funk.symmetricFunk_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Funk.kalai_full_flags' depends on axioms: [propext, Classical.choice, Quot.sound]
+FunkVolume.symmetricFunkVolume :
+  True ↔
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (K : Set (Fin n → ℝ)),
+          FunkVolume.IsSymmetricConvexBody K →
+            ∀ (τ : ℝ),
+              0 < τ →
+                τ < 1 →
+                  FunkVolume.funkVolume K τ < ⊤ ∧
+                    ENNReal.ofReal ((4 * Real.artanh τ) ^ n / ↑n.factorial) ≤ FunkVolume.funkVolume K τ
+'FunkVolume.symmetricFunkVolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.FormalConjectures.kalaiFullFlags :
+  True ↔
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (P : Set (Fin n → ℝ)),
+          Funk.FormalConjectures.IsFinitePolytope P →
+            Funk.FormalConjectures.IsSymmetricConvexBody P →
+              Finite (Funk.FormalConjectures.FullFlag P) ∧
+                2 ^ n * n.factorial ≤ Nat.card (Funk.FormalConjectures.FullFlag P)
+'Funk.FormalConjectures.kalaiFullFlags' depends on axioms: [propext, Classical.choice, Quot.sound]

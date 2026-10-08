@@ -1,5 +1,5 @@
 "4.34.1"
-FunkKalaiLean4Web.lean:34423:50: warning: This simp argument is unused:
+FunkKalaiLean4Web.lean:34427:50: warning: This simp argument is unused:
   wedge_zero_right
 
 Hint: Omit it from the simp argument list.
@@ -17,3 +17,25 @@ Funk.kalai_halfspace_full_flags {n : ℕ} (hn : 1 ≤ n) (P : Set (Funk.Space n)
   Finite (Funk.HalfspaceFullFlag P) ∧ 2 ^ n * n.factorial ≤ Nat.card (Funk.HalfspaceFullFlag P)
 'Funk.symmetricFunk_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Funk.kalai_full_flags' depends on axioms: [propext, Classical.choice, Quot.sound]
+FunkVolume.symmetricFunkVolume :
+  True ↔
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (K : Set (Fin n → ℝ)),
+          FunkVolume.IsSymmetricConvexBody K →
+            ∀ (τ : ℝ),
+              0 < τ →
+                τ < 1 →
+                  FunkVolume.funkVolume K τ < ⊤ ∧
+                    ENNReal.ofReal ((4 * Real.artanh τ) ^ n / ↑n.factorial) ≤ FunkVolume.funkVolume K τ
+'FunkVolume.symmetricFunkVolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.FormalConjectures.kalaiFullFlags :
+  True ↔
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (P : Set (Fin n → ℝ)),
+          Funk.FormalConjectures.IsFinitePolytope P →
+            Funk.FormalConjectures.IsSymmetricConvexBody P →
+              Finite (Funk.FormalConjectures.FullFlag P) ∧
+                2 ^ n * n.factorial ≤ Nat.card (Funk.FormalConjectures.FullFlag P)
+'Funk.FormalConjectures.kalaiFullFlags' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,7 +1,7 @@
 {
-  "format": 4,
+  "format": 5,
   "status": "passed",
-  "checked_at": "2026-10-08T01:13:19.255601+00:00",
+  "checked_at": "2026-10-08T01:54:15.987875+00:00",
   "original_mathematical_sources_byte_identical": 392,
   "funk_modules": 163,
   "vendored_oai_modules": 228,
@@ -12,9 +12,11 @@
   "exact_goal_type_checks": 2,
   "modular_build_exit_code": 0,
   "standalone_compilation": {
+    "edition": "live",
+    "exit_code": 0,
     "errors": 0,
     "warnings": 39,
-    "final_axiom_reports": 2,
+    "final_axiom_reports": 4,
     "axioms": {
       "Funk.symmetricFunk_lower_bound": [
         "propext",
@@ -25,28 +27,43 @@
         "propext",
         "Classical.choice",
         "Quot.sound"
+      ],
+      "FunkVolume.symmetricFunkVolume": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Funk.FormalConjectures.kalaiFullFlags": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
       ]
     },
-    "log_sha256": "1ef7d8702521946233f3ee413f8b31f545bb69f2ff602ca43c13a2610bcba51e",
-    "edition": "live",
-    "exit_code": 0,
+    "log_sha256": "a7781dda936a98027854e9b81cc613928d1ecb4155c342be70787108a7fe11cf",
     "lean": "4.35.0-rc4",
     "mathlib": "021ce68bf125a049beee22b3fc7664d78728e21d",
-    "modules": 388,
-    "bytes": 1803117,
-    "sha256": "3e4ebf438f4f963a5fcad26e87f613ebe408562f7a46bd702347f0643bd81304",
+    "modules": 391,
+    "bytes": 1815409,
+    "sha256": "2617bb82530b5ccf39159f58f1573be3b76c36ba62ac1fdbe07366fa846eb168",
+    "mathematical_statements_unchanged": true,
+    "fc_target_types_match": true,
+    "fc_tooling_adaptations": [
+      "Fix original default answer mode",
+      "Omit FC metadata attributes"
+    ],
     "source_bodies_unchanged": false,
     "compatibility_replacements": 2,
     "replacement_modules": [
       "OAI.Analysis.Mahler.NormSquareJet",
       "OAI.Analysis.Mahler.LogScalarJet"
-    ],
-    "mathematical_statements_unchanged": true
+    ]
   },
   "pinned_original_standalone_compilation": {
+    "edition": "pinned-4.34.1",
+    "exit_code": 0,
     "errors": 0,
     "warnings": 1,
-    "final_axiom_reports": 2,
+    "final_axiom_reports": 4,
     "axioms": {
       "Funk.symmetricFunk_lower_bound": [
         "propext",
@@ -57,24 +74,40 @@
         "propext",
         "Classical.choice",
         "Quot.sound"
+      ],
+      "FunkVolume.symmetricFunkVolume": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Funk.FormalConjectures.kalaiFullFlags": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
       ]
     },
-    "log_sha256": "c15e52c05907de4427f626a51df056fc533931e899d8e075eb62d19dac97a192",
-    "edition": "pinned-4.34.1",
-    "exit_code": 0,
+    "log_sha256": "f2db69473110798dff31293e6adec123cf567502c66aa127403221b833b91996",
     "lean": "4.34.1",
     "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
-    "modules": 388,
-    "bytes": 1802943,
-    "sha256": "8066498e3241204fd40a1846671d95b16d8a361d886398f40a2cb7577a283a93",
-    "source_bodies_unchanged": true
+    "modules": 391,
+    "bytes": 1815235,
+    "sha256": "4a060c57ca9822380490c67c048736a9c73b5711ec0ad5999417e1099f4d4eee",
+    "mathematical_statements_unchanged": true,
+    "fc_target_types_match": true,
+    "fc_tooling_adaptations": [
+      "Fix original default answer mode",
+      "Omit FC metadata attributes"
+    ],
+    "source_bodies_unchanged": false,
+    "compatibility_replacements": 0,
+    "mathematical_proof_bodies_unchanged": true
   },
   "build_cache_reused": true,
   "independent_kernel_replay_this_package_run": false,
   "public_lean4web_server_tested": true,
   "public_lean4web_status": "passed",
   "public_lean4web_evidence": "lean4web-live.json",
-  "public_lean4web_evidence_sha256": "28fb2b263c234ef3f0151ca799697ab360b31e6301a4e5b9e78d3b5e6a3266d4",
+  "public_lean4web_evidence_sha256": "3f9274d328c71c66a601853b4ead5f16975bf1ee6166b87c462f6794253fd13d",
   "public_lean4web_mathlib": "9e6b3aac99b624d10c84653ab9c5357283b9b3b8",
   "no_sorryAx_in_complete_proofs": true,
   "third_party_semantic_review_complete": false,
@@ -84,22 +117,30 @@
   "fc_statement_files": [
     {
       "file": "FClikelean/KalaiFullFlags.lean",
-      "sha256": "5b63fc0a56e159affe1c77b798ee88057869e4d2853cf17399c71c24ec0df160",
+      "sha256": "f34fa3846d38b24678db9a4d08cda67c3a6ce77078c0236db010bc888ab3b7fb",
       "target": "Funk.FormalConjectures.kalaiFullFlags",
       "scope": "Kalai's full flag conjecture"
     },
     {
       "file": "FClikelean/SymmetricFunkVolume.lean",
-      "sha256": "bed7e8ae34aca48c19d1b63f49502cba905735ada6674427d23e091bac833fa2",
+      "sha256": "f404aff223373f23f468be24ddc93a11dc29ec3cab751183535eeda93c6b364a",
       "target": "FunkVolume.symmetricFunkVolume",
       "scope": "numerical symmetric Funk-volume lower bound, without equality cases"
     }
   ],
   "fc_statement_role": "two separate FC problem statements with intentional by sorry",
-  "fc_statement_compilation_sha256": "c5c32715a76ed5994f098407b3ed3fde5406ca003bce8b6c850b44a7edffd1ca",
-  "unchanged_complete_web_sources_this_update": true,
+  "fc_statement_compilation_sha256": "138b3c2504925c21a2aa8eb2f41b6a1624f3146aab53a8124c39b841e4a0d68b",
+  "unchanged_complete_web_sources_this_update": false,
   "github_repository": "https://github.com/KitaKen1/funk-volume-kalai-flags",
   "github_content_commit": "1c2663ee2aa717ecc3a40c460ff9d2ad3a4b1bf0",
   "github_publication_checked_at": "2026-10-08T01:14:31.322297+00:00",
-  "github_publication_record": "github-publication.json"
+  "github_publication_record": "github-publication.json",
+  "added_final_proof_file": "lean/FinalTheorems.lean",
+  "exact_fc_target_type_checks": 2,
+  "fc_model_declaration_checks": 15,
+  "fc_exact_target_evidence": "fc-exact-targets.json",
+  "final_proved_targets": [
+    "FunkVolume.symmetricFunkVolume",
+    "Funk.FormalConjectures.kalaiFullFlags"
+  ]
 }

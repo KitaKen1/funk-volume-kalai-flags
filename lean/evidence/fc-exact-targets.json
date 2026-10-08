@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "status": "passed",
+  "checked_at": "2026-10-08T01:54:15.987875+00:00",
+  "lean": "4.34.1",
+  "proof_file": "lean/FinalTheorems.lean",
+  "proof_sha256": "439a32a78778723f73dad12df36bce189926021b98bb5a849916cb353a965b95",
+  "comparison": "Read the actual compiled FC public interfaces without installing their declarations; compare target types, model declaration types and definition bodies.",
+  "fc_placeholders_imported_into_proof_environment": false,
+  "exact_fc_target_type_checks": 2,
+  "fc_model_declaration_checks": 15,
+  "axioms": {
+    "FunkVolume.symmetricFunkVolume": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Funk.FormalConjectures.kalaiFullFlags": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "no_sorryAx": true,
+  "log": "fc-exact-targets.log",
+  "log_sha256": "f9b992b7725ab8a7ff6ba1e8d1ef602b15c66089b173086a20a0378dd68ef9c2",
+  "generator": "lean/scripts/make_final_theorems.py",
+  "generator_sha256": "01c3786cba24f11d054e612070429e863737233488058e294190652dfcae7f89",
+  "fc_sources": [
+    {
+      "file": "FClikelean/KalaiFullFlags.lean",
+      "sha256": "f34fa3846d38b24678db9a4d08cda67c3a6ce77078c0236db010bc888ab3b7fb",
+      "target": "Funk.FormalConjectures.kalaiFullFlags",
+      "scope": "Kalai's full flag conjecture"
+    },
+    {
+      "file": "FClikelean/SymmetricFunkVolume.lean",
+      "sha256": "f404aff223373f23f468be24ddc93a11dc29ec3cab751183535eeda93c6b364a",
+      "target": "FunkVolume.symmetricFunkVolume",
+      "scope": "numerical symmetric Funk-volume lower bound, without equality cases"
+    }
+  ]
+}

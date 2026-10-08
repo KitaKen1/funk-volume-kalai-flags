@@ -1,17 +1,17 @@
 {
   "format": 2,
   "status": "compiled",
-  "checked_at": "2026-10-08T01:13:19.255601+00:00",
+  "checked_at": "2026-10-08T01:54:15.987875+00:00",
   "sources": [
     {
       "file": "FClikelean/KalaiFullFlags.lean",
-      "sha256": "5b63fc0a56e159affe1c77b798ee88057869e4d2853cf17399c71c24ec0df160",
+      "sha256": "f34fa3846d38b24678db9a4d08cda67c3a6ce77078c0236db010bc888ab3b7fb",
       "target": "Funk.FormalConjectures.kalaiFullFlags",
       "scope": "Kalai's full flag conjecture"
     },
     {
       "file": "FClikelean/SymmetricFunkVolume.lean",
-      "sha256": "bed7e8ae34aca48c19d1b63f49502cba905735ada6674427d23e091bac833fa2",
+      "sha256": "f404aff223373f23f468be24ddc93a11dc29ec3cab751183535eeda93c6b364a",
       "target": "FunkVolume.symmetricFunkVolume",
       "scope": "numerical symmetric Funk-volume lower bound, without equality cases"
     }
@@ -27,13 +27,13 @@
   "official_fc_utility_commit": "d838afa7a62f66dc034c96fb011c10b9bde3f44c",
   "official_fc_utility_modules": 4,
   "axioms": {
-    "Funk.FormalConjectures.kalaiFullFlags": [
+    "FunkVolume.symmetricFunkVolume": [
       "propext",
       "sorryAx",
       "Classical.choice",
       "Quot.sound"
     ],
-    "FunkVolume.symmetricFunkVolume": [
+    "Funk.FormalConjectures.kalaiFullFlags": [
       "propext",
       "sorryAx",
       "Classical.choice",
@@ -49,19 +49,23 @@
   "log": "fc-statement.log",
   "log_sha256": "5c4174f7b792a57ce1c5f2be12ba491cbffb61ba47bdc9f305f6fbec55de098f",
   "build_log": "fc-statement-build.log",
-  "build_log_sha256": "4078f9d13a7c67c044906e13891dbfe9f34805cb5e8b5fedc5207c9ed70beacd",
+  "build_log_sha256": "f14bd46a5673365132c49d20b4a75364ddf4c6ba8bab42f19f75b33bdefc4029",
   "complete_proof_axioms": {
-    "Funk.symmetricFunk_lower_bound": [
+    "FunkVolume.symmetricFunkVolume": [
       "propext",
       "Classical.choice",
       "Quot.sound"
     ],
-    "Funk.kalai_full_flags": [
+    "Funk.FormalConjectures.kalaiFullFlags": [
       "propext",
       "Classical.choice",
       "Quot.sound"
     ]
   },
   "exact_goal_type_checks": 2,
-  "proof_repository": "https://github.com/KitaKen1/funk-volume-kalai-flags"
+  "proof_repository": "https://github.com/KitaKen1/funk-volume-kalai-flags",
+  "exact_fc_target_type_checks": 2,
+  "fc_model_declaration_checks": 15,
+  "exact_fc_target_evidence": "fc-exact-targets.json",
+  "proof_file": "lean/FinalTheorems.lean"
 }

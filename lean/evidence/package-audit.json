@@ -1,9 +1,9 @@
 {
   "format": 1,
   "status": "passed",
-  "checked_at": "2026-10-08T00:34:48.845908+00:00",
+  "checked_at": "2026-10-08T01:53:14.336951+00:00",
   "lean": "4.34.1",
-  "source_files_checked": 395,
+  "source_files_checked": 396,
   "unchanged_upstream_modules": 228,
   "exact_goal_type_checks": 2,
   "axioms": {
@@ -76,6 +76,16 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "FunkVolume.symmetricFunkVolume": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.FormalConjectures.kalaiFullFlags": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "executions": [
@@ -88,8 +98,22 @@
       "directory": "lean",
       "log": "package-build.log",
       "exit_code": 0,
-      "seconds": 2.902,
-      "log_sha256": "9819edbbc34618df7e3b6ffa65585b0fef903b5c547d7fe65e638c70fc048f49"
+      "seconds": 4.942,
+      "log_sha256": "a2f938b086caa75bb4fdc844f8eb74d003e3e86a09d0b5359275090c52c79a2e"
+    },
+    {
+      "command": [
+        "lake",
+        "--wfail",
+        "build",
+        "KalaiFullFlags",
+        "SymmetricFunkVolume"
+      ],
+      "directory": "lean",
+      "log": "fc-statement-build.log",
+      "exit_code": 0,
+      "seconds": 7.513,
+      "log_sha256": "f14bd46a5673365132c49d20b4a75364ddf4c6ba8bab42f19f75b33bdefc4029"
     },
     {
       "command": [
@@ -98,21 +122,38 @@
         "lean",
         "-j1",
         "-Ewarning",
-        "PackageAuditsg9wub7s.lean"
+        "PackageAudit11ihsn3x.lean"
       ],
       "directory": "lean",
       "log": "package-axioms.log",
       "exit_code": 0,
-      "seconds": 12.992,
-      "log_sha256": "39263b3709a3872b24d7bfd8cc3a304e8f1f01f2eef830faad6e1f57596b6f4d"
+      "seconds": 25.875,
+      "log_sha256": "6f257593fddc29ce9359a241bf221d49569aa898e79b75409c5c75804fbcf06d"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "-Ewarning",
+        "evidence/CheckFCTargets.lean"
+      ],
+      "directory": "lean",
+      "log": "fc-exact-targets.log",
+      "exit_code": 0,
+      "seconds": 74.004,
+      "log_sha256": "f9b992b7725ab8a7ff6ba1e8d1ef602b15c66089b173086a20a0378dd68ef9c2"
     }
   ],
+  "exact_fc_target_type_checks": 2,
+  "fc_model_declaration_checks": 15,
   "ordinary_lean_compilation": true,
   "independent_kernel_replay_this_run": false,
   "standalone_compiled_this_run": false,
   "standalone_lean": "4.35.0-rc4",
   "standalone_mathlib": "021ce68bf125a049beee22b3fc7664d78728e21d",
-  "standalone_sha256": "3e4ebf438f4f963a5fcad26e87f613ebe408562f7a46bd702347f0643bd81304",
+  "standalone_sha256": "2617bb82530b5ccf39159f58f1573be3b76c36ba62ac1fdbe07366fa846eb168",
   "build_cache_scope": "Existing fixed-version artifacts may be reused; not a cold build.",
   "third_party_semantic_review_complete": false
 }

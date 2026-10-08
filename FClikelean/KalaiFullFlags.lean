@@ -56,7 +56,7 @@ structure FullFlag {n : ℕ} (P : Set (Fin n → ℝ)) where
 n-dimensional convex polytope have at least 2^n n! complete flags?
 The answer is affirmative [Ki26]. -/
 @[category research solved, AMS 52,
-    formal_proof using lean4 at "https://github.com/KitaKen1/funk-volume-kalai-flags/blob/main/lean/Funk/MainTheorems.lean"]
+    formal_proof using lean4 at "https://github.com/KitaKen1/funk-volume-kalai-flags/blob/main/lean/FinalTheorems.lean"]
 theorem kalaiFullFlags :
     answer(True) ↔
       ∀ (n : ℕ), 1 ≤ n → ∀ (P : Set (Fin n → ℝ)),

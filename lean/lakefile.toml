@@ -1,6 +1,6 @@
 name = "funk"
 version = "0.1.0"
-defaultTargets = ["Funk"]
+defaultTargets = ["Funk", "FinalTheorems"]
 
 [[lean_lib]]
 name = "Funk"
@@ -31,3 +31,6 @@ name = "SymmetricFunkVolume"
 srcDir = "../FClikelean"
 [lean_lib.leanOptions]
 warn.sorry = false
+
+[[lean_lib]]
+name = "FinalTheorems"

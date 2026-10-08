@@ -8,7 +8,7 @@
       "module": "OAI.Analysis.Mahler.ExteriorAlternatization",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExteriorAlternatization.lean",
       "source_sha256": "4b2c5e6bdc635a1ad11a80731711af38f1c2c98ee68213798498f57c064113a6",
-      "first_body_line": 210,
+      "first_body_line": 214,
       "body_lines": 122,
       "compatibility_patch": null
     },
@@ -16,7 +16,7 @@
       "module": "OAI.Analysis.Mahler.HorizontalForms",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HorizontalForms.lean",
       "source_sha256": "5ecf0de601a9be291a0670a73bce254f94253b512d3017a01474435f623b76b9",
-      "first_body_line": 338,
+      "first_body_line": 342,
       "body_lines": 126,
       "compatibility_patch": null
     },
@@ -24,7 +24,7 @@
       "module": "OAI.Analysis.Mahler.WedgeAlgebra",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/WedgeAlgebra.lean",
       "source_sha256": "3026c60e72cb8e7ab35e95ed1d53ef8cbc6cbff7854b357c1aca6bf162a3200b",
-      "first_body_line": 470,
+      "first_body_line": 474,
       "body_lines": 84,
       "compatibility_patch": null
     },
@@ -32,7 +32,7 @@
       "module": "OAI.Analysis.Mahler.RawExteriorPower",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RawExteriorPower.lean",
       "source_sha256": "69b152c7e91c72343005664adee3b90a857536b96ddd09986003540ee7a87b10",
-      "first_body_line": 560,
+      "first_body_line": 564,
       "body_lines": 75,
       "compatibility_patch": null
     },
@@ -40,7 +40,7 @@
       "module": "OAI.Analysis.Mahler.RawAlternatingCalculus",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RawAlternatingCalculus.lean",
       "source_sha256": "7efa2a1a075c2c45070b31eeb9159812056406b43ab3c026faaf43217ad8a55b",
-      "first_body_line": 641,
+      "first_body_line": 645,
       "body_lines": 38,
       "compatibility_patch": null
     },
@@ -48,7 +48,7 @@
       "module": "OAI.Analysis.Mahler.RawClosedProduct",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RawClosedProduct.lean",
       "source_sha256": "2fdf9b904e9ea32b06ffd7dbf133b28f9a15a8777d464233a3bb55b66d316181",
-      "first_body_line": 685,
+      "first_body_line": 689,
       "body_lines": 87,
       "compatibility_patch": null
     },
@@ -56,7 +56,7 @@
       "module": "OAI.Analysis.Mahler.RawClosedPower",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RawClosedPower.lean",
       "source_sha256": "45f5a67b3262fdc646f41b4a35f88dbf761cb93d861cca5a0913ba4f60a89a5c",
-      "first_body_line": 778,
+      "first_body_line": 782,
       "body_lines": 54,
       "compatibility_patch": null
     },
@@ -64,7 +64,7 @@
       "module": "OAI.Analysis.Mahler.WedgeCalculus",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/WedgeCalculus.lean",
       "source_sha256": "e6c7ab5226c26b474af55e8cbb6e03933e6049485050a6cfac5365f3b42a6b29",
-      "first_body_line": 838,
+      "first_body_line": 842,
       "body_lines": 62,
       "compatibility_patch": null
     },
@@ -72,7 +72,7 @@
       "module": "OAI.Analysis.Mahler.ContinuousWedge",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ContinuousWedge.lean",
       "source_sha256": "f0822c8ee8ccae57527921983a3a5a9c9a25bd2bddbcc9bed4ac1d5574a06909",
-      "first_body_line": 906,
+      "first_body_line": 910,
       "body_lines": 104,
       "compatibility_patch": null
     },
@@ -80,7 +80,7 @@
       "module": "OAI.Analysis.Mahler.Hessian",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/Hessian.lean",
       "source_sha256": "482a2f2dc52185ced727857277714f7464a3c53cebd3d3d4d53603ec684378d0",
-      "first_body_line": 1016,
+      "first_body_line": 1020,
       "body_lines": 253,
       "compatibility_patch": null
     },
@@ -88,7 +88,7 @@
       "module": "OAI.Analysis.Mahler.Positivity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/Positivity.lean",
       "source_sha256": "ca1422abd1fc1a150f5f5a880f50d0f73954940d33d09f9a88a1ddf28ad82862",
-      "first_body_line": 1275,
+      "first_body_line": 1279,
       "body_lines": 72,
       "compatibility_patch": null
     },
@@ -96,7 +96,7 @@
       "module": "OAI.Analysis.Mahler.MatrixHessian",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/MatrixHessian.lean",
       "source_sha256": "3a89361f59b8b5e97335b0d06b6631a5fca42bb4aa70d9f1dfe903d596aeb7f0",
-      "first_body_line": 1353,
+      "first_body_line": 1357,
       "body_lines": 136,
       "compatibility_patch": null
     },
@@ -104,7 +104,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousFlux",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousFlux.lean",
       "source_sha256": "274a9fd3da9c2554cc0d579d756112751a7cc1609e6ff97523003de0c8cc5e93",
-      "first_body_line": 1495,
+      "first_body_line": 1499,
       "body_lines": 124,
       "compatibility_patch": null
     },
@@ -112,7 +112,7 @@
       "module": "OAI.Analysis.Mahler.HolomorphicRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HolomorphicRegularity.lean",
       "source_sha256": "bc5a60ceb8d59a5c982e754f5224cca8b60fe3e6d4b2a218739257dcb41e8fda",
-      "first_body_line": 1625,
+      "first_body_line": 1629,
       "body_lines": 175,
       "compatibility_patch": null
     },
@@ -120,7 +120,7 @@
       "module": "OAI.Analysis.Mahler.ExteriorFlux",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExteriorFlux.lean",
       "source_sha256": "6447980d9572b2abe2cd87196163548674bc1d1a29b7735a94baa5840bbbd9e2",
-      "first_body_line": 1806,
+      "first_body_line": 1810,
       "body_lines": 173,
       "compatibility_patch": null
     },
@@ -128,7 +128,7 @@
       "module": "OAI.Analysis.Mahler.MassTarget",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/MassTarget.lean",
       "source_sha256": "01e57540d5c45e9e507bc81593a66fda96c20e95c262b9bddfe4cfd4b1369112",
-      "first_body_line": 1985,
+      "first_body_line": 1989,
       "body_lines": 50,
       "compatibility_patch": null
     },
@@ -136,7 +136,7 @@
       "module": "OAI.Analysis.Mahler.OpenHessian",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/OpenHessian.lean",
       "source_sha256": "0d1da26b55219e834bf9649c083dc2a4beca4517651b1142d52dfd374052436c",
-      "first_body_line": 2041,
+      "first_body_line": 2045,
       "body_lines": 128,
       "compatibility_patch": null
     },
@@ -144,7 +144,7 @@
       "module": "OAI.Analysis.Mahler.ExteriorHessian",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExteriorHessian.lean",
       "source_sha256": "83aa5901f68e8f7b196cca12a9bbbe23bd74036fa297083d3cce29862660d3df",
-      "first_body_line": 2175,
+      "first_body_line": 2179,
       "body_lines": 67,
       "compatibility_patch": null
     },
@@ -152,7 +152,7 @@
       "module": "OAI.Analysis.Mahler.SourceHomogeneous",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceHomogeneous.lean",
       "source_sha256": "b5e2b96a153abcf3df2aaac9cb99d002cb29588799a0184bad3f8d663e15cfb9",
-      "first_body_line": 2248,
+      "first_body_line": 2252,
       "body_lines": 62,
       "compatibility_patch": null
     },
@@ -160,7 +160,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousDeformation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousDeformation.lean",
       "source_sha256": "fd1b2a1f42770e4f9bcda387b489420c09cdb00827864f44d50afab15e2a7ce6",
-      "first_body_line": 2316,
+      "first_body_line": 2320,
       "body_lines": 103,
       "compatibility_patch": null
     },
@@ -168,7 +168,7 @@
       "module": "OAI.Analysis.Mahler.SphereForms",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereForms.lean",
       "source_sha256": "ec25a18b86b5df18348a571ed2b506a2856513f55dcdeb26d169bf9b8c911556",
-      "first_body_line": 2425,
+      "first_body_line": 2429,
       "body_lines": 112,
       "compatibility_patch": null
     },
@@ -176,7 +176,7 @@
       "module": "OAI.Analysis.Mahler.NormSquareForm",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/NormSquareForm.lean",
       "source_sha256": "d1d4f2025572a7fa0b1e189f82616ef361671e987485da8c483e7e137debc29d",
-      "first_body_line": 2543,
+      "first_body_line": 2547,
       "body_lines": 60,
       "compatibility_patch": null
     },
@@ -184,7 +184,7 @@
       "module": "OAI.Analysis.Mahler.LevelForms",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/LevelForms.lean",
       "source_sha256": "96bbb3adf344a31939b85d74f567ea2804a855cbd4e4b23d37eb6224124369ff",
-      "first_body_line": 2609,
+      "first_body_line": 2613,
       "body_lines": 72,
       "compatibility_patch": null
     },
@@ -192,7 +192,7 @@
       "module": "OAI.Analysis.Mahler.ReferenceSphere",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ReferenceSphere.lean",
       "source_sha256": "53d45e8091f92163157642b65c1625abba0b3711718d830ad06a8c91b7dda6ff",
-      "first_body_line": 2687,
+      "first_body_line": 2691,
       "body_lines": 93,
       "compatibility_patch": null
     },
@@ -200,7 +200,7 @@
       "module": "OAI.Analysis.Mahler.CovectorVolume",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/CovectorVolume.lean",
       "source_sha256": "0658d432005008eec9e34252046182fa44bb3cf989db3a9f7cd92dfeadda93a3",
-      "first_body_line": 2786,
+      "first_body_line": 2790,
       "body_lines": 70,
       "compatibility_patch": null
     },
@@ -208,7 +208,7 @@
       "module": "OAI.Analysis.Mahler.ExteriorPower",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExteriorPower.lean",
       "source_sha256": "8ef56c14b5665cc7da6c17c3e10f529782bdc36cc46de1fe5de64fb82ad26a4f",
-      "first_body_line": 2862,
+      "first_body_line": 2866,
       "body_lines": 143,
       "compatibility_patch": null
     },
@@ -216,7 +216,7 @@
       "module": "OAI.Analysis.Mahler.NormExteriorPower",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/NormExteriorPower.lean",
       "source_sha256": "e1539c93e0688b000ca90bb2b9590771c400fa613d7d3779e404e72f11f07454",
-      "first_body_line": 3011,
+      "first_body_line": 3015,
       "body_lines": 84,
       "compatibility_patch": null
     },
@@ -224,7 +224,7 @@
       "module": "OAI.Analysis.Mahler.MatrixExteriorPower",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/MatrixExteriorPower.lean",
       "source_sha256": "468f31df5f6d68166418962e5bb354487b696444848a5fd9dabba6a52a31361e",
-      "first_body_line": 3101,
+      "first_body_line": 3105,
       "body_lines": 117,
       "compatibility_patch": null
     },
@@ -232,7 +232,7 @@
       "module": "OAI.Analysis.Mahler.OpenExteriorNormalization",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/OpenExteriorNormalization.lean",
       "source_sha256": "df29b4d468d09700b2ac5abbfa0d79611c922eef441bdc36e8533a2f2f25e544",
-      "first_body_line": 3224,
+      "first_body_line": 3228,
       "body_lines": 123,
       "compatibility_patch": null
     },
@@ -240,7 +240,7 @@
       "module": "OAI.Analysis.Mahler.DCForms",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/DCForms.lean",
       "source_sha256": "e147eb552345d6f30999d6fe91ad87e3da862478a363a02bff62cd0be28f1074",
-      "first_body_line": 3353,
+      "first_body_line": 3357,
       "body_lines": 93,
       "compatibility_patch": null
     },
@@ -248,7 +248,7 @@
       "module": "OAI.Analysis.Mahler.PullbackRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PullbackRegularity.lean",
       "source_sha256": "2235eac81d96f7416ede7c4cfd920ea167e96ca49f68cbd9e5bd4266bc434ff4",
-      "first_body_line": 3452,
+      "first_body_line": 3456,
       "body_lines": 62,
       "compatibility_patch": null
     },
@@ -256,7 +256,7 @@
       "module": "OAI.Analysis.Mahler.CoordinateBall",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/CoordinateBall.lean",
       "source_sha256": "045bab76a695e6ac76ad7ee8617aae49140c37bd840635aa123ded3fab103397",
-      "first_body_line": 3520,
+      "first_body_line": 3524,
       "body_lines": 126,
       "compatibility_patch": null
     },
@@ -264,7 +264,7 @@
       "module": "OAI.Analysis.Mahler.CoordinateAnnulus",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/CoordinateAnnulus.lean",
       "source_sha256": "3bb711a8bc556eeca8912c3466a37558e3ce04d8093ccd9cfca5a24a5d9af749",
-      "first_body_line": 3652,
+      "first_body_line": 3656,
       "body_lines": 154,
       "compatibility_patch": null
     },
@@ -272,7 +272,7 @@
       "module": "OAI.Analysis.Mahler.ShellRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ShellRegularity.lean",
       "source_sha256": "3684a2cc99681e57388962a2232f93eefbe66fa97320f044db650b41130d25f2",
-      "first_body_line": 3812,
+      "first_body_line": 3816,
       "body_lines": 104,
       "compatibility_patch": null
     },
@@ -280,7 +280,7 @@
       "module": "OAI.Analysis.Mahler.FormStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/FormStokes.lean",
       "source_sha256": "be508fbb919adb42225c126d37440f6b26ff6c8b36609dcd645d68fd5df3c6de",
-      "first_body_line": 3922,
+      "first_body_line": 3926,
       "body_lines": 67,
       "compatibility_patch": null
     },
@@ -288,7 +288,7 @@
       "module": "OAI.Analysis.Mahler.ChartStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ChartStokes.lean",
       "source_sha256": "cba27c7bcedfc20105c3c71eec50c832331a6b17e22eda17c56a0c77729757e2",
-      "first_body_line": 3995,
+      "first_body_line": 3999,
       "body_lines": 123,
       "compatibility_patch": null
     },
@@ -296,7 +296,7 @@
       "module": "OAI.Analysis.Mahler.OrientedChartIntegral",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/OrientedChartIntegral.lean",
       "source_sha256": "49264b56192e1b4c12c75470d4b50dc2c55a03485541d9cd5370072a6cb86e9e",
-      "first_body_line": 4124,
+      "first_body_line": 4128,
       "body_lines": 88,
       "compatibility_patch": null
     },
@@ -304,7 +304,7 @@
       "module": "OAI.Analysis.Mahler.RegularLevelCharts",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RegularLevelCharts.lean",
       "source_sha256": "355adc7953340365db21863f6620f017be940ad78af4fae2383a9e4fdd1dbe3a",
-      "first_body_line": 4218,
+      "first_body_line": 4222,
       "body_lines": 113,
       "compatibility_patch": null
     },
@@ -312,7 +312,7 @@
       "module": "OAI.Analysis.Mahler.RegularSublevel",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RegularSublevel.lean",
       "source_sha256": "fbda5b6f84e879e849831616677cbcc91470e876e2f30c2af16c642ac0b68052",
-      "first_body_line": 4337,
+      "first_body_line": 4341,
       "body_lines": 66,
       "compatibility_patch": null
     },
@@ -320,7 +320,7 @@
       "module": "OAI.Analysis.Mahler.RegularBoundaryAtlas",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RegularBoundaryAtlas.lean",
       "source_sha256": "c238842a79dabc37568b274e49979bc38c6be060bb22fe4fe3e88e345abc97f5",
-      "first_body_line": 4409,
+      "first_body_line": 4413,
       "body_lines": 85,
       "compatibility_patch": null
     },
@@ -328,7 +328,7 @@
       "module": "OAI.Analysis.Mahler.RegularPartition",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RegularPartition.lean",
       "source_sha256": "f220171101ef8e36b7a1a1332172fada2c5bdd0fc7d08083fc0c4aa30e545f5d",
-      "first_body_line": 4500,
+      "first_body_line": 4504,
       "body_lines": 86,
       "compatibility_patch": null
     },
@@ -336,7 +336,7 @@
       "module": "OAI.Analysis.Mahler.FormLocalization",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/FormLocalization.lean",
       "source_sha256": "7eef1bb744b82c27026d173da5c199517ea4c1b71a41e08924d5e32b22268a95",
-      "first_body_line": 4592,
+      "first_body_line": 4596,
       "body_lines": 89,
       "compatibility_patch": null
     },
@@ -344,7 +344,7 @@
       "module": "OAI.Analysis.Mahler.HalfspaceStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HalfspaceStokes.lean",
       "source_sha256": "e325c589c30091adb8e4b97b5b15bd9d42487cea644706671d07b823dd4a28f8",
-      "first_body_line": 4687,
+      "first_body_line": 4691,
       "body_lines": 119,
       "compatibility_patch": null
     },
@@ -352,7 +352,7 @@
       "module": "OAI.Analysis.Mahler.InteriorStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/InteriorStokes.lean",
       "source_sha256": "3a1afac809b2fbe19fdcf7223bd50db4d83844d098167db9be89b63e993cdd9f",
-      "first_body_line": 4812,
+      "first_body_line": 4816,
       "body_lines": 78,
       "compatibility_patch": null
     },
@@ -360,7 +360,7 @@
       "module": "OAI.Analysis.Mahler.ChartExtension",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ChartExtension.lean",
       "source_sha256": "5b7d3103a988d7b6f7e0ad6cb9e99a88a6e63b5cb8d53d9beb113f3df69b8f3b",
-      "first_body_line": 4896,
+      "first_body_line": 4900,
       "body_lines": 126,
       "compatibility_patch": null
     },
@@ -368,7 +368,7 @@
       "module": "OAI.Analysis.Mahler.RegularStokesAssembly",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RegularStokesAssembly.lean",
       "source_sha256": "cbf48bc17702250c8db0d0dc47d08c1098a33d9ae7ac0ebeccf853a8bbd509c5",
-      "first_body_line": 5028,
+      "first_body_line": 5032,
       "body_lines": 47,
       "compatibility_patch": null
     },
@@ -376,7 +376,7 @@
       "module": "OAI.Analysis.Mahler.RegularChartStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RegularChartStokes.lean",
       "source_sha256": "c6f09e9cc9ecb392bd832a9c4c329b877baf2ba1cd014a6528aecc1e7642dbe4",
-      "first_body_line": 5081,
+      "first_body_line": 5085,
       "body_lines": 172,
       "compatibility_patch": null
     },
@@ -384,7 +384,7 @@
       "module": "OAI.Analysis.Mahler.DCRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/DCRegularity.lean",
       "source_sha256": "5ea20fac905ba8855a595e7b77314f161ad81bdac0bf0be8f9e36c6fd45db0ae",
-      "first_body_line": 5259,
+      "first_body_line": 5263,
       "body_lines": 29,
       "compatibility_patch": null
     },
@@ -392,7 +392,7 @@
       "module": "OAI.Analysis.Mahler.LevelFace",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/LevelFace.lean",
       "source_sha256": "5fa5a82554af45c94a5829e4f8a9c79ce18d367a756e6b8802652cef5bbd684a",
-      "first_body_line": 5294,
+      "first_body_line": 5298,
       "body_lines": 130,
       "compatibility_patch": null
     },
@@ -400,7 +400,7 @@
       "module": "OAI.Analysis.Mahler.CoordinateSphere",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/CoordinateSphere.lean",
       "source_sha256": "7f268b209a3587fecb12b0c9f6afe5cc638a39cded61ca03c2826f34a691b1c6",
-      "first_body_line": 5430,
+      "first_body_line": 5434,
       "body_lines": 58,
       "compatibility_patch": null
     },
@@ -408,7 +408,7 @@
       "module": "OAI.Analysis.Mahler.CoordinateEuclidean",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/CoordinateEuclidean.lean",
       "source_sha256": "894d95522a89a29da858d0304323d19b1773003e6146d0c11980b8204d2beaf2",
-      "first_body_line": 5494,
+      "first_body_line": 5498,
       "body_lines": 33,
       "compatibility_patch": null
     },
@@ -416,7 +416,7 @@
       "module": "OAI.Analysis.Mahler.ComplexCoordinates",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ComplexCoordinates.lean",
       "source_sha256": "38bcc022903ad89ee7aa2143073905302da60b1120e3f37045cbf0427ad99fad",
-      "first_body_line": 5533,
+      "first_body_line": 5537,
       "body_lines": 108,
       "compatibility_patch": null
     },
@@ -424,7 +424,7 @@
       "module": "OAI.Analysis.Mahler.SourceLevelFlux",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceLevelFlux.lean",
       "source_sha256": "f4c38d717e86ed1399509453dbb3adda674f07a09a4d655a3645873b16976b63",
-      "first_body_line": 5647,
+      "first_body_line": 5651,
       "body_lines": 140,
       "compatibility_patch": null
     },
@@ -432,7 +432,7 @@
       "module": "OAI.Analysis.Mahler.SourceFluxRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceFluxRegularity.lean",
       "source_sha256": "e303475e70234fb4ad3fe3ced763f99b6d5caadf31eb3fe6ff0b9102b9f119df",
-      "first_body_line": 5793,
+      "first_body_line": 5797,
       "body_lines": 96,
       "compatibility_patch": null
     },
@@ -440,7 +440,7 @@
       "module": "OAI.Analysis.Mahler.SourceExteriorDerivative",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceExteriorDerivative.lean",
       "source_sha256": "61ace8da998669df4cf43db0fce2500e565d8fb254f8001bd230389297ea71df",
-      "first_body_line": 5895,
+      "first_body_line": 5899,
       "body_lines": 83,
       "compatibility_patch": null
     },
@@ -448,7 +448,7 @@
       "module": "OAI.Analysis.Mahler.SourceRawJets",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceRawJets.lean",
       "source_sha256": "3d8a905d4b28db688d0f91ced298c5d011a03f411204929e3af97a3734da8a55",
-      "first_body_line": 5984,
+      "first_body_line": 5988,
       "body_lines": 64,
       "compatibility_patch": null
     },
@@ -456,7 +456,7 @@
       "module": "OAI.Analysis.Mahler.RawCoefficientDerivative",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RawCoefficientDerivative.lean",
       "source_sha256": "c73ca45d3d9eb2d29d707e5fcd661a020ff8e1494e52c3a2e70c61237309d234",
-      "first_body_line": 6054,
+      "first_body_line": 6058,
       "body_lines": 56,
       "compatibility_patch": null
     },
@@ -464,7 +464,7 @@
       "module": "OAI.Analysis.Mahler.RawAlternationDerivative",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RawAlternationDerivative.lean",
       "source_sha256": "2a6d2569b2e471e560e42c92037083a25d4ea03f9e6010123e3b871af45fe247",
-      "first_body_line": 6116,
+      "first_body_line": 6120,
       "body_lines": 61,
       "compatibility_patch": null
     },
@@ -472,7 +472,7 @@
       "module": "OAI.Analysis.Mahler.SourceRawCoefficient",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceRawCoefficient.lean",
       "source_sha256": "3ab335701352a87a386070084d6a6f56797f1e5e4d68d51dbcdfc82795a28acb",
-      "first_body_line": 6183,
+      "first_body_line": 6187,
       "body_lines": 51,
       "compatibility_patch": null
     },
@@ -480,7 +480,7 @@
       "module": "OAI.Analysis.Mahler.RawReindexedDerivative",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RawReindexedDerivative.lean",
       "source_sha256": "2ad1206c0a8f42146466398e7b0e57b829c8de8f9da7b76d6c15f2569da63f7e",
-      "first_body_line": 6240,
+      "first_body_line": 6244,
       "body_lines": 71,
       "compatibility_patch": null
     },
@@ -488,7 +488,7 @@
       "module": "OAI.Analysis.Mahler.PuncturedBallStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PuncturedBallStokes.lean",
       "source_sha256": "d193427589b3011247d8a5eb8a3ee41ecdb9ba4e474c272b83bfca9750ec97aa",
-      "first_body_line": 6317,
+      "first_body_line": 6321,
       "body_lines": 66,
       "compatibility_patch": null
     },
@@ -496,7 +496,7 @@
       "module": "OAI.Analysis.Mahler.PunctureCutoff",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PunctureCutoff.lean",
       "source_sha256": "9deb86be8ed19e0d1e9f69561554e73ee64cc5866bed349c353a254e6f1fa00f",
-      "first_body_line": 6389,
+      "first_body_line": 6393,
       "body_lines": 122,
       "compatibility_patch": null
     },
@@ -504,7 +504,7 @@
       "module": "OAI.Analysis.Mahler.PuncturedSublevelStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PuncturedSublevelStokes.lean",
       "source_sha256": "74fdfab067e2d19be5697c3a3b478bad9eae19631105e4d416f2e06cada00181",
-      "first_body_line": 6517,
+      "first_body_line": 6521,
       "body_lines": 111,
       "compatibility_patch": null
     },
@@ -512,7 +512,7 @@
       "module": "OAI.Analysis.Mahler.SourceCoordinateForms",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceCoordinateForms.lean",
       "source_sha256": "5fd6ae3f8aa78b34bd5f931321ef68bf292876e9dbcc2abfcc992f12465e8bb6",
-      "first_body_line": 6634,
+      "first_body_line": 6638,
       "body_lines": 106,
       "compatibility_patch": null
     },
@@ -520,7 +520,7 @@
       "module": "OAI.Analysis.Mahler.SourceRawOrientation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceRawOrientation.lean",
       "source_sha256": "1a642f2757ad3fb114d1a8b56bb57b0d72476e46d10ec53de79d1a1ed2824f0f",
-      "first_body_line": 6746,
+      "first_body_line": 6750,
       "body_lines": 49,
       "compatibility_patch": null
     },
@@ -528,7 +528,7 @@
       "module": "OAI.Analysis.Mahler.SourceFullExterior",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceFullExterior.lean",
       "source_sha256": "81664eaa0efb483fdd3f9462a704bdeeab9f9344105f5f556d4a629198a3afe9",
-      "first_body_line": 6801,
+      "first_body_line": 6805,
       "body_lines": 75,
       "compatibility_patch": null
     },
@@ -536,7 +536,7 @@
       "module": "OAI.Analysis.Mahler.SourceRealExterior",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceRealExterior.lean",
       "source_sha256": "3908ed57c2b4cf6d60876fcefbcde2cd27397297f5faa68cb63ec8ab6b044378",
-      "first_body_line": 6882,
+      "first_body_line": 6886,
       "body_lines": 48,
       "compatibility_patch": null
     },
@@ -544,7 +544,7 @@
       "module": "OAI.Analysis.Mahler.SourceCoordinateMeasure",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceCoordinateMeasure.lean",
       "source_sha256": "e50dec7ac67cb777b99f64a3f054230f4dbd62fc36ec1569550dba8075e71a36",
-      "first_body_line": 6936,
+      "first_body_line": 6940,
       "body_lines": 0,
       "compatibility_patch": null
     },
@@ -552,7 +552,7 @@
       "module": "OAI.Analysis.Mahler.SourceTopCoordinates",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceTopCoordinates.lean",
       "source_sha256": "c6aaddbabbacbe67386898b0bbaab0f7981846e8d247d4a23e905dfde83112a4",
-      "first_body_line": 6943,
+      "first_body_line": 6947,
       "body_lines": 47,
       "compatibility_patch": null
     },
@@ -560,7 +560,7 @@
       "module": "OAI.Analysis.Mahler.SourceCoordinateExterior",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceCoordinateExterior.lean",
       "source_sha256": "436d22e2f8a42501245c0e17e0498cf98451f4fee25881ede92f32a8a36cea9e",
-      "first_body_line": 6996,
+      "first_body_line": 7000,
       "body_lines": 53,
       "compatibility_patch": null
     },
@@ -568,7 +568,7 @@
       "module": "OAI.Analysis.Mahler.SourceCanonicalMeasure",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceCanonicalMeasure.lean",
       "source_sha256": "7f47853248e3b555774bf7bfb48dea0a9ae13275f9d564cf0b24fba802b5d7e1",
-      "first_body_line": 7055,
+      "first_body_line": 7059,
       "body_lines": 36,
       "compatibility_patch": null
     },
@@ -576,7 +576,7 @@
       "module": "OAI.Analysis.Mahler.SourceStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceStokes.lean",
       "source_sha256": "406270e14cad59ec0b49a9fcff2c4305057a5ed9da6289650f1e7cf567431c1a",
-      "first_body_line": 7097,
+      "first_body_line": 7101,
       "body_lines": 98,
       "compatibility_patch": null
     },
@@ -584,7 +584,7 @@
       "module": "OAI.Analysis.Mahler.SourceBoundaryIntegral",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceBoundaryIntegral.lean",
       "source_sha256": "379919fd9599489b020443ce1c206cc9f5261ec8eff83fca26b9f8a5c0f21b1d",
-      "first_body_line": 7201,
+      "first_body_line": 7205,
       "body_lines": 89,
       "compatibility_patch": null
     },
@@ -592,7 +592,7 @@
       "module": "OAI.Analysis.Mahler.SourceRegularFlux",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceRegularFlux.lean",
       "source_sha256": "c7b77565b8a08faf0cf64fd8a6e42ec31d6fe122552747408ddb09339afa38dd",
-      "first_body_line": 7296,
+      "first_body_line": 7300,
       "body_lines": 54,
       "compatibility_patch": null
     },
@@ -600,7 +600,7 @@
       "module": "OAI.Analysis.Mahler.SourceRegularLimit",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceRegularLimit.lean",
       "source_sha256": "55fcf1fc52d0c0fa341392bbace8ab52e7f7cdefd0917b6d0c01b99619b5b36d",
-      "first_body_line": 7356,
+      "first_body_line": 7360,
       "body_lines": 50,
       "compatibility_patch": null
     },
@@ -608,7 +608,7 @@
       "module": "OAI.Analysis.Mahler.MassLimit",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/MassLimit.lean",
       "source_sha256": "200e171fc9b1e8b21d779a94410fd66900b22771ae65a5b700a3d04a7e0f1d5a",
-      "first_body_line": 7412,
+      "first_body_line": 7416,
       "body_lines": 41,
       "compatibility_patch": null
     },
@@ -616,7 +616,7 @@
       "module": "OAI.Analysis.Mahler.SourceRegularMass",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceRegularMass.lean",
       "source_sha256": "14b6f3bbfc05f5971f482d848efd0644d3dc1ed8bc229d3676fb7dd550e6a352",
-      "first_body_line": 7459,
+      "first_body_line": 7463,
       "body_lines": 35,
       "compatibility_patch": null
     },
@@ -624,7 +624,7 @@
       "module": "Funk.FiniteDensityProduct",
       "source": "lean/Funk/FiniteDensityProduct.lean",
       "source_sha256": "b8262e406a88dedd54ccd57b02470c98fa802086437fec9439f56540401fab97",
-      "first_body_line": 7500,
+      "first_body_line": 7504,
       "body_lines": 45,
       "compatibility_patch": null
     },
@@ -632,7 +632,7 @@
       "module": "Funk.DensityTransport",
       "source": "lean/Funk/DensityTransport.lean",
       "source_sha256": "fbc12038850f1fa08bbfad1378d27ff6eb78a6499a647a04703c44c710c3e860",
-      "first_body_line": 7551,
+      "first_body_line": 7555,
       "body_lines": 30,
       "compatibility_patch": null
     },
@@ -640,7 +640,7 @@
       "module": "Funk.LensHeight",
       "source": "lean/Funk/LensHeight.lean",
       "source_sha256": "6c96f5a86e0a3c91a33eb46748bb563f8d00e319ddb0828e9064cdb779101aa7",
-      "first_body_line": 7587,
+      "first_body_line": 7591,
       "body_lines": 120,
       "compatibility_patch": null
     },
@@ -648,7 +648,7 @@
       "module": "Funk.ScalarCertificate",
       "source": "lean/Funk/ScalarCertificate.lean",
       "source_sha256": "c463ad37bbaf761be1c509e4fe37630d09380a7f07b163bbf737ca42e164dc7d",
-      "first_body_line": 7713,
+      "first_body_line": 7717,
       "body_lines": 24,
       "compatibility_patch": null
     },
@@ -656,7 +656,7 @@
       "module": "Funk.BranchDensity",
       "source": "lean/Funk/BranchDensity.lean",
       "source_sha256": "52ae386b36df27e99dcf8ce17ce736118b882d0b17c2eecfc4fcbe02b5618308",
-      "first_body_line": 7743,
+      "first_body_line": 7747,
       "body_lines": 98,
       "compatibility_patch": null
     },
@@ -664,7 +664,7 @@
       "module": "Funk.Polar",
       "source": "lean/Funk/Polar.lean",
       "source_sha256": "d00eb0f79c9d009a82322c92799ec450131a6a1c585e99b6b2c5e6806b7db645",
-      "first_body_line": 7847,
+      "first_body_line": 7851,
       "body_lines": 77,
       "compatibility_patch": null
     },
@@ -672,7 +672,7 @@
       "module": "Funk.Targets",
       "source": "lean/Funk/Targets.lean",
       "source_sha256": "1a41a129829f6319dfba8b40687917a5f26ce9535cf779934176a6357f02ee27",
-      "first_body_line": 7930,
+      "first_body_line": 7934,
       "body_lines": 49,
       "compatibility_patch": null
     },
@@ -680,7 +680,7 @@
       "module": "Funk.IntervalNormalization",
       "source": "lean/Funk/IntervalNormalization.lean",
       "source_sha256": "e2d3ce534c561393507e1d684dd182e7a6e161229f13eea63dff86bb9cf9441d",
-      "first_body_line": 7985,
+      "first_body_line": 7989,
       "body_lines": 202,
       "compatibility_patch": null
     },
@@ -688,7 +688,7 @@
       "module": "Funk.BranchProbability",
       "source": "lean/Funk/BranchProbability.lean",
       "source_sha256": "cd9b7e96446a39bd1769b956527ec8283ad9142f55773837cd69e4154e3591a4",
-      "first_body_line": 8193,
+      "first_body_line": 8197,
       "body_lines": 153,
       "compatibility_patch": null
     },
@@ -696,7 +696,7 @@
       "module": "Funk.LensSeries",
       "source": "lean/Funk/LensSeries.lean",
       "source_sha256": "eecfb0275b8bc187a4e7d8d235317049ff79a90ee3ca6c324bc8089d10c95514",
-      "first_body_line": 8352,
+      "first_body_line": 8356,
       "body_lines": 134,
       "compatibility_patch": null
     },
@@ -704,7 +704,7 @@
       "module": "Funk.LensAnalytic",
       "source": "lean/Funk/LensAnalytic.lean",
       "source_sha256": "bcc2d70b21d5f73bd3566f7fce97cb9895ad2a5f1623b78b33a3c24e281aadd9",
-      "first_body_line": 8492,
+      "first_body_line": 8496,
       "body_lines": 68,
       "compatibility_patch": null
     },
@@ -712,7 +712,7 @@
       "module": "Funk.LensBoundary",
       "source": "lean/Funk/LensBoundary.lean",
       "source_sha256": "f1c942d9bc03a6ebac12fe1d570c1487d0be3619e9d83fbb3c98c34ec48ebab6",
-      "first_body_line": 8566,
+      "first_body_line": 8570,
       "body_lines": 174,
       "compatibility_patch": null
     },
@@ -720,7 +720,7 @@
       "module": "Funk.LensBoundaryHeight",
       "source": "lean/Funk/LensBoundaryHeight.lean",
       "source_sha256": "9645a153c494c7783b0979fcdf835653b63eab16bf430a43ca3bcc254554c487",
-      "first_body_line": 8746,
+      "first_body_line": 8750,
       "body_lines": 118,
       "compatibility_patch": null
     },
@@ -728,7 +728,7 @@
       "module": "Funk.LensHeightInverse",
       "source": "lean/Funk/LensHeightInverse.lean",
       "source_sha256": "6b79febcc1087f16bc90ff9dd418b7ad55d82188b29c65f0b9b382270abcff1c",
-      "first_body_line": 8870,
+      "first_body_line": 8874,
       "body_lines": 115,
       "compatibility_patch": null
     },
@@ -736,7 +736,7 @@
       "module": "Funk.LensHeightMeasure",
       "source": "lean/Funk/LensHeightMeasure.lean",
       "source_sha256": "4fc9ef851bac528221634cbb578f368b4d89819a847f249f7ce7d2388a520721",
-      "first_body_line": 8991,
+      "first_body_line": 8995,
       "body_lines": 93,
       "compatibility_patch": null
     },
@@ -744,7 +744,7 @@
       "module": "Funk.LensRealPart",
       "source": "lean/Funk/LensRealPart.lean",
       "source_sha256": "2cec289b9ebb8eac9280cac33e2c324edce1974f7de5497161c5f6db0c636ab9",
-      "first_body_line": 9090,
+      "first_body_line": 9094,
       "body_lines": 92,
       "compatibility_patch": null
     },
@@ -752,7 +752,7 @@
       "module": "Funk.WeightedSlope",
       "source": "lean/Funk/WeightedSlope.lean",
       "source_sha256": "105f069b867a91d72b87fdbcc19632895cfc8f1f375ae470e160f43646c8ec21",
-      "first_body_line": 9188,
+      "first_body_line": 9192,
       "body_lines": 35,
       "compatibility_patch": null
     },
@@ -760,7 +760,7 @@
       "module": "Funk.LensArcSeparation",
       "source": "lean/Funk/LensArcSeparation.lean",
       "source_sha256": "8990f84099c2022cf5a26d7d4bb036024e417698361a567a9af396bdfb4109cd",
-      "first_body_line": 9229,
+      "first_body_line": 9233,
       "body_lines": 134,
       "compatibility_patch": null
     },
@@ -768,7 +768,7 @@
       "module": "Funk.LensConcavity",
       "source": "lean/Funk/LensConcavity.lean",
       "source_sha256": "cc294167556197c229e38d59488640cb5a63f95f75761b6797b4719f00c65392",
-      "first_body_line": 9369,
+      "first_body_line": 9373,
       "body_lines": 76,
       "compatibility_patch": null
     },
@@ -776,7 +776,7 @@
       "module": "Funk.LensBoundaryInjective",
       "source": "lean/Funk/LensBoundaryInjective.lean",
       "source_sha256": "adaa4f6ebe51534947e0d7f7d37228974a5e2835788aec92c1c1c906748ec756",
-      "first_body_line": 9451,
+      "first_body_line": 9455,
       "body_lines": 95,
       "compatibility_patch": null
     },
@@ -784,7 +784,7 @@
       "module": "Funk.LensConvexBody",
       "source": "lean/Funk/LensConvexBody.lean",
       "source_sha256": "3306194b6b816ee9abba1d4aafb299feb146a9fe68994867b86809439b36d8f3",
-      "first_body_line": 9552,
+      "first_body_line": 9556,
       "body_lines": 149,
       "compatibility_patch": null
     },
@@ -792,7 +792,7 @@
       "module": "Funk.LensFrontier",
       "source": "lean/Funk/LensFrontier.lean",
       "source_sha256": "e1e36107aa6eaa8d7e843f858bc268dc7c724336875a9b66130c2cad8fb1ea7a",
-      "first_body_line": 9707,
+      "first_body_line": 9711,
       "body_lines": 197,
       "compatibility_patch": null
     },
@@ -800,7 +800,7 @@
       "module": "Funk.LensBoundaryMeasure",
       "source": "lean/Funk/LensBoundaryMeasure.lean",
       "source_sha256": "bb0a3801fe638eae9d51c0283e341bff195c61353dcb3fd0635b85cc210896e6",
-      "first_body_line": 9910,
+      "first_body_line": 9914,
       "body_lines": 125,
       "compatibility_patch": null
     },
@@ -808,7 +808,7 @@
       "module": "Funk.LensBoundaryProbability",
       "source": "lean/Funk/LensBoundaryProbability.lean",
       "source_sha256": "179329cc9bae0433e84a262d749af024d00a8a04b69cd74427abf8c3c8ed8f45",
-      "first_body_line": 10041,
+      "first_body_line": 10045,
       "body_lines": 120,
       "compatibility_patch": null
     },
@@ -816,7 +816,7 @@
       "module": "Funk.VertexDeterminant",
       "source": "lean/Funk/VertexDeterminant.lean",
       "source_sha256": "d20df48064d51079a410d6369012a10efc935ad9c011df6187b705b04a9ddd43",
-      "first_body_line": 10167,
+      "first_body_line": 10171,
       "body_lines": 79,
       "compatibility_patch": null
     },
@@ -824,7 +824,7 @@
       "module": "Funk.SimplexVolume",
       "source": "lean/Funk/SimplexVolume.lean",
       "source_sha256": "770fa4c685d17bb2e9234bab5c9d8a690166778e2613a5eae4022d027e58e217",
-      "first_body_line": 10252,
+      "first_body_line": 10256,
       "body_lines": 112,
       "compatibility_patch": null
     },
@@ -832,7 +832,7 @@
       "module": "Funk.LinearCertificate",
       "source": "lean/Funk/LinearCertificate.lean",
       "source_sha256": "b4a6572dd36a10b1f74e09b11c3c84b8d1017eca57f601d5fdc506ea5cc71257",
-      "first_body_line": 10370,
+      "first_body_line": 10374,
       "body_lines": 29,
       "compatibility_patch": null
     },
@@ -840,7 +840,7 @@
       "module": "Funk.CertificateExamples",
       "source": "lean/Funk/CertificateExamples.lean",
       "source_sha256": "6d29055b1dd7680e248e9865ed8602e3a76c0d683b2d105422988d8609cd89d1",
-      "first_body_line": 10405,
+      "first_body_line": 10409,
       "body_lines": 31,
       "compatibility_patch": null
     },
@@ -848,7 +848,7 @@
       "module": "Funk.SimplexCertificate",
       "source": "lean/Funk/SimplexCertificate.lean",
       "source_sha256": "834da27d966659855fd3cbc269afe9b7c46e2eb6613e1fa2fb74e62a47284aa1",
-      "first_body_line": 10442,
+      "first_body_line": 10446,
       "body_lines": 121,
       "compatibility_patch": null
     },
@@ -856,7 +856,7 @@
       "module": "Funk.SimplexPacking",
       "source": "lean/Funk/SimplexPacking.lean",
       "source_sha256": "671563d1265bac4c77b7281d8d2f43aee88a2d327d0e080661ca700d3ded9144",
-      "first_body_line": 10569,
+      "first_body_line": 10573,
       "body_lines": 107,
       "compatibility_patch": null
     },
@@ -864,7 +864,7 @@
       "module": "Funk.SeparationCertificate",
       "source": "lean/Funk/SeparationCertificate.lean",
       "source_sha256": "3a196b88e01d0c694500ccbe7308eb5ad18701fc0c5d243ad07228560f92c37d",
-      "first_body_line": 10682,
+      "first_body_line": 10686,
       "body_lines": 78,
       "compatibility_patch": null
     },
@@ -872,7 +872,7 @@
       "module": "Funk.SignedDiagonalPacking",
       "source": "lean/Funk/SignedDiagonalPacking.lean",
       "source_sha256": "f5138ae98b04f94e63e85925a97d3911fc3602bd685149e310a01999db771773",
-      "first_body_line": 10766,
+      "first_body_line": 10770,
       "body_lines": 95,
       "compatibility_patch": null
     },
@@ -880,7 +880,7 @@
       "module": "Funk.CubePolar",
       "source": "lean/Funk/CubePolar.lean",
       "source_sha256": "b12ade8b50a50ff4a60dd15655f7b107a08c056678fc519a6b8cd390b0d6c6d4",
-      "first_body_line": 10867,
+      "first_body_line": 10871,
       "body_lines": 62,
       "compatibility_patch": null
     },
@@ -888,7 +888,7 @@
       "module": "Funk.CubeFunk",
       "source": "lean/Funk/CubeFunk.lean",
       "source_sha256": "5cebb0ccf1bc8d95022c78e7b3d75e9bfc944515f6350bfaabef1ae55555f0d0",
-      "first_body_line": 10935,
+      "first_body_line": 10939,
       "body_lines": 195,
       "compatibility_patch": null
     },
@@ -896,7 +896,7 @@
       "module": "Funk.RowDensityMeasure",
       "source": "lean/Funk/RowDensityMeasure.lean",
       "source_sha256": "302df114d848257180330a409d5fdcf30e1f551a29e7bc5bdc605bede5dbf291",
-      "first_body_line": 11136,
+      "first_body_line": 11140,
       "body_lines": 100,
       "compatibility_patch": null
     },
@@ -904,7 +904,7 @@
       "module": "Funk.BasisDensityTransport",
       "source": "lean/Funk/BasisDensityTransport.lean",
       "source_sha256": "f4ddbaaf70637123acafc7dea8fcd0d34480184b3bd5bf98818fd727b0b97164",
-      "first_body_line": 11242,
+      "first_body_line": 11246,
       "body_lines": 117,
       "compatibility_patch": null
     },
@@ -912,7 +912,7 @@
       "module": "Funk.FeasibleRegion",
       "source": "lean/Funk/FeasibleRegion.lean",
       "source_sha256": "ee0d74c959cf2de81f054400d58ca129589a6e72268935fd2a941b12c159d969",
-      "first_body_line": 11365,
+      "first_body_line": 11369,
       "body_lines": 173,
       "compatibility_patch": null
     },
@@ -920,7 +920,7 @@
       "module": "Funk.PolytopeFaces",
       "source": "lean/Funk/PolytopeFaces.lean",
       "source_sha256": "c5caa5cb9da18261e4ba91fc155923e0acc5cc21c2b9ba746d0ba57f0c5daa1d",
-      "first_body_line": 11544,
+      "first_body_line": 11548,
       "body_lines": 89,
       "compatibility_patch": null
     },
@@ -928,7 +928,7 @@
       "module": "Funk.IntervalFlags",
       "source": "lean/Funk/IntervalFlags.lean",
       "source_sha256": "c1c791ed69d03240f173230228552926ca4ce293ac6d51217f5237a94fe0d467",
-      "first_body_line": 11639,
+      "first_body_line": 11643,
       "body_lines": 134,
       "compatibility_patch": null
     },
@@ -936,7 +936,7 @@
       "module": "Funk.PolytopeFlags",
       "source": "lean/Funk/PolytopeFlags.lean",
       "source_sha256": "8cfde684e47a436cf3dfcf8317943de22ef825e271ac89bd93431a39c792b7af",
-      "first_body_line": 11779,
+      "first_body_line": 11783,
       "body_lines": 101,
       "compatibility_patch": null
     },
@@ -944,7 +944,7 @@
       "module": "Funk.PolytopeExposed",
       "source": "lean/Funk/PolytopeExposed.lean",
       "source_sha256": "c3b1712849f3295e97640afadcfd024de813fe9b336657669e0bd6e9961acf92",
-      "first_body_line": 11886,
+      "first_body_line": 11890,
       "body_lines": 162,
       "compatibility_patch": null
     },
@@ -952,7 +952,7 @@
       "module": "Funk.FunkFinite",
       "source": "lean/Funk/FunkFinite.lean",
       "source_sha256": "c477e24b71fd09daf83b7482c3af223b1d9effd50ad626736cb148bda526e39c",
-      "first_body_line": 12054,
+      "first_body_line": 12058,
       "body_lines": 97,
       "compatibility_patch": null
     },
@@ -960,7 +960,7 @@
       "module": "Funk.FunkComparison",
       "source": "lean/Funk/FunkComparison.lean",
       "source_sha256": "26273f9ee13136784ef93a8370624e94fa416068695f0ae6130e1b39c4ba0c9f",
-      "first_body_line": 12157,
+      "first_body_line": 12161,
       "body_lines": 42,
       "compatibility_patch": null
     },
@@ -968,7 +968,7 @@
       "module": "Funk.PolytopeApproximation",
       "source": "lean/Funk/PolytopeApproximation.lean",
       "source_sha256": "8949f69a114aaceba753c406b071a88ff650b1889c4d11b20151d1b41355f581",
-      "first_body_line": 12205,
+      "first_body_line": 12209,
       "body_lines": 77,
       "compatibility_patch": null
     },
@@ -976,7 +976,7 @@
       "module": "Funk.HalfspaceVertices",
       "source": "lean/Funk/HalfspaceVertices.lean",
       "source_sha256": "3e42015902273c832638f8a44e6fb04ba8fe5e7a8fe93bc450ec888b207be629",
-      "first_body_line": 12288,
+      "first_body_line": 12292,
       "body_lines": 114,
       "compatibility_patch": null
     },
@@ -984,7 +984,7 @@
       "module": "Funk.CoordinateBipolar",
       "source": "lean/Funk/CoordinateBipolar.lean",
       "source_sha256": "6fa0f85205caf4c1ef03492312f223d0dd06b8fbfd79836d390b708efea08074",
-      "first_body_line": 12408,
+      "first_body_line": 12412,
       "body_lines": 78,
       "compatibility_patch": null
     },
@@ -992,7 +992,7 @@
       "module": "Funk.FunkScaling",
       "source": "lean/Funk/FunkScaling.lean",
       "source_sha256": "1f4fc8c2d936ca945ddf098d945236fd0b74f3a7794a934eb31bb49219d3ade0",
-      "first_body_line": 12492,
+      "first_body_line": 12496,
       "body_lines": 48,
       "compatibility_patch": null
     },
@@ -1000,7 +1000,7 @@
       "module": "Funk.BasisPackingIntegral",
       "source": "lean/Funk/BasisPackingIntegral.lean",
       "source_sha256": "3f819b13951009c9f4485e5cdf17853f53cf1596248c15ab690c5c8903b39b0a",
-      "first_body_line": 12546,
+      "first_body_line": 12550,
       "body_lines": 140,
       "compatibility_patch": null
     },
@@ -1008,7 +1008,7 @@
       "module": "Funk.BasisCubeCertificate",
       "source": "lean/Funk/BasisCubeCertificate.lean",
       "source_sha256": "3da96ed57b0f794794c404388c2b2e8956bac3675834ea2f5a3139980733d717",
-      "first_body_line": 12692,
+      "first_body_line": 12696,
       "body_lines": 72,
       "compatibility_patch": null
     },
@@ -1016,7 +1016,7 @@
       "module": "Funk.FeasibleFunk",
       "source": "lean/Funk/FeasibleFunk.lean",
       "source_sha256": "cf2eb905db1e4d929f6b5934cb71c98822d1356393b38bba983d93bf2b0d986d",
-      "first_body_line": 12770,
+      "first_body_line": 12774,
       "body_lines": 63,
       "compatibility_patch": null
     },
@@ -1024,7 +1024,7 @@
       "module": "Funk.GeometricSeparation",
       "source": "lean/Funk/GeometricSeparation.lean",
       "source_sha256": "a7ca6288ba5e172e9e363726c68f49491b15e116be315b107b3520ab9420c286",
-      "first_body_line": 12839,
+      "first_body_line": 12843,
       "body_lines": 131,
       "compatibility_patch": null
     },
@@ -1032,7 +1032,7 @@
       "module": "Funk.CanonicalWitness",
       "source": "lean/Funk/CanonicalWitness.lean",
       "source_sha256": "924650aa648288af2320bcd2f63a94531eabe8ee1e7ff07d5d63cf70e192032a",
-      "first_body_line": 12976,
+      "first_body_line": 12980,
       "body_lines": 168,
       "compatibility_patch": null
     },
@@ -1040,7 +1040,7 @@
       "module": "Funk.StripNull",
       "source": "lean/Funk/StripNull.lean",
       "source_sha256": "34f890da926d03f42a2b6cd5cd427856189d1150cde30d0d665a1015153ce513",
-      "first_body_line": 13150,
+      "first_body_line": 13154,
       "body_lines": 48,
       "compatibility_patch": null
     },
@@ -1048,7 +1048,7 @@
       "module": "Funk.CanonicalPacking",
       "source": "lean/Funk/CanonicalPacking.lean",
       "source_sha256": "1abeb3a4f412d094f07abfbdb0b82ed1b4eb3eebed32a2cd71fb58dd2f743114",
-      "first_body_line": 13204,
+      "first_body_line": 13208,
       "body_lines": 85,
       "compatibility_patch": null
     },
@@ -1056,7 +1056,7 @@
       "module": "Funk.CanonicalBasisFamily",
       "source": "lean/Funk/CanonicalBasisFamily.lean",
       "source_sha256": "5acb13a1b2180d39ffa9255a1065c8d4478d3e3e9abf584ba911ea2f4a779d18",
-      "first_body_line": 13295,
+      "first_body_line": 13299,
       "body_lines": 70,
       "compatibility_patch": null
     },
@@ -1064,7 +1064,7 @@
       "module": "Funk.RowRedundancy",
       "source": "lean/Funk/RowRedundancy.lean",
       "source_sha256": "fd5750ad4208e934ac21662f767cb1214aee0a1fb3d4132ecd283c989a4e3846",
-      "first_body_line": 13371,
+      "first_body_line": 13375,
       "body_lines": 182,
       "compatibility_patch": null
     },
@@ -1072,7 +1072,7 @@
       "module": "Funk.DistinctRows",
       "source": "lean/Funk/DistinctRows.lean",
       "source_sha256": "be442b19df92bb3dee1a9e3bb6db5a79b613cffa1d0545798683447837855988",
-      "first_body_line": 13559,
+      "first_body_line": 13563,
       "body_lines": 138,
       "compatibility_patch": null
     },
@@ -1080,7 +1080,7 @@
       "module": "Funk.MinimalRowFamily",
       "source": "lean/Funk/MinimalRowFamily.lean",
       "source_sha256": "0e36addd29477743e6e8c311704edc3eec3a59b6f30d94768c0be95e5cffe444",
-      "first_body_line": 13703,
+      "first_body_line": 13707,
       "body_lines": 96,
       "compatibility_patch": null
     },
@@ -1088,7 +1088,7 @@
       "module": "Funk.IrredundantRows",
       "source": "lean/Funk/IrredundantRows.lean",
       "source_sha256": "dcb4558a9f2dd428165dde4b82aa77e9bffd5fb9ec66042b2a6f18b027dad21a",
-      "first_body_line": 13805,
+      "first_body_line": 13809,
       "body_lines": 96,
       "compatibility_patch": null
     },
@@ -1096,7 +1096,7 @@
       "module": "Funk.IrredundantDirections",
       "source": "lean/Funk/IrredundantDirections.lean",
       "source_sha256": "37bddda357c242cc8873682bbd5e5025d3cc5331b3ccee20ca9d5044eb30ed7f",
-      "first_body_line": 13907,
+      "first_body_line": 13911,
       "body_lines": 104,
       "compatibility_patch": null
     },
@@ -1104,7 +1104,7 @@
       "module": "Funk.LensCurvature",
       "source": "lean/Funk/LensCurvature.lean",
       "source_sha256": "6380b461eb2ab8cc29af405bd479c943a3b314b8b2193f9333f26a6efb205ef8",
-      "first_body_line": 14017,
+      "first_body_line": 14021,
       "body_lines": 71,
       "compatibility_patch": null
     },
@@ -1112,7 +1112,7 @@
       "module": "Funk.LensBranchCurvature",
       "source": "lean/Funk/LensBranchCurvature.lean",
       "source_sha256": "e63044db39d298d2bce2388b55b5c82be39238d8204afd20ae85591d44ca13bf",
-      "first_body_line": 14094,
+      "first_body_line": 14098,
       "body_lines": 79,
       "compatibility_patch": null
     },
@@ -1120,7 +1120,7 @@
       "module": "Funk.CollisionResidual",
       "source": "lean/Funk/CollisionResidual.lean",
       "source_sha256": "6b96a8c0b915d2fee33ea898b037956ebeac44b9b0ee6605d34e43d09c6e490a",
-      "first_body_line": 14179,
+      "first_body_line": 14183,
       "body_lines": 99,
       "compatibility_patch": null
     },
@@ -1128,7 +1128,7 @@
       "module": "Funk.CollisionCurvature",
       "source": "lean/Funk/CollisionCurvature.lean",
       "source_sha256": "06ddf6b23c45cf206979777a4914f2a7ccd016ada0a86dccaa2131e9834aa796",
-      "first_body_line": 14284,
+      "first_body_line": 14288,
       "body_lines": 134,
       "compatibility_patch": null
     },
@@ -1136,7 +1136,7 @@
       "module": "Funk.RegularZeroNull",
       "source": "lean/Funk/RegularZeroNull.lean",
       "source_sha256": "7cdf28a08c4aa5eeb5e2bd55c57d92be1e9fcb3501443609a151df13ef9f74a0",
-      "first_body_line": 14424,
+      "first_body_line": 14428,
       "body_lines": 29,
       "compatibility_patch": null
     },
@@ -1144,7 +1144,7 @@
       "module": "Funk.CoordinateSliceNull",
       "source": "lean/Funk/CoordinateSliceNull.lean",
       "source_sha256": "2fa6868720c637ce010cfe457b2cb732dd47b506b595eb04c1139067a997ac91",
-      "first_body_line": 14459,
+      "first_body_line": 14463,
       "body_lines": 72,
       "compatibility_patch": null
     },
@@ -1152,7 +1152,7 @@
       "module": "Funk.CollisionNull",
       "source": "lean/Funk/CollisionNull.lean",
       "source_sha256": "1d9e162ec59079afd154d7410720803fb9f66449e6a845689a0695d3089b575f",
-      "first_body_line": 14537,
+      "first_body_line": 14541,
       "body_lines": 65,
       "compatibility_patch": null
     },
@@ -1160,7 +1160,7 @@
       "module": "Funk.IrredundantCompactRows",
       "source": "lean/Funk/IrredundantCompactRows.lean",
       "source_sha256": "d2d41ddcf48caa0759eaabf454b2f1a184d7f42804eb8087788185c53378a7b2",
-      "first_body_line": 14608,
+      "first_body_line": 14612,
       "body_lines": 42,
       "compatibility_patch": null
     },
@@ -1168,7 +1168,7 @@
       "module": "Funk.ExtraActiveNull",
       "source": "lean/Funk/ExtraActiveNull.lean",
       "source_sha256": "70efe0bfc596102a90fd948308c3483e0db7208627819c1a39efc1b63e271b95",
-      "first_body_line": 14656,
+      "first_body_line": 14660,
       "body_lines": 88,
       "compatibility_patch": null
     },
@@ -1176,7 +1176,7 @@
       "module": "Funk.IrredundantCollision",
       "source": "lean/Funk/IrredundantCollision.lean",
       "source_sha256": "4c15ddde293f7e0729f801d687a397bb9b8c8d6eea096ce9d1bab1aa831822a9",
-      "first_body_line": 14750,
+      "first_body_line": 14754,
       "body_lines": 74,
       "compatibility_patch": null
     },
@@ -1184,7 +1184,7 @@
       "module": "Funk.IrredundantCover",
       "source": "lean/Funk/IrredundantCover.lean",
       "source_sha256": "09f822d3492e72d030f95612fc17dca461d9815ad8bc940656e3de14f3deaf9b",
-      "first_body_line": 14830,
+      "first_body_line": 14834,
       "body_lines": 84,
       "compatibility_patch": null
     },
@@ -1192,7 +1192,7 @@
       "module": "Funk.PolytopeStrips",
       "source": "lean/Funk/PolytopeStrips.lean",
       "source_sha256": "158d0fa45bef0f1da4fb818b8f277ca5447d789ee49f1eaf29384d8098a502e1",
-      "first_body_line": 14920,
+      "first_body_line": 14924,
       "body_lines": 78,
       "compatibility_patch": null
     },
@@ -1200,7 +1200,7 @@
       "module": "Funk.PolytopeFunk",
       "source": "lean/Funk/PolytopeFunk.lean",
       "source_sha256": "04f44c79c70aed0727c9204aeda5f84d255ee38af4ae05bd36fe8249246202c0",
-      "first_body_line": 15004,
+      "first_body_line": 15008,
       "body_lines": 43,
       "compatibility_patch": null
     },
@@ -1208,7 +1208,7 @@
       "module": "Funk.ConvexFunk",
       "source": "lean/Funk/ConvexFunk.lean",
       "source_sha256": "6ed1e4e9954aa983b20d0fddfbb69cb2e917aa9d9bfaa7bcdaeaf7b7e8fd5f2f",
-      "first_body_line": 15053,
+      "first_body_line": 15057,
       "body_lines": 65,
       "compatibility_patch": null
     },
@@ -1216,7 +1216,7 @@
       "module": "Funk.FlagConvention",
       "source": "lean/Funk/FlagConvention.lean",
       "source_sha256": "9ba424cd3c5c781e35914c9adda3c449114ea0e142f56809e9bda7ed7fb6e44e",
-      "first_body_line": 15124,
+      "first_body_line": 15128,
       "body_lines": 123,
       "compatibility_patch": null
     },
@@ -1224,7 +1224,7 @@
       "module": "Funk.FlagReduction",
       "source": "lean/Funk/FlagReduction.lean",
       "source_sha256": "bb6794964839406c7d322aff2f03cdeea1b70a3a50a291bb7889583a3b0660f8",
-      "first_body_line": 15253,
+      "first_body_line": 15257,
       "body_lines": 66,
       "compatibility_patch": null
     },
@@ -1232,7 +1232,7 @@
       "module": "Funk.Radius",
       "source": "lean/Funk/Radius.lean",
       "source_sha256": "2f847095cd88c87c93c7bf3bce1ff1a13285ef9936306dae2e420dc0efb941e9",
-      "first_body_line": 15325,
+      "first_body_line": 15329,
       "body_lines": 54,
       "compatibility_patch": null
     },
@@ -1240,7 +1240,7 @@
       "module": "Funk.KalaiFunk",
       "source": "lean/Funk/KalaiFunk.lean",
       "source_sha256": "c893cc797f146743b68fdd8d82e288690b36a1af34a4b1391e3e662fdd9e82f1",
-      "first_body_line": 15385,
+      "first_body_line": 15389,
       "body_lines": 148,
       "compatibility_patch": null
     },
@@ -1248,7 +1248,7 @@
       "module": "Funk.SupportingFlagConvention",
       "source": "lean/Funk/SupportingFlagConvention.lean",
       "source_sha256": "ec98096a419a6f762debcf9a9b54f434b79774fe0103a22b9d5c720ee525be92",
-      "first_body_line": 15539,
+      "first_body_line": 15543,
       "body_lines": 145,
       "compatibility_patch": null
     },
@@ -1256,7 +1256,7 @@
       "module": "Funk.HalfspaceFaceConvention",
       "source": "lean/Funk/HalfspaceFaceConvention.lean",
       "source_sha256": "5bf1ef694831e0a4d6e288ed2a6d54573422852b43039c4b99e57f1bc26bba4b",
-      "first_body_line": 15690,
+      "first_body_line": 15694,
       "body_lines": 187,
       "compatibility_patch": null
     },
@@ -1264,7 +1264,7 @@
       "module": "Funk.FlagInterior",
       "source": "lean/Funk/FlagInterior.lean",
       "source_sha256": "308968938eb013dbb63e781c9b271c06fd10ddc7943c2c91c2fb32f8ee5702f3",
-      "first_body_line": 15883,
+      "first_body_line": 15887,
       "body_lines": 77,
       "compatibility_patch": null
     },
@@ -1272,7 +1272,7 @@
       "module": "Funk.FlagSimplex",
       "source": "lean/Funk/FlagSimplex.lean",
       "source_sha256": "279f39e47a39a20766bee5282f47c3940e2c51d085ae7dd2431ff5c8cabe05ea",
-      "first_body_line": 15966,
+      "first_body_line": 15970,
       "body_lines": 157,
       "compatibility_patch": null
     },
@@ -1280,7 +1280,7 @@
       "module": "Funk.DualCoordinates",
       "source": "lean/Funk/DualCoordinates.lean",
       "source_sha256": "09c5cf00f859e593a98896e0533174e8829ad3a409d0f886985385f394c093a2",
-      "first_body_line": 16129,
+      "first_body_line": 16133,
       "body_lines": 121,
       "compatibility_patch": null
     },
@@ -1288,7 +1288,7 @@
       "module": "Funk.BoundaryInterpolation",
       "source": "lean/Funk/BoundaryInterpolation.lean",
       "source_sha256": "beec86ac52569a53571c219ddd5676717fb411f3ddb839f4601ecd3dd2b51aae",
-      "first_body_line": 16256,
+      "first_body_line": 16260,
       "body_lines": 135,
       "compatibility_patch": null
     },
@@ -1296,7 +1296,7 @@
       "module": "Funk.BoundaryEventPartition",
       "source": "lean/Funk/BoundaryEventPartition.lean",
       "source_sha256": "0fcc10108eb140ab7b4d5fd096c23773f62b7527a66d2930b7a7c0141480aec3",
-      "first_body_line": 16397,
+      "first_body_line": 16401,
       "body_lines": 123,
       "compatibility_patch": null
     },
@@ -1304,7 +1304,7 @@
       "module": "Funk.ProjectivePolar",
       "source": "lean/Funk/ProjectivePolar.lean",
       "source_sha256": "ff1730752c71696394e7fa80199f2a7f3422b32767502c693cd0499fddbaa380",
-      "first_body_line": 16526,
+      "first_body_line": 16530,
       "body_lines": 105,
       "compatibility_patch": null
     },
@@ -1312,7 +1312,7 @@
       "module": "Funk.ProjectiveSimplex",
       "source": "lean/Funk/ProjectiveSimplex.lean",
       "source_sha256": "124a767fd09cdcd584ebe5bba951af6fbbe4334b7baa44bb8dc302989c9e0490",
-      "first_body_line": 16637,
+      "first_body_line": 16641,
       "body_lines": 103,
       "compatibility_patch": null
     },
@@ -1320,7 +1320,7 @@
       "module": "Funk.BoundaryFaces",
       "source": "lean/Funk/BoundaryFaces.lean",
       "source_sha256": "81cd0642a50bdf90aa73519d39eb29b81222f7f5aeec5d54674a4c0bce843505",
-      "first_body_line": 16746,
+      "first_body_line": 16750,
       "body_lines": 99,
       "compatibility_patch": null
     },
@@ -1328,7 +1328,7 @@
       "module": "Funk.RadialFaceCover",
       "source": "lean/Funk/RadialFaceCover.lean",
       "source_sha256": "25b345cc0943d003631d282f234b7153ff47d1bdf851c4ca1808ab65dc7657ad",
-      "first_body_line": 16851,
+      "first_body_line": 16855,
       "body_lines": 70,
       "compatibility_patch": null
     },
@@ -1336,7 +1336,7 @@
       "module": "Funk.RelativeFaceGeometry",
       "source": "lean/Funk/RelativeFaceGeometry.lean",
       "source_sha256": "372556e3d5cc2290df84568be9b76555d1e9cd59d8b1e7fcfc0a652e5457188a",
-      "first_body_line": 16927,
+      "first_body_line": 16931,
       "body_lines": 107,
       "compatibility_patch": null
     },
@@ -1344,7 +1344,7 @@
       "module": "Funk.RelativeBoundaryFaces",
       "source": "lean/Funk/RelativeBoundaryFaces.lean",
       "source_sha256": "5112c24988c6a8d2cfa56cbd18f3d82595f85c1ff383bf387fc4bfbbc610ca17",
-      "first_body_line": 17040,
+      "first_body_line": 17044,
       "body_lines": 97,
       "compatibility_patch": null
     },
@@ -1352,7 +1352,7 @@
       "module": "Funk.CoverUpperIntegral",
       "source": "lean/Funk/CoverUpperIntegral.lean",
       "source_sha256": "757a21ea9e65beca44d62978d0a9fc4cc34b7aa9f5b9a2074b0b271a7abbadc4",
-      "first_body_line": 17143,
+      "first_body_line": 17147,
       "body_lines": 102,
       "compatibility_patch": null
     },
@@ -1360,7 +1360,7 @@
       "module": "Funk.FacetPyramidCover",
       "source": "lean/Funk/FacetPyramidCover.lean",
       "source_sha256": "6af2dd652afe2e70220bd0b217536142d61253dc2641a6ac9ca79e57cee37fae",
-      "first_body_line": 17251,
+      "first_body_line": 17255,
       "body_lines": 98,
       "compatibility_patch": null
     },
@@ -1368,7 +1368,7 @@
       "module": "Funk.FaceChainCover",
       "source": "lean/Funk/FaceChainCover.lean",
       "source_sha256": "5c95986414933912514b86c1929b414c9dce8ff21471de94abda3df8f19b6ceb",
-      "first_body_line": 17355,
+      "first_body_line": 17359,
       "body_lines": 103,
       "compatibility_patch": null
     },
@@ -1376,7 +1376,7 @@
       "module": "Funk.FlagSimplexCover",
       "source": "lean/Funk/FlagSimplexCover.lean",
       "source_sha256": "a80e19012463e6231481b173deb54ea9326b5ad1fdcbc799ffaf7f3df81422a8",
-      "first_body_line": 17464,
+      "first_body_line": 17468,
       "body_lines": 194,
       "compatibility_patch": null
     },
@@ -1384,7 +1384,7 @@
       "module": "Funk.DualFlagCover",
       "source": "lean/Funk/DualFlagCover.lean",
       "source_sha256": "4a51b9b174438d515b3bfc2ba955c7002e6b80d18cf94e723abdb10adb4845ec",
-      "first_body_line": 17664,
+      "first_body_line": 17668,
       "body_lines": 140,
       "compatibility_patch": null
     },
@@ -1392,7 +1392,7 @@
       "module": "Funk.DualFlagDomain",
       "source": "lean/Funk/DualFlagDomain.lean",
       "source_sha256": "9605cd079083ce1bb74f98e9fd81f1d56b75842747ce7f43f0d6f8bfe71f86d3",
-      "first_body_line": 17810,
+      "first_body_line": 17814,
       "body_lines": 110,
       "compatibility_patch": null
     },
@@ -1400,7 +1400,7 @@
       "module": "Funk.DualFlagUpper",
       "source": "lean/Funk/DualFlagUpper.lean",
       "source_sha256": "7e3628d29214e731f02b96073ec31a9bd8f0d7d64317aa68e3540bda4c4db0b0",
-      "first_body_line": 17926,
+      "first_body_line": 17930,
       "body_lines": 89,
       "compatibility_patch": null
     },
@@ -1408,7 +1408,7 @@
       "module": "Funk.LogCoordinates",
       "source": "lean/Funk/LogCoordinates.lean",
       "source_sha256": "4ac5d96c7cf0af623641b1cda213406d64a28283417cf12a4f8a6d79de953c2e",
-      "first_body_line": 18021,
+      "first_body_line": 18025,
       "body_lines": 106,
       "compatibility_patch": null
     },
@@ -1416,7 +1416,7 @@
       "module": "Funk.DualLogDomain",
       "source": "lean/Funk/DualLogDomain.lean",
       "source_sha256": "034065db1df8e34feac0cd8b7a51427b1355a83a7c115e2a2534096f4a63ca0f",
-      "first_body_line": 18133,
+      "first_body_line": 18137,
       "body_lines": 133,
       "compatibility_patch": null
     },
@@ -1424,7 +1424,7 @@
       "module": "Funk.OrderedLogSimplex",
       "source": "lean/Funk/OrderedLogSimplex.lean",
       "source_sha256": "3802b37bafe8049189ef2a5d196f0dc9d6c12be9e9581b0fa2520d05c01f7454",
-      "first_body_line": 18272,
+      "first_body_line": 18276,
       "body_lines": 139,
       "compatibility_patch": null
     },
@@ -1432,7 +1432,7 @@
       "module": "Funk.LogOrderCertificate",
       "source": "lean/Funk/LogOrderCertificate.lean",
       "source_sha256": "4bf6c26a45b6ee50342b4262e72335d42b50447c0cd557b1f806b92166928e98",
-      "first_body_line": 18417,
+      "first_body_line": 18421,
       "body_lines": 164,
       "compatibility_patch": null
     },
@@ -1440,7 +1440,7 @@
       "module": "Funk.PositiveSupportCertificate",
       "source": "lean/Funk/PositiveSupportCertificate.lean",
       "source_sha256": "48cf189a2153aae01c302ca8196c646d3c4cc43cda1dc0e76ad90a345af4c27d",
-      "first_body_line": 18587,
+      "first_body_line": 18591,
       "body_lines": 156,
       "compatibility_patch": null
     },
@@ -1448,7 +1448,7 @@
       "module": "Funk.TailSupportClassification",
       "source": "lean/Funk/TailSupportClassification.lean",
       "source_sha256": "a53c84fd118dec4e89e1e057efb1a57e00a35cc31b3c59a4d64d80df98b99aa4",
-      "first_body_line": 18749,
+      "first_body_line": 18753,
       "body_lines": 145,
       "compatibility_patch": null
     },
@@ -1456,7 +1456,7 @@
       "module": "Funk.LogCoordinateBand",
       "source": "lean/Funk/LogCoordinateBand.lean",
       "source_sha256": "434d032475c0a0cea168c38cf5a4fc867be1a86d750f0597ec6ea6d2119ae47f",
-      "first_body_line": 18900,
+      "first_body_line": 18904,
       "body_lines": 76,
       "compatibility_patch": null
     },
@@ -1464,7 +1464,7 @@
       "module": "Funk.FlagSupportOrder",
       "source": "lean/Funk/FlagSupportOrder.lean",
       "source_sha256": "588b14d1f00cde71e389f857b8ef11af4bdc9657782da812e54d02259ca91523",
-      "first_body_line": 18982,
+      "first_body_line": 18986,
       "body_lines": 124,
       "compatibility_patch": null
     },
@@ -1472,7 +1472,7 @@
       "module": "Funk.PairLeadingUpper",
       "source": "lean/Funk/PairLeadingUpper.lean",
       "source_sha256": "276aeef53c411c8148ee28602875d915fd28e235c9eca99dded97de780d5950e",
-      "first_body_line": 19112,
+      "first_body_line": 19116,
       "body_lines": 69,
       "compatibility_patch": null
     },
@@ -1480,7 +1480,7 @@
       "module": "Funk.EqualSupportDecay",
       "source": "lean/Funk/EqualSupportDecay.lean",
       "source_sha256": "6f241c4806f6316de7ce0664ef3771b96eb4befc9d6062aaf910e280dccb849f",
-      "first_body_line": 19187,
+      "first_body_line": 19191,
       "body_lines": 204,
       "compatibility_patch": null
     },
@@ -1488,7 +1488,7 @@
       "module": "Funk.PositiveColumnDecay",
       "source": "lean/Funk/PositiveColumnDecay.lean",
       "source_sha256": "c158a7529177d8bf56241649e36a2340454081543bdbf54ca877abf6398c102a",
-      "first_body_line": 19397,
+      "first_body_line": 19401,
       "body_lines": 138,
       "compatibility_patch": null
     },
@@ -1496,7 +1496,7 @@
       "module": "Funk.FlagContactClassification",
       "source": "lean/Funk/FlagContactClassification.lean",
       "source_sha256": "9a68d01f2445384dea7f553ebfbf281f10e32704e18c7898f92d4bd6d30c342b",
-      "first_body_line": 19541,
+      "first_body_line": 19545,
       "body_lines": 186,
       "compatibility_patch": null
     },
@@ -1504,7 +1504,7 @@
       "module": "Funk.FlagContactUniqueness",
       "source": "lean/Funk/FlagContactUniqueness.lean",
       "source_sha256": "b0b885cf80fb92bf1c098b5dee68e96afaeb8c8e61b41bd6e44678e156bd55b1",
-      "first_body_line": 19733,
+      "first_body_line": 19737,
       "body_lines": 125,
       "compatibility_patch": null
     },
@@ -1512,7 +1512,7 @@
       "module": "Funk.SharpFlagUpper",
       "source": "lean/Funk/SharpFlagUpper.lean",
       "source_sha256": "f48b1cdfdab6757a0b70f123ff1e837d2608d4050a2a6e5a6268085b14003911",
-      "first_body_line": 19864,
+      "first_body_line": 19868,
       "body_lines": 174,
       "compatibility_patch": null
     },
@@ -1520,7 +1520,7 @@
       "module": "Funk.UnsignedBoundaryCover",
       "source": "lean/Funk/UnsignedBoundaryCover.lean",
       "source_sha256": "fefb47604258b073b8ea0d9fda8a22ed3cace37d4851921e95a687d30cfcbcce",
-      "first_body_line": 20044,
+      "first_body_line": 20048,
       "body_lines": 104,
       "compatibility_patch": null
     },
@@ -1528,7 +1528,7 @@
       "module": "Funk.PeriodicAngularMeasure",
       "source": "lean/Funk/PeriodicAngularMeasure.lean",
       "source_sha256": "d08fd74cd462058684887c4ea1fbfba270770e27fdcad47326618a1fc45bcb12",
-      "first_body_line": 20154,
+      "first_body_line": 20158,
       "body_lines": 100,
       "compatibility_patch": null
     },
@@ -1536,7 +1536,7 @@
       "module": "Funk.RectangularDeterminant",
       "source": "lean/Funk/RectangularDeterminant.lean",
       "source_sha256": "ec406f934e3787775aa8eca04f3b59f71b9545db79f8e5f433ca72077a79db73",
-      "first_body_line": 20260,
+      "first_body_line": 20264,
       "body_lines": 180,
       "compatibility_patch": null
     },
@@ -1544,7 +1544,7 @@
       "module": "Funk.LensJet",
       "source": "lean/Funk/LensJet.lean",
       "source_sha256": "39225ab75941b88c980b29ddc0934de489dbdbf9eaed547ce67aa1f49de40613",
-      "first_body_line": 20446,
+      "first_body_line": 20450,
       "body_lines": 139,
       "compatibility_patch": null
     },
@@ -1552,7 +1552,7 @@
       "module": "Funk.LensJetBoundary",
       "source": "lean/Funk/LensJetBoundary.lean",
       "source_sha256": "750fcf601f91b9ae403adad33342284a82109705ba41b44d63d99fbe72f71758",
-      "first_body_line": 20591,
+      "first_body_line": 20595,
       "body_lines": 136,
       "compatibility_patch": null
     },
@@ -1560,7 +1560,7 @@
       "module": "Funk.ConvexMaximum",
       "source": "lean/Funk/ConvexMaximum.lean",
       "source_sha256": "408e32106ec72ccab8ab22f4f3147e159f998be69b7c364631d29d3697df138e",
-      "first_body_line": 20733,
+      "first_body_line": 20737,
       "body_lines": 27,
       "compatibility_patch": null
     },
@@ -1568,7 +1568,7 @@
       "module": "Funk.LensDiskImage",
       "source": "lean/Funk/LensDiskImage.lean",
       "source_sha256": "cf54ebe561de0750de862e8926eef955eab7f7d33f675ef8d4f8d5cbd1ff3dbe",
-      "first_body_line": 20766,
+      "first_body_line": 20770,
       "body_lines": 105,
       "compatibility_patch": null
     },
@@ -1576,7 +1576,7 @@
       "module": "Funk.HalfPlane",
       "source": "lean/Funk/HalfPlane.lean",
       "source_sha256": "28087830a7bafc8a2fec8f0ec447799b5feef08a804b55f86d29df3b53c02589",
-      "first_body_line": 20877,
+      "first_body_line": 20881,
       "body_lines": 62,
       "compatibility_patch": null
     },
@@ -1584,7 +1584,7 @@
       "module": "Funk.LensJetPositive",
       "source": "lean/Funk/LensJetPositive.lean",
       "source_sha256": "b63c7f1960ed249ff5d5878d42249613241e1323ab9b0cc4660809f5174e533c",
-      "first_body_line": 20945,
+      "first_body_line": 20949,
       "body_lines": 87,
       "compatibility_patch": null
     },
@@ -1592,7 +1592,7 @@
       "module": "Funk.ArctanStrip",
       "source": "lean/Funk/ArctanStrip.lean",
       "source_sha256": "1521572c6e9c8eb155f1a579221cb703c2a3b21d178ebb24f0d9d06fab6fea4a",
-      "first_body_line": 21038,
+      "first_body_line": 21042,
       "body_lines": 76,
       "compatibility_patch": null
     },
@@ -1600,7 +1600,7 @@
       "module": "Funk.LensFibers",
       "source": "lean/Funk/LensFibers.lean",
       "source_sha256": "7cccc0b7b41ec2748175f62e2c375f09500a63b69303f83a6d125fa7b213bcb9",
-      "first_body_line": 21120,
+      "first_body_line": 21124,
       "body_lines": 100,
       "compatibility_patch": null
     },
@@ -1608,7 +1608,7 @@
       "module": "Funk.LensUnivalent",
       "source": "lean/Funk/LensUnivalent.lean",
       "source_sha256": "328506f146a5e83cff34aa81f983c7ce5ed08b444897e90b659d06011b0fffe2",
-      "first_body_line": 21226,
+      "first_body_line": 21230,
       "body_lines": 78,
       "compatibility_patch": null
     },
@@ -1616,7 +1616,7 @@
       "module": "Funk.LensInverse",
       "source": "lean/Funk/LensInverse.lean",
       "source_sha256": "045000d21fb6fccc6c30c6b60d8233143c1ea8dd7dabd70eaac415dca1ef1fc8",
-      "first_body_line": 21310,
+      "first_body_line": 21314,
       "body_lines": 62,
       "compatibility_patch": null
     },
@@ -1624,7 +1624,7 @@
       "module": "Funk.LensComplexRows",
       "source": "lean/Funk/LensComplexRows.lean",
       "source_sha256": "5bfef81ccfccbe1ae89e7753def9509223ac9b249af52f842b9ed3c534197af7",
-      "first_body_line": 21378,
+      "first_body_line": 21382,
       "body_lines": 110,
       "compatibility_patch": null
     },
@@ -1632,7 +1632,7 @@
       "module": "Funk.LensPowerMap",
       "source": "lean/Funk/LensPowerMap.lean",
       "source_sha256": "fc0dc44d7125483f0a0c6b6e39bf11e69bdafcabb929b5ae4da34727e1ac0a1b",
-      "first_body_line": 21494,
+      "first_body_line": 21498,
       "body_lines": 106,
       "compatibility_patch": null
     },
@@ -1640,7 +1640,7 @@
       "module": "Funk.LensPowerSublevels",
       "source": "lean/Funk/LensPowerSublevels.lean",
       "source_sha256": "9984b8911b1fc86f85b8ede79509006116a35eead1905e75f444af7aa53b2574",
-      "first_body_line": 21606,
+      "first_body_line": 21610,
       "body_lines": 104,
       "compatibility_patch": null
     },
@@ -1648,7 +1648,7 @@
       "module": "Funk.LensPowerLeading",
       "source": "lean/Funk/LensPowerLeading.lean",
       "source_sha256": "eb9fd8abc39deca2ab9f55e56b414ae18cb45b7665a6e16cc5b82ae4e3b93a75",
-      "first_body_line": 21716,
+      "first_body_line": 21720,
       "body_lines": 64,
       "compatibility_patch": null
     },
@@ -1656,7 +1656,7 @@
       "module": "Funk.LensPowerTaylor",
       "source": "lean/Funk/LensPowerTaylor.lean",
       "source_sha256": "138a200b78ffb8be3db5091c5cbedf3dd76258b056ff755ad251a8754886bfd8",
-      "first_body_line": 21786,
+      "first_body_line": 21790,
       "body_lines": 64,
       "compatibility_patch": null
     },
@@ -1664,7 +1664,7 @@
       "module": "Funk.LensPowerMassInput",
       "source": "lean/Funk/LensPowerMassInput.lean",
       "source_sha256": "11135c27976a9954ce1870a94ae5754949c73099e091320c1413564394ac8703",
-      "first_body_line": 21856,
+      "first_body_line": 21860,
       "body_lines": 54,
       "compatibility_patch": null
     },
@@ -1672,7 +1672,7 @@
       "module": "Funk.LensRadialContraction",
       "source": "lean/Funk/LensRadialContraction.lean",
       "source_sha256": "f447ddf6737ccef4ab2cd356e3680fafceb8f6300d90c241199ea732af6d5c27",
-      "first_body_line": 21916,
+      "first_body_line": 21920,
       "body_lines": 83,
       "compatibility_patch": null
     },
@@ -1680,7 +1680,7 @@
       "module": "Funk.LensRadialPositive",
       "source": "lean/Funk/LensRadialPositive.lean",
       "source_sha256": "e575d4692d80d6e058c0af8112a770a8407ba1fb6f82cdf094a0ce4ebce18a20",
-      "first_body_line": 22005,
+      "first_body_line": 22009,
       "body_lines": 110,
       "compatibility_patch": null
     },
@@ -1688,7 +1688,7 @@
       "module": "Funk.LensPowerRegular",
       "source": "lean/Funk/LensPowerRegular.lean",
       "source_sha256": "e4897e11e57c0b7f62c7d30406fb73c048f3ede68761935097e4a1d83d52baf7",
-      "first_body_line": 22121,
+      "first_body_line": 22125,
       "body_lines": 129,
       "compatibility_patch": null
     },
@@ -1696,7 +1696,7 @@
       "module": "Funk.LensPowerDerivative",
       "source": "lean/Funk/LensPowerDerivative.lean",
       "source_sha256": "33a77ca081e35421930c91a791cff5f5a9c43300fe566fc25ca1613f430583c2",
-      "first_body_line": 22256,
+      "first_body_line": 22260,
       "body_lines": 97,
       "compatibility_patch": null
     },
@@ -1704,7 +1704,7 @@
       "module": "Funk.LensPowerGram",
       "source": "lean/Funk/LensPowerGram.lean",
       "source_sha256": "67332f319f22b7e99b97cafa271ca7063fe176aa6fbb37cb399134639e19395e",
-      "first_body_line": 22359,
+      "first_body_line": 22363,
       "body_lines": 87,
       "compatibility_patch": null
     },
@@ -1712,7 +1712,7 @@
       "module": "Funk.LensMassExhaustion",
       "source": "lean/Funk/LensMassExhaustion.lean",
       "source_sha256": "784b79cbfb86291116b679f8616777ac932d938e27116bdc5a885d70ae46480e",
-      "first_body_line": 22452,
+      "first_body_line": 22456,
       "body_lines": 76,
       "compatibility_patch": null
     },
@@ -1720,7 +1720,7 @@
       "module": "OAI.Analysis.Mahler.WedgeDecomposition",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/WedgeDecomposition.lean",
       "source_sha256": "c1d40ffc61a8e46f4c8faff4cd77f7c13ff3af5897cc63f6083e91736f4a3189",
-      "first_body_line": 22534,
+      "first_body_line": 22538,
       "body_lines": 84,
       "compatibility_patch": null
     },
@@ -1728,7 +1728,7 @@
       "module": "OAI.Analysis.Mahler.WedgeAssociativity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/WedgeAssociativity.lean",
       "source_sha256": "7f77b1d9925a44039dd08b61cb121215451fb917a3df93819acc687595e90f57",
-      "first_body_line": 22624,
+      "first_body_line": 22628,
       "body_lines": 66,
       "compatibility_patch": null
     },
@@ -1736,7 +1736,7 @@
       "module": "OAI.Analysis.Mahler.WedgeOne",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/WedgeOne.lean",
       "source_sha256": "93734abbf5ee5a76e1bab59b6725a0cbd45f1493896a81b2039716ba9441834b",
-      "first_body_line": 22696,
+      "first_body_line": 22700,
       "body_lines": 72,
       "compatibility_patch": null
     },
@@ -1744,7 +1744,7 @@
       "module": "OAI.Analysis.Mahler.ExteriorCoefficient",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExteriorCoefficient.lean",
       "source_sha256": "ec6f71ac66c9d7c549ac13195af5a5394a3e2fbb5cd00c8689e7349737da04ba",
-      "first_body_line": 22774,
+      "first_body_line": 22778,
       "body_lines": 32,
       "compatibility_patch": null
     },
@@ -1752,7 +1752,7 @@
       "module": "OAI.Analysis.Mahler.WedgeEven",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/WedgeEven.lean",
       "source_sha256": "1f118d1e2f92933efd4047b09c81f66d2e47ca3b9f408c5e89b46c3f24c0fd98",
-      "first_body_line": 22812,
+      "first_body_line": 22816,
       "body_lines": 105,
       "compatibility_patch": null
     },
@@ -1760,7 +1760,7 @@
       "module": "OAI.Analysis.Mahler.BasisContinuousWedge",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/BasisContinuousWedge.lean",
       "source_sha256": "411f955f9e3e001d9047517e99013bb3bad899227011bef869f0fc4be0b3fb3c",
-      "first_body_line": 22923,
+      "first_body_line": 22927,
       "body_lines": 67,
       "compatibility_patch": null
     },
@@ -1768,7 +1768,7 @@
       "module": "OAI.Analysis.Mahler.ExteriorCoordinates",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExteriorCoordinates.lean",
       "source_sha256": "f78301c7a8d536ac602b7d338e974b6fd29abf4ddd82075cb6cb42712551a4ca",
-      "first_body_line": 22996,
+      "first_body_line": 23000,
       "body_lines": 85,
       "compatibility_patch": null
     },
@@ -1776,7 +1776,7 @@
       "module": "OAI.Analysis.Mahler.ExteriorDirectional",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExteriorDirectional.lean",
       "source_sha256": "aac10f9c79a239351d0088cf0a3464a8afedec84b1da29147c3250e760e737ca",
-      "first_body_line": 23087,
+      "first_body_line": 23091,
       "body_lines": 38,
       "compatibility_patch": null
     },
@@ -1784,7 +1784,7 @@
       "module": "OAI.Analysis.Mahler.ContinuousWedgeDerivative",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ContinuousWedgeDerivative.lean",
       "source_sha256": "a7a172ebcbabf73f5b646de25e41e4e8fd31a569c5c88458d90a89a11588d115",
-      "first_body_line": 23131,
+      "first_body_line": 23135,
       "body_lines": 74,
       "compatibility_patch": null
     },
@@ -1792,7 +1792,7 @@
       "module": "OAI.Analysis.Mahler.SphereNormalization",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereNormalization.lean",
       "source_sha256": "b4ad2bdd97ca4b182dbcdf120762fe33f6c02d0a00c49a25a97c78a5f2ad771e",
-      "first_body_line": 23211,
+      "first_body_line": 23215,
       "body_lines": 44,
       "compatibility_patch": null
     },
@@ -1800,7 +1800,7 @@
       "module": "OAI.Analysis.Mahler.OrientedSphereDensity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/OrientedSphereDensity.lean",
       "source_sha256": "2a994d2f78da188839b0ecb28b6f542e226465d722d6c315c6d57847fef47854",
-      "first_body_line": 23261,
+      "first_body_line": 23265,
       "body_lines": 157,
       "compatibility_patch": null
     },
@@ -1808,7 +1808,7 @@
       "module": "OAI.Analysis.Mahler.SphereFluxIntegral",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereFluxIntegral.lean",
       "source_sha256": "2c36657d99988f82e64c31880f088fb89914ed220fd590e5747c6c4931568bc7",
-      "first_body_line": 23424,
+      "first_body_line": 23428,
       "body_lines": 86,
       "compatibility_patch": null
     },
@@ -1816,7 +1816,7 @@
       "module": "OAI.Analysis.Mahler.WedgeUnit",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/WedgeUnit.lean",
       "source_sha256": "5fa3db58867f47badd325a382a4adff9d1fbb3713caab424f87bad0d0f158ba7",
-      "first_body_line": 23516,
+      "first_body_line": 23520,
       "body_lines": 71,
       "compatibility_patch": null
     },
@@ -1824,7 +1824,7 @@
       "module": "OAI.Analysis.Mahler.WedgeTwoDifferentialAlgebra",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/WedgeTwoDifferentialAlgebra.lean",
       "source_sha256": "3fa331867939c27a5e5e67b4cd6fbfb30aecb15e651496da2dd7ce78be05a881",
-      "first_body_line": 23593,
+      "first_body_line": 23597,
       "body_lines": 87,
       "compatibility_patch": null
     },
@@ -1832,7 +1832,7 @@
       "module": "OAI.Analysis.Mahler.ExteriorLeibnizTwo",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExteriorLeibnizTwo.lean",
       "source_sha256": "442b1c0f314ed9cfd8bae73c8ce1e527498e0a7e7c7b510aa4ba2af9f4b4e454",
-      "first_body_line": 23686,
+      "first_body_line": 23690,
       "body_lines": 76,
       "compatibility_patch": null
     },
@@ -1840,7 +1840,7 @@
       "module": "OAI.Analysis.Mahler.UnitaryReference",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/UnitaryReference.lean",
       "source_sha256": "98739168be3ddd8e8bec01f884694aa44774063fbbdfcc97968f9b87a4bb141d",
-      "first_body_line": 23768,
+      "first_body_line": 23772,
       "body_lines": 80,
       "compatibility_patch": null
     },
@@ -1848,7 +1848,7 @@
       "module": "OAI.Analysis.Mahler.ReferencePole",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ReferencePole.lean",
       "source_sha256": "b2204832d888df234b11b543abdaee0382fe76faaac5facdb61382ee11998a20",
-      "first_body_line": 23854,
+      "first_body_line": 23858,
       "body_lines": 98,
       "compatibility_patch": null
     },
@@ -1856,7 +1856,7 @@
       "module": "OAI.Analysis.Mahler.ReferencePoleFrame",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ReferencePoleFrame.lean",
       "source_sha256": "f3ac4eae47308e45755f7dd5f157a461a5cd01c9bbe42f2f00a33a340160748b",
-      "first_body_line": 23958,
+      "first_body_line": 23962,
       "body_lines": 117,
       "compatibility_patch": null
     },
@@ -1864,7 +1864,7 @@
       "module": "OAI.Analysis.Mahler.ReferenceSphereIntegral",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ReferenceSphereIntegral.lean",
       "source_sha256": "3fb0fb065bc874d1a1bd322b55f4a9ac7729b5e1fcf41ae0843d6a7bf46864e8",
-      "first_body_line": 24081,
+      "first_body_line": 24085,
       "body_lines": 100,
       "compatibility_patch": null
     },
@@ -1872,7 +1872,7 @@
       "module": "OAI.Analysis.Mahler.SphereDensityRestriction",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereDensityRestriction.lean",
       "source_sha256": "af8a40dcee2703fd82c1988cccd4c85a914530facda318001d95188619c8333c",
-      "first_body_line": 24187,
+      "first_body_line": 24191,
       "body_lines": 47,
       "compatibility_patch": null
     },
@@ -1880,7 +1880,7 @@
       "module": "OAI.Analysis.Mahler.FluxVariation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/FluxVariation.lean",
       "source_sha256": "1c5df7b6f7416e4b101702305eb108faf1fcd84e4f3018f83b4090310ab24551",
-      "first_body_line": 24240,
+      "first_body_line": 24244,
       "body_lines": 99,
       "compatibility_patch": null
     },
@@ -1888,7 +1888,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousSphereIntegral",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousSphereIntegral.lean",
       "source_sha256": "54ba786bc1ee29dcee8f7ac0b492684f5991ad241a635a9a2b63af71fc4dcd17",
-      "first_body_line": 24345,
+      "first_body_line": 24349,
       "body_lines": 74,
       "compatibility_patch": null
     },
@@ -1896,7 +1896,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousDensityVariation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousDensityVariation.lean",
       "source_sha256": "7cb051ab696d60d613dcfd2e6efcc2a7485e38d391ee102149e5eb96de517004",
-      "first_body_line": 24425,
+      "first_body_line": 24429,
       "body_lines": 68,
       "compatibility_patch": null
     },
@@ -1904,7 +1904,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousSmoothForms",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousSmoothForms.lean",
       "source_sha256": "14cb664f35899c47a4bfc8bb6e7a41b88bffc17c84e7f982b06a97ca4113898c",
-      "first_body_line": 24499,
+      "first_body_line": 24503,
       "body_lines": 67,
       "compatibility_patch": null
     },
@@ -1912,7 +1912,7 @@
       "module": "OAI.Analysis.Mahler.ClosedWedgePowers",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ClosedWedgePowers.lean",
       "source_sha256": "b9f0df6c667835c967ab51b7df7f8d8a2d6a9610a1b468ba1ec08aecfaee52db",
-      "first_body_line": 24572,
+      "first_body_line": 24576,
       "body_lines": 101,
       "compatibility_patch": null
     },
@@ -1920,7 +1920,7 @@
       "module": "OAI.Analysis.Mahler.PairTransgression",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PairTransgression.lean",
       "source_sha256": "8068b41f49e8964108c3a78e119f3499ae1db065f7bf52f9ef9999ec729b3295",
-      "first_body_line": 24679,
+      "first_body_line": 24683,
       "body_lines": 129,
       "compatibility_patch": null
     },
@@ -1928,7 +1928,7 @@
       "module": "OAI.Analysis.Mahler.PairExteriorBridge",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PairExteriorBridge.lean",
       "source_sha256": "d9a143a43c501de833f1408ef58bbed873d90014d7bac726d53babf11bd8d01f",
-      "first_body_line": 24814,
+      "first_body_line": 24818,
       "body_lines": 23,
       "compatibility_patch": null
     },
@@ -1936,7 +1936,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousVariationCoefficient",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousVariationCoefficient.lean",
       "source_sha256": "ebe7a93d5d1644e027478b3e9ddee030319d607178f8f39f2cd030405926fa83",
-      "first_body_line": 24843,
+      "first_body_line": 24847,
       "body_lines": 51,
       "compatibility_patch": null
     },
@@ -1944,7 +1944,7 @@
       "module": "OAI.Analysis.Mahler.PowerTransgression",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PowerTransgression.lean",
       "source_sha256": "930eeedf56aadd16a0309d6128f6c3232cfddbe5a85fd74456200b67b023a1fd",
-      "first_body_line": 24900,
+      "first_body_line": 24904,
       "body_lines": 117,
       "compatibility_patch": null
     },
@@ -1952,7 +1952,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousTransgression",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousTransgression.lean",
       "source_sha256": "70ddaa59dd91b03c9d2446aa05c52fcf2a25a82d581b9544caefee612a2d8bc1",
-      "first_body_line": 25023,
+      "first_body_line": 25027,
       "body_lines": 145,
       "compatibility_patch": null
     },
@@ -1960,7 +1960,7 @@
       "module": "OAI.Analysis.Mahler.PrimitiveRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PrimitiveRegularity.lean",
       "source_sha256": "bc4939677c42832650e66bd2144760724dfab5ff49fb52cef28662698c136736",
-      "first_body_line": 25174,
+      "first_body_line": 25178,
       "body_lines": 82,
       "compatibility_patch": null
     },
@@ -1968,7 +1968,7 @@
       "module": "OAI.Analysis.Mahler.DilationTransport",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/DilationTransport.lean",
       "source_sha256": "a812d7779512883a6c290747dfcdf0e762bdb1be357db7218caecd16fa24beca",
-      "first_body_line": 25262,
+      "first_body_line": 25266,
       "body_lines": 77,
       "compatibility_patch": null
     },
@@ -1976,7 +1976,7 @@
       "module": "OAI.Analysis.Mahler.BoundaryJet",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/BoundaryJet.lean",
       "source_sha256": "b6142f969dbe2e54128cee5f751ce5e676e590a78329085170956863db5292f6",
-      "first_body_line": 25345,
+      "first_body_line": 25349,
       "body_lines": 95,
       "compatibility_patch": null
     },
@@ -1984,7 +1984,7 @@
       "module": "OAI.Analysis.Mahler.LogUniform",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/LogUniform.lean",
       "source_sha256": "09126709bf8363b9abe61a3ba537fc394c8b6b084a0531120fe4375a97516c1f",
-      "first_body_line": 25446,
+      "first_body_line": 25450,
       "body_lines": 80,
       "compatibility_patch": null
     },
@@ -1992,7 +1992,7 @@
       "module": "OAI.Analysis.Mahler.SphereFlux",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereFlux.lean",
       "source_sha256": "b8f8948fce493d6a76d4fc2a1688f90a607141f78da2c665f6e50030830ca9cc",
-      "first_body_line": 25532,
+      "first_body_line": 25536,
       "body_lines": 92,
       "compatibility_patch": null
     },
@@ -2000,7 +2000,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousPrimitiveRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousPrimitiveRegularity.lean",
       "source_sha256": "357e02cce0c0ad4b01de34fa7c3c8fb96bf3e2591aea96e6b479ef4f45dfe6f2",
-      "first_body_line": 25630,
+      "first_body_line": 25634,
       "body_lines": 91,
       "compatibility_patch": null
     },
@@ -2008,7 +2008,7 @@
       "module": "OAI.Analysis.Mahler.SphereVolumeOrientation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereVolumeOrientation.lean",
       "source_sha256": "51be8f3534aefcea5a60bf5d2c763c51bc474cd413aa6722cc82efc9c8a8f737",
-      "first_body_line": 25727,
+      "first_body_line": 25731,
       "body_lines": 26,
       "compatibility_patch": null
     },
@@ -2016,7 +2016,7 @@
       "module": "OAI.Analysis.Mahler.SphereTransport",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereTransport.lean",
       "source_sha256": "83d095461c29cb2f95287a4006af13d1d25b3d676bbec0bc0ddc2e08e582ca56",
-      "first_body_line": 25759,
+      "first_body_line": 25763,
       "body_lines": 72,
       "compatibility_patch": null
     },
@@ -2024,7 +2024,7 @@
       "module": "OAI.Analysis.Mahler.ExactFormCoordinates",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExactFormCoordinates.lean",
       "source_sha256": "9af0cc7e5bd5b32db54b5fbde6c4d4043834c126fab1f7659447eb53ece46c45",
-      "first_body_line": 25837,
+      "first_body_line": 25841,
       "body_lines": 97,
       "compatibility_patch": null
     },
@@ -2032,7 +2032,7 @@
       "module": "OAI.Analysis.Mahler.HemisphereChart",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HemisphereChart.lean",
       "source_sha256": "b2a9f8aa475ed0b5d00296d20f951d425b7f2bb09e19c00fd25ed04e8f066c75",
-      "first_body_line": 25940,
+      "first_body_line": 25944,
       "body_lines": 173,
       "compatibility_patch": null
     },
@@ -2040,7 +2040,7 @@
       "module": "OAI.Analysis.Mahler.HemisphereJacobian",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HemisphereJacobian.lean",
       "source_sha256": "f368d5b4aa8408b717e7a2e4fdd962ce84631836e106ebde26a47a2a18cee093",
-      "first_body_line": 26119,
+      "first_body_line": 26123,
       "body_lines": 82,
       "compatibility_patch": null
     },
@@ -2048,7 +2048,7 @@
       "module": "OAI.Analysis.Mahler.HemisphereMeasure",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HemisphereMeasure.lean",
       "source_sha256": "4cc8d7e59c0f2e1a95970328b84e6075a585655ae3d10a99a2d32cb323eb1cba",
-      "first_body_line": 26207,
+      "first_body_line": 26211,
       "body_lines": 112,
       "compatibility_patch": null
     },
@@ -2056,7 +2056,7 @@
       "module": "OAI.Analysis.Mahler.HemisphereArea",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HemisphereArea.lean",
       "source_sha256": "790895d212b4349a48f4acd95f990ccffac1b8c23801ea653add3f1a3e10d31d",
-      "first_body_line": 26325,
+      "first_body_line": 26329,
       "body_lines": 142,
       "compatibility_patch": null
     },
@@ -2064,7 +2064,7 @@
       "module": "OAI.Analysis.Mahler.HemisphereFlux",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HemisphereFlux.lean",
       "source_sha256": "42f464e65838c65567c0152fcac82fa21fb1cb705e5267ad12509caa67262ed8",
-      "first_body_line": 26473,
+      "first_body_line": 26477,
       "body_lines": 172,
       "compatibility_patch": null
     },
@@ -2072,7 +2072,7 @@
       "module": "OAI.Analysis.Mahler.SphereRadius",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereRadius.lean",
       "source_sha256": "6d91fc8f673ce8b5c321f66eed542a744d12d78082442561e3aa40a61115cfbc",
-      "first_body_line": 26651,
+      "first_body_line": 26655,
       "body_lines": 76,
       "compatibility_patch": null
     },
@@ -2080,7 +2080,7 @@
       "module": "OAI.Analysis.Mahler.SphereCoordinateIntegral",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereCoordinateIntegral.lean",
       "source_sha256": "e9a4912ec843773c54b224589de86f7f2812c74da173fdda46e087d0e5d474a6",
-      "first_body_line": 26733,
+      "first_body_line": 26737,
       "body_lines": 77,
       "compatibility_patch": null
     },
@@ -2088,7 +2088,7 @@
       "module": "OAI.Analysis.Mahler.ExactSphereFluxBridge",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExactSphereFluxBridge.lean",
       "source_sha256": "42ab3e9ccf01bba98afe7d1d058f5178dcbaf15295da72aeb4c536eb1701ab0e",
-      "first_body_line": 26816,
+      "first_body_line": 26820,
       "body_lines": 70,
       "compatibility_patch": null
     },
@@ -2096,7 +2096,7 @@
       "module": "OAI.Analysis.Mahler.ClosedBoundaryStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ClosedBoundaryStokes.lean",
       "source_sha256": "0b107f76a665e055b95d2f24c05110f498bcbec93b3d0f8761d9a8f13c72c721",
-      "first_body_line": 26892,
+      "first_body_line": 26896,
       "body_lines": 67,
       "compatibility_patch": null
     },
@@ -2104,7 +2104,7 @@
       "module": "OAI.Analysis.Mahler.ExactSphereStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ExactSphereStokes.lean",
       "source_sha256": "40b5cd4a1fafafdba30a32004fee9c3a0b9b959c6c2884b509882e6a0034d6bd",
-      "first_body_line": 26965,
+      "first_body_line": 26969,
       "body_lines": 59,
       "compatibility_patch": null
     },
@@ -2112,7 +2112,7 @@
       "module": "OAI.Analysis.Mahler.SourcePrimitiveStokes",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourcePrimitiveStokes.lean",
       "source_sha256": "c1f857871d04b7b08501684635d578933ea07ee7a70558a11188f920a85e3def",
-      "first_body_line": 27030,
+      "first_body_line": 27034,
       "body_lines": 71,
       "compatibility_patch": null
     },
@@ -2120,7 +2120,7 @@
       "module": "OAI.Analysis.Mahler.CompactFluxDifferentiation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/CompactFluxDifferentiation.lean",
       "source_sha256": "b9b88f2cf6dd5c86b734e7829f7518fd2c5a49fb0483039b1c57d792a438bdc4",
-      "first_body_line": 27107,
+      "first_body_line": 27111,
       "body_lines": 71,
       "compatibility_patch": null
     },
@@ -2128,7 +2128,7 @@
       "module": "OAI.Analysis.Mahler.SphereFluxDifferentiation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereFluxDifferentiation.lean",
       "source_sha256": "f86300ac3381e572426f9fd1f093b8883419d46da0b9b444ffbc2acd1e019501",
-      "first_body_line": 27184,
+      "first_body_line": 27188,
       "body_lines": 122,
       "compatibility_patch": null
     },
@@ -2136,7 +2136,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousFluxDifferentiation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousFluxDifferentiation.lean",
       "source_sha256": "f5bd46d16a02d492ae8c334924b9bf9578f5a46a8850b54df9bc6873d1bc0b59",
-      "first_body_line": 27312,
+      "first_body_line": 27316,
       "body_lines": 166,
       "compatibility_patch": null
     },
@@ -2144,7 +2144,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousFluxFTC",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousFluxFTC.lean",
       "source_sha256": "29900b5d711e2212ae85994176c44094a569b6bea38274dcbd409c8100bef4c4",
-      "first_body_line": 27484,
+      "first_body_line": 27488,
       "body_lines": 47,
       "compatibility_patch": null
     },
@@ -2152,7 +2152,7 @@
       "module": "OAI.Analysis.Mahler.SphereAreaTransport",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereAreaTransport.lean",
       "source_sha256": "f21e44a034b0514f8b7d8adb91648d4bd4a2050dd1d612f87f1ec33b42725b1d",
-      "first_body_line": 27537,
+      "first_body_line": 27541,
       "body_lines": 75,
       "compatibility_patch": null
     },
@@ -2160,7 +2160,7 @@
       "module": "OAI.Analysis.Mahler.SphereFluxLimit",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereFluxLimit.lean",
       "source_sha256": "55d08da46ef7614584d6958a3b71ac8511e3fd3bd3a49b2a943889f17bc9f033",
-      "first_body_line": 27618,
+      "first_body_line": 27622,
       "body_lines": 120,
       "compatibility_patch": null
     },
@@ -2168,7 +2168,7 @@
       "module": "OAI.Analysis.Mahler.LogDilation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/LogDilation.lean",
       "source_sha256": "35985c773f415abf3de8f7d0067058dffba4dbf95542468345db07e5aa9a6874",
-      "first_body_line": 27744,
+      "first_body_line": 27748,
       "body_lines": 104,
       "compatibility_patch": null
     },
@@ -2176,7 +2176,7 @@
       "module": "OAI.Analysis.Mahler.SphereOrientation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereOrientation.lean",
       "source_sha256": "ceb5b9f43f6c264459f05f2954ac724a5d88b46dad619170ab12dc1d17ecd635",
-      "first_body_line": 27854,
+      "first_body_line": 27858,
       "body_lines": 93,
       "compatibility_patch": null
     },
@@ -2184,7 +2184,7 @@
       "module": "OAI.Analysis.Mahler.SourceSphereLimit",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceSphereLimit.lean",
       "source_sha256": "672fb25b8b43d36f098cc4690eab9b73ddbcf0d2704f9f9dbd1882ea69cc7f57",
-      "first_body_line": 27953,
+      "first_body_line": 27957,
       "body_lines": 96,
       "compatibility_patch": null
     },
@@ -2192,7 +2192,7 @@
       "module": "OAI.Analysis.Mahler.LogJet",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/LogJet.lean",
       "source_sha256": "8420702727a58f03f1997950844dd8b70539f2cca10512d0c11a7164245c9d6c",
-      "first_body_line": 28055,
+      "first_body_line": 28059,
       "body_lines": 51,
       "compatibility_patch": null
     },
@@ -2200,7 +2200,7 @@
       "module": "OAI.Analysis.Mahler.NormSquareJet",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/NormSquareJet.lean",
       "source_sha256": "a81e9af55c150ed94acf17a7b93364db7bdbe09ddbe13b1bd18aabc43018e80c",
-      "first_body_line": 28112,
+      "first_body_line": 28116,
       "body_lines": 90,
       "compatibility_patch": "bounded bilinear continuity of smulRight"
     },
@@ -2208,7 +2208,7 @@
       "module": "OAI.Analysis.Mahler.LogScalarJet",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/LogScalarJet.lean",
       "source_sha256": "dbfce09fe51d975cacd0d8449933df3c4933b215616e3722a90dba280d488ce1",
-      "first_body_line": 28208,
+      "first_body_line": 28212,
       "body_lines": 108,
       "compatibility_patch": "bounded bilinear continuity of smulRight"
     },
@@ -2216,7 +2216,7 @@
       "module": "OAI.Analysis.Mahler.LogNormSquare",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/LogNormSquare.lean",
       "source_sha256": "cf1d0fd8291b3243291d3f7d7f04067fe38b6b9f01969588af775758b7a0ea78",
-      "first_body_line": 28322,
+      "first_body_line": 28326,
       "body_lines": 125,
       "compatibility_patch": null
     },
@@ -2224,7 +2224,7 @@
       "module": "OAI.Analysis.Mahler.HolomorphicLogC2",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HolomorphicLogC2.lean",
       "source_sha256": "f8ab7d44eb062243bdc1d3763751ccbde914a8821ac9fe1e99bab54e3e9ac16b",
-      "first_body_line": 28453,
+      "first_body_line": 28457,
       "body_lines": 53,
       "compatibility_patch": null
     },
@@ -2232,7 +2232,7 @@
       "module": "OAI.Analysis.Mahler.RescalingEstimates",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RescalingEstimates.lean",
       "source_sha256": "343d4b9166dbf42e687b4d28acaa8e83fa15bb573e85870bb95eda49274d7bf9",
-      "first_body_line": 28512,
+      "first_body_line": 28516,
       "body_lines": 96,
       "compatibility_patch": null
     },
@@ -2240,7 +2240,7 @@
       "module": "OAI.Analysis.Mahler.RescaledHolomorphic",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RescaledHolomorphic.lean",
       "source_sha256": "edb1a903401a72f20749d95e37317128a5de925882f3af851ce8aaab6640f0f8",
-      "first_body_line": 28614,
+      "first_body_line": 28618,
       "body_lines": 100,
       "compatibility_patch": null
     },
@@ -2248,7 +2248,7 @@
       "module": "OAI.Analysis.Mahler.RescaledMassMap",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RescaledMassMap.lean",
       "source_sha256": "2fe7ef3106fae942c36c5390b6937c413c492f3c964bc13c563cea68add1daaa",
-      "first_body_line": 28720,
+      "first_body_line": 28724,
       "body_lines": 85,
       "compatibility_patch": null
     },
@@ -2256,7 +2256,7 @@
       "module": "OAI.Analysis.Mahler.UniformJet",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/UniformJet.lean",
       "source_sha256": "480087e4b84184665aaf7eb186cb98bc1d016298a8843394989e513b6fd321fe",
-      "first_body_line": 28811,
+      "first_body_line": 28815,
       "body_lines": 49,
       "compatibility_patch": null
     },
@@ -2264,7 +2264,7 @@
       "module": "OAI.Analysis.Mahler.SourceRescaling",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceRescaling.lean",
       "source_sha256": "5730a72e37de30152bf379f5ac802bdd955533d7d761fa186cd559f0e70dba90",
-      "first_body_line": 28866,
+      "first_body_line": 28870,
       "body_lines": 78,
       "compatibility_patch": null
     },
@@ -2272,7 +2272,7 @@
       "module": "OAI.Analysis.Mahler.SourceLogC2",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceLogC2.lean",
       "source_sha256": "9c1db52b86c741ea6beac05df36148b6508acdf78d6579a0b13194e5bc40a4d7",
-      "first_body_line": 28950,
+      "first_body_line": 28954,
       "body_lines": 92,
       "compatibility_patch": null
     },
@@ -2280,7 +2280,7 @@
       "module": "OAI.Analysis.Mahler.RealLogBridge",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RealLogBridge.lean",
       "source_sha256": "cf3d5f00fa4249684af584aaf909806ff2afa9fafdf75420998e20d5e7aa6266",
-      "first_body_line": 29048,
+      "first_body_line": 29052,
       "body_lines": 107,
       "compatibility_patch": null
     },
@@ -2288,7 +2288,7 @@
       "module": "OAI.Analysis.Mahler.ConformalSeries",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConformalSeries.lean",
       "source_sha256": "a0fb5c554c07dda04c8dd340bb919aa8ad9e0477e49e45a716454a92d94b65a0",
-      "first_body_line": 29161,
+      "first_body_line": 29165,
       "body_lines": 271,
       "compatibility_patch": null
     },
@@ -2296,7 +2296,7 @@
       "module": "OAI.Analysis.Mahler.AngularGeometry",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/AngularGeometry.lean",
       "source_sha256": "f43e6d0e0942a3d0ed5ff05c3580c1f45ccbb0cb1c762a72605da7476a7db417",
-      "first_body_line": 29438,
+      "first_body_line": 29442,
       "body_lines": 212,
       "compatibility_patch": null
     },
@@ -2304,7 +2304,7 @@
       "module": "OAI.Analysis.Mahler.ConformalInjectivity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConformalInjectivity.lean",
       "source_sha256": "93712cc44be0a5cb22554b7420bf5735c3d477f537fbefc44c4ddca7d5dee161",
-      "first_body_line": 29656,
+      "first_body_line": 29660,
       "body_lines": 126,
       "compatibility_patch": null
     },
@@ -2312,7 +2312,7 @@
       "module": "OAI.Analysis.Mahler.AngularIntegrals",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/AngularIntegrals.lean",
       "source_sha256": "8225ea6bd11090cfda6d2aada73da5c407f2eab99d42859cea739b4286fad556",
-      "first_body_line": 29788,
+      "first_body_line": 29792,
       "body_lines": 107,
       "compatibility_patch": null
     },
@@ -2320,7 +2320,7 @@
       "module": "OAI.Analysis.Mahler.AngularEndpoint",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/AngularEndpoint.lean",
       "source_sha256": "45840cde23282ff3be796305bf6c97f1938edbadb558e0119160b3be21257160",
-      "first_body_line": 29901,
+      "first_body_line": 29905,
       "body_lines": 84,
       "compatibility_patch": null
     },
@@ -2328,7 +2328,7 @@
       "module": "OAI.Analysis.Mahler.AngularStrip",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/AngularStrip.lean",
       "source_sha256": "9111e0ef3e1da6fcc4beadacbcfc0fb89e240aa81b64223bd3f59ca1d72a29f0",
-      "first_body_line": 29991,
+      "first_body_line": 29995,
       "body_lines": 113,
       "compatibility_patch": null
     },
@@ -2336,7 +2336,7 @@
       "module": "OAI.Analysis.Mahler.ConformalInverse",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConformalInverse.lean",
       "source_sha256": "31d18736f3ae6a7f752d9c00801b089e39c1860f7272c41a58921c199073ad0a",
-      "first_body_line": 30110,
+      "first_body_line": 30114,
       "body_lines": 104,
       "compatibility_patch": null
     },
@@ -2344,7 +2344,7 @@
       "module": "OAI.Analysis.Mahler.VerticalRadius",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/VerticalRadius.lean",
       "source_sha256": "cc4cda408743080ad31a38f501f7f593481666cfff15b2db205688f94fdd2c36",
-      "first_body_line": 30220,
+      "first_body_line": 30224,
       "body_lines": 89,
       "compatibility_patch": null
     },
@@ -2352,7 +2352,7 @@
       "module": "OAI.Analysis.Mahler.ConformalRadialRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConformalRadialRegularity.lean",
       "source_sha256": "c2d6983856b20bfd61bc6f6ea7f05b71eca32d028d1f033fa9b504125a275852",
-      "first_body_line": 30315,
+      "first_body_line": 30319,
       "body_lines": 128,
       "compatibility_patch": null
     },
@@ -2360,7 +2360,7 @@
       "module": "OAI.Analysis.Mahler.InverseRadialRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/InverseRadialRegularity.lean",
       "source_sha256": "74bd25d7f469b030f2c4660be45090a9113f38da72a7dc1ea8a1fcd392c990e7",
-      "first_body_line": 30449,
+      "first_body_line": 30453,
       "body_lines": 51,
       "compatibility_patch": null
     },
@@ -2368,7 +2368,7 @@
       "module": "OAI.Analysis.Mahler.FiniteStrips",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/FiniteStrips.lean",
       "source_sha256": "5bcb103a46133100ff4923b72578b03cab8be8a4eafa4a263ea3505b306d2f95",
-      "first_body_line": 30506,
+      "first_body_line": 30510,
       "body_lines": 196,
       "compatibility_patch": null
     },
@@ -2376,7 +2376,7 @@
       "module": "OAI.Analysis.Mahler.PlanarEstimates",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PlanarEstimates.lean",
       "source_sha256": "98fd9dc89a82e7f4387d8147597e7630e521dc0fe5bd494817905ce3245a65f0",
-      "first_body_line": 30708,
+      "first_body_line": 30712,
       "body_lines": 122,
       "compatibility_patch": null
     },
@@ -2384,7 +2384,7 @@
       "module": "OAI.Analysis.Mahler.TailIntegral",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/TailIntegral.lean",
       "source_sha256": "66777e1051d53684ab459323ee3b1509645143e61a1cba255dad0dc34def754b",
-      "first_body_line": 30836,
+      "first_body_line": 30840,
       "body_lines": 181,
       "compatibility_patch": null
     },
@@ -2392,7 +2392,7 @@
       "module": "OAI.Analysis.Mahler.ErrorBound",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ErrorBound.lean",
       "source_sha256": "083ff7dc2885dcaa8a1fe752dd333c9249308226290c5f93055c532ae409b7c9",
-      "first_body_line": 31023,
+      "first_body_line": 31027,
       "body_lines": 306,
       "compatibility_patch": null
     },
@@ -2400,7 +2400,7 @@
       "module": "OAI.Analysis.Mahler.UniformError",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/UniformError.lean",
       "source_sha256": "7a7d9cfc7ef2e5e3edaa55e8447b00371f81b8777f35e566af86a378d7d1b247",
-      "first_body_line": 31335,
+      "first_body_line": 31339,
       "body_lines": 197,
       "compatibility_patch": null
     },
@@ -2408,7 +2408,7 @@
       "module": "OAI.Analysis.Mahler.RadialBridge",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RadialBridge.lean",
       "source_sha256": "347515c172d32dfebeddbb6e53ad216bb0d75596e4b2582061c7a3a2da96c1e8",
-      "first_body_line": 31538,
+      "first_body_line": 31542,
       "body_lines": 93,
       "compatibility_patch": null
     },
@@ -2416,7 +2416,7 @@
       "module": "OAI.Analysis.Mahler.VerticalSpeed",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/VerticalSpeed.lean",
       "source_sha256": "9451d3db3b1716f1f6fa523dc929b36ca4c07e2198749c594738537251dbb6bb",
-      "first_body_line": 31637,
+      "first_body_line": 31641,
       "body_lines": 76,
       "compatibility_patch": null
     },
@@ -2424,7 +2424,7 @@
       "module": "OAI.Analysis.Mahler.ImplicitAngle",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ImplicitAngle.lean",
       "source_sha256": "74c28a141cd7783d6e0aab713f31f1137283da27d2354ec4aec507f16d13ceb3",
-      "first_body_line": 31719,
+      "first_body_line": 31723,
       "body_lines": 83,
       "compatibility_patch": null
     },
@@ -2432,7 +2432,7 @@
       "module": "OAI.Analysis.Mahler.SineBound",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SineBound.lean",
       "source_sha256": "12df98fcc968a8062460bd80dd0887d850555cfec551615eeb5f7a1b2bcee015",
-      "first_body_line": 31808,
+      "first_body_line": 31812,
       "body_lines": 69,
       "compatibility_patch": null
     },
@@ -2440,7 +2440,7 @@
       "module": "OAI.Analysis.Mahler.AngularFibers",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/AngularFibers.lean",
       "source_sha256": "7d685912001f5e87c579f0b5e4b541c4173f440b8ad698b4634114485f3d0bd8",
-      "first_body_line": 31883,
+      "first_body_line": 31887,
       "body_lines": 76,
       "compatibility_patch": null
     },
@@ -2448,7 +2448,7 @@
       "module": "OAI.Analysis.Mahler.FiberHeight",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/FiberHeight.lean",
       "source_sha256": "eec28215ea0cb1fa341d5664e2ac8481380836573fdc6704e26925bed785f87f",
-      "first_body_line": 31965,
+      "first_body_line": 31969,
       "body_lines": 94,
       "compatibility_patch": null
     },
@@ -2456,7 +2456,7 @@
       "module": "OAI.Analysis.Mahler.PrimitiveBound",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PrimitiveBound.lean",
       "source_sha256": "cb5371f615129da3d8d3d256864fc4351c436a68b7cda88c4c1e8523a3f9b5f4",
-      "first_body_line": 32065,
+      "first_body_line": 32069,
       "body_lines": 175,
       "compatibility_patch": null
     },
@@ -2464,7 +2464,7 @@
       "module": "OAI.Analysis.Mahler.FiberPrimitive",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/FiberPrimitive.lean",
       "source_sha256": "a2a924bf1b8b47716676554742ad9b1714ebd7437d2995cf625d93295f111295",
-      "first_body_line": 32246,
+      "first_body_line": 32250,
       "body_lines": 55,
       "compatibility_patch": null
     },
@@ -2472,7 +2472,7 @@
       "module": "OAI.Analysis.Mahler.RadialPrimitiveDeriv",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RadialPrimitiveDeriv.lean",
       "source_sha256": "b5aeb55198d5c45a37370446f0581634e78bb4c4729c21d7f16e58d4f18a84c0",
-      "first_body_line": 32307,
+      "first_body_line": 32311,
       "body_lines": 68,
       "compatibility_patch": null
     },
@@ -2480,7 +2480,7 @@
       "module": "OAI.Analysis.Mahler.ActualVerticalPrimitive",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ActualVerticalPrimitive.lean",
       "source_sha256": "9f4a3c8130313974df4a26b907cd9b0446af7cb2f55ec4d5bee1e6a804dfde93",
-      "first_body_line": 32381,
+      "first_body_line": 32385,
       "body_lines": 109,
       "compatibility_patch": null
     },
@@ -2488,7 +2488,7 @@
       "module": "OAI.Analysis.Mahler.PlanarDensity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PlanarDensity.lean",
       "source_sha256": "7cd23d9f109bf1addafb52a91d01b12d01ff8fd5ec3d4abca8f2c2973d913783",
-      "first_body_line": 32496,
+      "first_body_line": 32500,
       "body_lines": 148,
       "compatibility_patch": null
     },
@@ -2496,7 +2496,7 @@
       "module": "OAI.Analysis.Mahler.FiberEndpoint",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/FiberEndpoint.lean",
       "source_sha256": "c8c88f9807c51be5c2b646bb94b77d82055496963291a6256f4428621ff4b982",
-      "first_body_line": 32650,
+      "first_body_line": 32654,
       "body_lines": 109,
       "compatibility_patch": null
     },
@@ -2504,7 +2504,7 @@
       "module": "OAI.Analysis.Mahler.GlobalVerticalGeometry",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/GlobalVerticalGeometry.lean",
       "source_sha256": "f23aec04f146ddb3465ea374b3eb16a7e5d054c3e446788fc33077911d0c1e02",
-      "first_body_line": 32765,
+      "first_body_line": 32769,
       "body_lines": 155,
       "compatibility_patch": null
     },
@@ -2512,7 +2512,7 @@
       "module": "OAI.Analysis.Mahler.FiberPreimageEndpoint",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/FiberPreimageEndpoint.lean",
       "source_sha256": "fcd9f652edf38efc38ddcbf8568b7ba90bcbf120afebe980b3e05430cec0426d",
-      "first_body_line": 32926,
+      "first_body_line": 32930,
       "body_lines": 48,
       "compatibility_patch": null
     },
@@ -2520,7 +2520,7 @@
       "module": "OAI.Analysis.Mahler.GlobalFiberParametrization",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/GlobalFiberParametrization.lean",
       "source_sha256": "955691250252f3e2b8315394dac4340498faf75e65ef1babeef20ed470fa01ce",
-      "first_body_line": 32980,
+      "first_body_line": 32984,
       "body_lines": 108,
       "compatibility_patch": null
     },
@@ -2528,7 +2528,7 @@
       "module": "OAI.Analysis.Mahler.PrimitiveEquality",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PrimitiveEquality.lean",
       "source_sha256": "a6867f727a70e274bee6a64c0c848b38bc4634d39093cce47f2ddbb29338aa58",
-      "first_body_line": 33094,
+      "first_body_line": 33098,
       "body_lines": 64,
       "compatibility_patch": null
     },
@@ -2536,7 +2536,7 @@
       "module": "OAI.Analysis.Mahler.PlanarSymmetry",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PlanarSymmetry.lean",
       "source_sha256": "9b842e82cbcd875428f48f5eb4de017f3666be7abe0a415cc70c20017ab70da2",
-      "first_body_line": 33164,
+      "first_body_line": 33168,
       "body_lines": 52,
       "compatibility_patch": null
     },
@@ -2544,7 +2544,7 @@
       "module": "OAI.Analysis.Mahler.GlobalPlanarBound",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/GlobalPlanarBound.lean",
       "source_sha256": "560f8ac790aa6854070a5f43a9c673b654d5d4740b68f01a4f42fce18f8698ee",
-      "first_body_line": 33222,
+      "first_body_line": 33226,
       "body_lines": 84,
       "compatibility_patch": null
     },
@@ -2552,7 +2552,7 @@
       "module": "OAI.Analysis.Mahler.GlobalPlanarMonotonicity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/GlobalPlanarMonotonicity.lean",
       "source_sha256": "7458012c58b325987e7ce9583d66b69618541881899200efcd01876f3eef27ce",
-      "first_body_line": 33312,
+      "first_body_line": 33316,
       "body_lines": 45,
       "compatibility_patch": null
     },
@@ -2560,7 +2560,7 @@
       "module": "OAI.Analysis.Mahler.ActualFiniteStrips",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ActualFiniteStrips.lean",
       "source_sha256": "db8fd13fcdf965677174dbd1b066a74cad74bfebccce282ce8c2ba5642eed9a7",
-      "first_body_line": 33363,
+      "first_body_line": 33367,
       "body_lines": 81,
       "compatibility_patch": null
     },
@@ -2568,7 +2568,7 @@
       "module": "OAI.Analysis.Mahler.StripRankGeometry",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripRankGeometry.lean",
       "source_sha256": "5ef8dccd9ee975e577de01a48675630e8b24e6cf4d53c46c3d1364879cffbb19",
-      "first_body_line": 33450,
+      "first_body_line": 33454,
       "body_lines": 102,
       "compatibility_patch": null
     },
@@ -2576,7 +2576,7 @@
       "module": "OAI.Analysis.Mahler.StripCompactSublevels",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripCompactSublevels.lean",
       "source_sha256": "72f28d5333d2db6f8e64e8004deafd985e9a57ed6cb89bea63c6b008f4c8c269",
-      "first_body_line": 33558,
+      "first_body_line": 33562,
       "body_lines": 76,
       "compatibility_patch": null
     },
@@ -2584,7 +2584,7 @@
       "module": "OAI.Analysis.Mahler.StripSublevelTopology",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripSublevelTopology.lean",
       "source_sha256": "5437c4e1153f6b53c99a2f78a01789a19ea19c804b7f5e7c72a391afc8614dd4",
-      "first_body_line": 33640,
+      "first_body_line": 33644,
       "body_lines": 83,
       "compatibility_patch": null
     },
@@ -2592,7 +2592,7 @@
       "module": "OAI.Analysis.Mahler.StripGeometry",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripGeometry.lean",
       "source_sha256": "8fed8d9d2ccf20bfc374bff60a8ec0c66ee99e7ed80109ed20278084266717b4",
-      "first_body_line": 33729,
+      "first_body_line": 33733,
       "body_lines": 64,
       "compatibility_patch": null
     },
@@ -2600,7 +2600,7 @@
       "module": "OAI.Analysis.Mahler.StripRegularValues",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripRegularValues.lean",
       "source_sha256": "85307a7c093440986c71b7293060d94a6ecdd5ebe47e9ecf30b417fb34ae03e3",
-      "first_body_line": 33799,
+      "first_body_line": 33803,
       "body_lines": 111,
       "compatibility_patch": null
     },
@@ -2608,7 +2608,7 @@
       "module": "OAI.Analysis.Mahler.StripMassExhaustion",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripMassExhaustion.lean",
       "source_sha256": "0ec468f18bf02882edcee9a502a94dddd1580ddd521722f89926dc9a17c0f2fa",
-      "first_body_line": 33916,
+      "first_body_line": 33920,
       "body_lines": 75,
       "compatibility_patch": null
     },
@@ -2616,7 +2616,7 @@
       "module": "OAI.Analysis.Mahler.StripLevelGeometry",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripLevelGeometry.lean",
       "source_sha256": "1fc1973db92e23bab56f4c35f1022c1f0b2ac978b2bc8c201ab13bd4ea58403a",
-      "first_body_line": 33997,
+      "first_body_line": 34001,
       "body_lines": 68,
       "compatibility_patch": null
     },
@@ -2624,7 +2624,7 @@
       "module": "OAI.Analysis.Mahler.StripRegularLevels",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripRegularLevels.lean",
       "source_sha256": "afa9b3f31efeea896fca7f51c8883234d441d430395fa44b843f571a26753b73",
-      "first_body_line": 34071,
+      "first_body_line": 34075,
       "body_lines": 46,
       "compatibility_patch": null
     },
@@ -2632,7 +2632,7 @@
       "module": "OAI.Analysis.Mahler.SmallSphereLimits",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SmallSphereLimits.lean",
       "source_sha256": "eb5d43dedffa80806ef025c0f5551306559713df1a514887884a068c325fe69f",
-      "first_body_line": 34123,
+      "first_body_line": 34127,
       "body_lines": 46,
       "compatibility_patch": null
     },
@@ -2640,7 +2640,7 @@
       "module": "OAI.Analysis.Mahler.SphereDensityBridge",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SphereDensityBridge.lean",
       "source_sha256": "58c31b9f1d45f477830308c2b24ec0c69f42d0318a3d56db544e3fa033d268a6",
-      "first_body_line": 34175,
+      "first_body_line": 34179,
       "body_lines": 230,
       "compatibility_patch": null
     },
@@ -2648,7 +2648,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousCircleIntegral",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousCircleIntegral.lean",
       "source_sha256": "7602b0d5e6ae805933ae5ce4e6174b29afcfbccf38bcb1be9cf7b4fb5924b294",
-      "first_body_line": 34411,
+      "first_body_line": 34415,
       "body_lines": 57,
       "compatibility_patch": null
     },
@@ -2656,7 +2656,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousTransgressionFTC",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousTransgressionFTC.lean",
       "source_sha256": "b4d2389c84dee13ef8d3522b3fb364a53b905a7690493e9a44de855247587762",
-      "first_body_line": 34474,
+      "first_body_line": 34478,
       "body_lines": 74,
       "compatibility_patch": null
     },
@@ -2664,7 +2664,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousEndpoint",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousEndpoint.lean",
       "source_sha256": "b1c23ab0ded1757208ef0756f1af7dfec22a6231c109bea2caa9f1b9403d3169",
-      "first_body_line": 34554,
+      "first_body_line": 34558,
       "body_lines": 58,
       "compatibility_patch": null
     },
@@ -2672,7 +2672,7 @@
       "module": "OAI.Analysis.Mahler.SourceFluxCoordinates",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceFluxCoordinates.lean",
       "source_sha256": "a41d5c89bd84a5df6f0d41195a4f0d218dfe3afd81ddbee3c1b8f355d433e7f6",
-      "first_body_line": 34618,
+      "first_body_line": 34622,
       "body_lines": 79,
       "compatibility_patch": null
     },
@@ -2680,7 +2680,7 @@
       "module": "OAI.Analysis.Mahler.SourceRadiusFlux",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SourceRadiusFlux.lean",
       "source_sha256": "4a60c1f74db317cb27e94270b9b834b0f9d9332e678ab16f80cc15c88d4d9ac5",
-      "first_body_line": 34703,
+      "first_body_line": 34707,
       "body_lines": 112,
       "compatibility_patch": null
     },
@@ -2688,7 +2688,7 @@
       "module": "OAI.Analysis.Mahler.CompactIntegral",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/CompactIntegral.lean",
       "source_sha256": "03c193c0045df7bca7aeea791ba280725be9bcb15f514aa53b1d6bca1b7a80d6",
-      "first_body_line": 34821,
+      "first_body_line": 34825,
       "body_lines": 119,
       "compatibility_patch": null
     },
@@ -2696,7 +2696,7 @@
       "module": "OAI.Analysis.Mahler.PlanarIntegralRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PlanarIntegralRegularity.lean",
       "source_sha256": "1ef826a51d18f7562f154746373bdc6534c6a1c773c8494deee7172e75faa5dc",
-      "first_body_line": 34946,
+      "first_body_line": 34950,
       "body_lines": 54,
       "compatibility_patch": null
     },
@@ -2704,7 +2704,7 @@
       "module": "OAI.Analysis.Mahler.PlanarRegularity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PlanarRegularity.lean",
       "source_sha256": "78c1838cedab91f51d6cb75c7afca11e36f9b78fe2b852fd6acd783caa49bc5e",
-      "first_body_line": 35006,
+      "first_body_line": 35010,
       "body_lines": 102,
       "compatibility_patch": null
     },
@@ -2712,7 +2712,7 @@
       "module": "OAI.Analysis.Mahler.StripDifferential",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripDifferential.lean",
       "source_sha256": "52c6221efcfd9698d31a9ae0fa74762b85e1c6f8fb52c0c638787594b02b6f45",
-      "first_body_line": 35114,
+      "first_body_line": 35118,
       "body_lines": 70,
       "compatibility_patch": null
     },
@@ -2720,7 +2720,7 @@
       "module": "OAI.Analysis.Mahler.Jacobian",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/Jacobian.lean",
       "source_sha256": "1d282e7a68dc9ffd032ae5486cc3d15877aa4353d688bba8304089125bdb70f2",
-      "first_body_line": 35190,
+      "first_body_line": 35194,
       "body_lines": 77,
       "compatibility_patch": null
     },
@@ -2728,7 +2728,7 @@
       "module": "OAI.Analysis.Mahler.StripJacobian",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripJacobian.lean",
       "source_sha256": "4b2d335d921266d78d2b81b58f99a36977c73007f961f8fd25fabd1aa1ed8dfc",
-      "first_body_line": 35273,
+      "first_body_line": 35277,
       "body_lines": 71,
       "compatibility_patch": null
     },
@@ -2736,7 +2736,7 @@
       "module": "OAI.Analysis.Mahler.StripVolume",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/StripVolume.lean",
       "source_sha256": "b2925301b264893c1ee6ff9e0038714bffa4ddbb94e6b58177d9938e980e8d26",
-      "first_body_line": 35350,
+      "first_body_line": 35354,
       "body_lines": 103,
       "compatibility_patch": null
     },
@@ -2744,7 +2744,7 @@
       "module": "OAI.Analysis.Mahler.ComplexStripMap",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ComplexStripMap.lean",
       "source_sha256": "cab24b8ec4f7a2d303f54473e5e5df9afabb3312658e30a96032acb0a075a423",
-      "first_body_line": 35459,
+      "first_body_line": 35463,
       "body_lines": 123,
       "compatibility_patch": null
     },
@@ -2752,7 +2752,7 @@
       "module": "OAI.Analysis.Mahler.SpecialLeadingTerm",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SpecialLeadingTerm.lean",
       "source_sha256": "3a7eafec1688c2bcf6070155ed2ead2541685ae8c89ac03fe928a7206a7e10ed",
-      "first_body_line": 35588,
+      "first_body_line": 35592,
       "body_lines": 90,
       "compatibility_patch": null
     },
@@ -2760,7 +2760,7 @@
       "module": "OAI.Analysis.Mahler.SpecialMassHypotheses",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SpecialMassHypotheses.lean",
       "source_sha256": "0d9fbc4e0c7cb1a076cac32cc2e4429d57457dbb56b5591250b09523cec578a6",
-      "first_body_line": 35684,
+      "first_body_line": 35688,
       "body_lines": 66,
       "compatibility_patch": null
     },
@@ -2768,7 +2768,7 @@
       "module": "OAI.Analysis.Mahler.EuclideanSpecialMap",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/EuclideanSpecialMap.lean",
       "source_sha256": "77068c0e5dce13e0fcec035dbfddefa8673fb5fa2fc1f09ab9f2857b9dbd2809",
-      "first_body_line": 35756,
+      "first_body_line": 35760,
       "body_lines": 98,
       "compatibility_patch": null
     },
@@ -2776,7 +2776,7 @@
       "module": "OAI.Analysis.Mahler.EuclideanRegularLevels",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/EuclideanRegularLevels.lean",
       "source_sha256": "9babc53de6e9cee864ef5f3376a8c85c694754f01cc118ce137d62b4a5af0454",
-      "first_body_line": 35860,
+      "first_body_line": 35864,
       "body_lines": 49,
       "compatibility_patch": null
     },
@@ -2784,7 +2784,7 @@
       "module": "OAI.Analysis.Mahler.SpecialJacobian",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SpecialJacobian.lean",
       "source_sha256": "e974270ee3bbf000d80218c85e9ca60eec34c906cbb7cb4641e14f01463ba00d",
-      "first_body_line": 35915,
+      "first_body_line": 35919,
       "body_lines": 77,
       "compatibility_patch": null
     },
@@ -2792,7 +2792,7 @@
       "module": "OAI.Analysis.Mahler.PlanarErrorRate",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/PlanarErrorRate.lean",
       "source_sha256": "18c4bf56c128644e2e241fc399d226ff19cc754635f98a8317a7cd0fcf0fd704",
-      "first_body_line": 35998,
+      "first_body_line": 36002,
       "body_lines": 51,
       "compatibility_patch": null
     },
@@ -2800,7 +2800,7 @@
       "module": "OAI.Analysis.Mahler.FiniteStripReduction",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/FiniteStripReduction.lean",
       "source_sha256": "71ee81cd3c729788bfaf222484ee4627d4479fa8022bb785eccff24d53547c4a",
-      "first_body_line": 36055,
+      "first_body_line": 36059,
       "body_lines": 67,
       "compatibility_patch": null
     },
@@ -2808,7 +2808,7 @@
       "module": "OAI.Analysis.Mahler.SpecialMassBridge",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SpecialMassBridge.lean",
       "source_sha256": "2b4fdae57a67f65f329f550fe25860295e576e1aeb81ad69261ccf7401907a35",
-      "first_body_line": 36128,
+      "first_body_line": 36132,
       "body_lines": 69,
       "compatibility_patch": null
     },
@@ -2816,7 +2816,7 @@
       "module": "OAI.Analysis.Mahler.EuclideanMassDensity",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/EuclideanMassDensity.lean",
       "source_sha256": "f7a1fad727cde1183239d9e2dc94b25524a260e4cfbed7b219f62b916a794f93",
-      "first_body_line": 36203,
+      "first_body_line": 36207,
       "body_lines": 72,
       "compatibility_patch": null
     },
@@ -2824,7 +2824,7 @@
       "module": "OAI.Analysis.Mahler.ComplexVolume",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ComplexVolume.lean",
       "source_sha256": "41872cfd69974e2f9aa2cab381a00e4e20a8dec50d8333ba537337447fb229af",
-      "first_body_line": 36281,
+      "first_body_line": 36285,
       "body_lines": 91,
       "compatibility_patch": null
     },
@@ -2832,7 +2832,7 @@
       "module": "OAI.Analysis.Mahler.ConvexApproximation",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConvexApproximation.lean",
       "source_sha256": "49ec6363516efa95717f2ef449791c11f7d0d06f3a7c0b6badd5f32fc9a5aca7",
-      "first_body_line": 36378,
+      "first_body_line": 36382,
       "body_lines": 87,
       "compatibility_patch": null
     },
@@ -2840,7 +2840,7 @@
       "module": "OAI.Analysis.Mahler.ConvexGeometry",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConvexGeometry.lean",
       "source_sha256": "fb661f20a73ce1f32aec0c9b40cca28246064c82df461a040cf27bc4cc97488a",
-      "first_body_line": 36471,
+      "first_body_line": 36475,
       "body_lines": 142,
       "compatibility_patch": null
     },
@@ -2848,7 +2848,7 @@
       "module": "OAI.Analysis.Mahler.ConvexTransfer",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConvexTransfer.lean",
       "source_sha256": "289578e2c8ac9b14203224827ce4b7b1390e6f46fdc14048db1a3526109f1b00",
-      "first_body_line": 36619,
+      "first_body_line": 36623,
       "body_lines": 46,
       "compatibility_patch": null
     },
@@ -2856,7 +2856,7 @@
       "module": "OAI.Analysis.Mahler.ConvexCompletion",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConvexCompletion.lean",
       "source_sha256": "cdf1a50a490e2ebebdbc2d929d87c5902650f1c8c3c80f563f870619f9e8d45d",
-      "first_body_line": 36671,
+      "first_body_line": 36675,
       "body_lines": 75,
       "compatibility_patch": null
     },
@@ -2864,7 +2864,7 @@
       "module": "OAI.Analysis.Mahler.ConvexSequence",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConvexSequence.lean",
       "source_sha256": "28475ca18281968cc2d559cb6b7a83be11eda09cf3d98f4a8c20c096f48315b4",
-      "first_body_line": 36752,
+      "first_body_line": 36756,
       "body_lines": 76,
       "compatibility_patch": null
     },
@@ -2872,7 +2872,7 @@
       "module": "OAI.Analysis.Mahler.ConvexMain",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConvexMain.lean",
       "source_sha256": "9f130b81c749c9f0fc5572e31aa3553def7bc5597b25b8a023a26d78e0414c23",
-      "first_body_line": 36834,
+      "first_body_line": 36838,
       "body_lines": 66,
       "compatibility_patch": null
     },
@@ -2880,7 +2880,7 @@
       "module": "OAI.Analysis.Mahler.ConvexENNRealTransfer",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConvexENNRealTransfer.lean",
       "source_sha256": "112bc400cea7d1f18dcf82211b04c3cd510e9cc206059c68b467c3920fa50bac",
-      "first_body_line": 36906,
+      "first_body_line": 36910,
       "body_lines": 32,
       "compatibility_patch": null
     },
@@ -2888,7 +2888,7 @@
       "module": "OAI.Analysis.Mahler.ConvexPolarBody",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConvexPolarBody.lean",
       "source_sha256": "b1d94160644876cf6a2a7f0a350ab9ef56007dc63ac3cdc3d153e51a52a76b6e",
-      "first_body_line": 36944,
+      "first_body_line": 36948,
       "body_lines": 64,
       "compatibility_patch": null
     },
@@ -2896,7 +2896,7 @@
       "module": "OAI.Analysis.Mahler.ConvexMassReduction",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/ConvexMassReduction.lean",
       "source_sha256": "73a09855cb031967808cc9e47850b495b56f78379c1abbf97ef55d538f1d2ea5",
-      "first_body_line": 37014,
+      "first_body_line": 37018,
       "body_lines": 27,
       "compatibility_patch": null
     },
@@ -2904,7 +2904,7 @@
       "module": "OAI.Analysis.Mahler.RegularMassReduction",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/RegularMassReduction.lean",
       "source_sha256": "f64a9ba55f2a56270e536bcecd5b1b327dbdf77f703cc55a7570b0b94d881cdb",
-      "first_body_line": 37047,
+      "first_body_line": 37051,
       "body_lines": 30,
       "compatibility_patch": null
     },
@@ -2912,7 +2912,7 @@
       "module": "OAI.Analysis.Mahler.SpecialSourceMass",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/SpecialSourceMass.lean",
       "source_sha256": "5ca6f729dd257889d261226f9d97acc99f33acade382286344e6f2ddfc9916a0",
-      "first_body_line": 37083,
+      "first_body_line": 37087,
       "body_lines": 58,
       "compatibility_patch": null
     },
@@ -2920,7 +2920,7 @@
       "module": "OAI.Analysis.Mahler.HomogeneousMassAssembly",
       "source": "lean/vendor/oai-mass/OAI/Analysis/Mahler/HomogeneousMassAssembly.lean",
       "source_sha256": "adeef41de850349f05b61f71904c9ffe42ce974385ef778829f6a33da39e4e46",
-      "first_body_line": 37147,
+      "first_body_line": 37151,
       "body_lines": 44,
       "compatibility_patch": null
     },
@@ -2928,7 +2928,7 @@
       "module": "Funk.LensMassLower",
       "source": "lean/Funk/LensMassLower.lean",
       "source_sha256": "da39c13283af114a633ef4aac7485e565b54cbb77f4f869179fffab57afd7255",
-      "first_body_line": 37197,
+      "first_body_line": 37201,
       "body_lines": 95,
       "compatibility_patch": null
     },
@@ -2936,7 +2936,7 @@
       "module": "Funk.LensMassDensity",
       "source": "lean/Funk/LensMassDensity.lean",
       "source_sha256": "8b2b9748ba9520f034c9f904d9829b78f4b599c3f595a300b1727830f5ec2754",
-      "first_body_line": 37298,
+      "first_body_line": 37302,
       "body_lines": 83,
       "compatibility_patch": null
     },
@@ -2944,7 +2944,7 @@
       "module": "Funk.LensPowerMinorSum",
       "source": "lean/Funk/LensPowerMinorSum.lean",
       "source_sha256": "0d8b4f6b8d849a811556843d56921bb3adcb3514e3ec4b489d8278a5295ef191",
-      "first_body_line": 37387,
+      "first_body_line": 37391,
       "body_lines": 98,
       "compatibility_patch": null
     },
@@ -2952,7 +2952,7 @@
       "module": "Funk.LensMassMinorIntegral",
       "source": "lean/Funk/LensMassMinorIntegral.lean",
       "source_sha256": "10d7520fe39a6c564dd48f052c6482229e44cc652fede8d876fa924b1da4d4c4",
-      "first_body_line": 37491,
+      "first_body_line": 37495,
       "body_lines": 88,
       "compatibility_patch": null
     },
@@ -2960,7 +2960,7 @@
       "module": "Funk.LensBasisCoordinates",
       "source": "lean/Funk/LensBasisCoordinates.lean",
       "source_sha256": "19863effcf75519644bf8204eb9dd1bbd68a0296082e0ba441228ab913e83b4e",
-      "first_body_line": 37585,
+      "first_body_line": 37589,
       "body_lines": 113,
       "compatibility_patch": null
     },
@@ -2968,7 +2968,7 @@
       "module": "Funk.LensConformalCoordinates",
       "source": "lean/Funk/LensConformalCoordinates.lean",
       "source_sha256": "0a4f2245a1cfe673037597d057ac355650f4ab00c7545ea7b9c846e803532143",
-      "first_body_line": 37704,
+      "first_body_line": 37708,
       "body_lines": 92,
       "compatibility_patch": null
     },
@@ -2976,7 +2976,7 @@
       "module": "Funk.LensBasisParametrization",
       "source": "lean/Funk/LensBasisParametrization.lean",
       "source_sha256": "34b66734a47d6d74d954230e5b450392449b24ab8afa51cece9cbd894b08d5b1",
-      "first_body_line": 37802,
+      "first_body_line": 37806,
       "body_lines": 125,
       "compatibility_patch": null
     },
@@ -2984,7 +2984,7 @@
       "module": "Funk.LensMassBasisIntegral",
       "source": "lean/Funk/LensMassBasisIntegral.lean",
       "source_sha256": "815f198742660c77c4514882373dd859c64537736f9ca2d90d5122887a1fa707",
-      "first_body_line": 37933,
+      "first_body_line": 37937,
       "body_lines": 98,
       "compatibility_patch": null
     },
@@ -2992,7 +2992,7 @@
       "module": "Funk.LensMassPolarIntegral",
       "source": "lean/Funk/LensMassPolarIntegral.lean",
       "source_sha256": "fa90e01e87c0542aee0734af8ab3252066df0c4976b8f0060526a323bb5acc82",
-      "first_body_line": 38037,
+      "first_body_line": 38041,
       "body_lines": 74,
       "compatibility_patch": null
     },
@@ -3000,7 +3000,7 @@
       "module": "Funk.LensRadialCoefficient",
       "source": "lean/Funk/LensRadialCoefficient.lean",
       "source_sha256": "7716689992e572b3f573ed4f296a9a5ac8d70fa26a8e3cf4227abdab177c7c17",
-      "first_body_line": 38117,
+      "first_body_line": 38121,
       "body_lines": 45,
       "compatibility_patch": null
     },
@@ -3008,7 +3008,7 @@
       "module": "Funk.LensPolarPower",
       "source": "lean/Funk/LensPolarPower.lean",
       "source_sha256": "2521e304815adcda5513f9502b1852c2c6e8fa9776e9fdc30fb5c5abce2eb5c6",
-      "first_body_line": 38168,
+      "first_body_line": 38172,
       "body_lines": 144,
       "compatibility_patch": null
     },
@@ -3016,7 +3016,7 @@
       "module": "Funk.LensMassPoweredIntegral",
       "source": "lean/Funk/LensMassPoweredIntegral.lean",
       "source_sha256": "0902db2fb703d54cfe3c54f8314feb379c478e851752dd576d29748e484d450a",
-      "first_body_line": 38318,
+      "first_body_line": 38322,
       "body_lines": 70,
       "compatibility_patch": null
     },
@@ -3024,7 +3024,7 @@
       "module": "Funk.PoweredSimplexVolume",
       "source": "lean/Funk/PoweredSimplexVolume.lean",
       "source_sha256": "6148d6365b48408c0fa66f54c493235ddf9ba46a3465125d87bdfd549e83f6e0",
-      "first_body_line": 38394,
+      "first_body_line": 38398,
       "body_lines": 79,
       "compatibility_patch": null
     },
@@ -3032,7 +3032,7 @@
       "module": "Funk.LensPoweredSimplex",
       "source": "lean/Funk/LensPoweredSimplex.lean",
       "source_sha256": "0506a51bb8acb0daba5637c00a61f8a27d214b433250fb752ef61f0fdb913863",
-      "first_body_line": 38479,
+      "first_body_line": 38483,
       "body_lines": 112,
       "compatibility_patch": null
     },
@@ -3040,7 +3040,7 @@
       "module": "Funk.LensPoweredProductMeasure",
       "source": "lean/Funk/LensPoweredProductMeasure.lean",
       "source_sha256": "6c5e7b2c6ed1ae40e47790eb8c288ad2866d7f14cd75953a1812fc8cf6508789",
-      "first_body_line": 38597,
+      "first_body_line": 38601,
       "body_lines": 132,
       "compatibility_patch": null
     },
@@ -3048,7 +3048,7 @@
       "module": "Funk.LensPoweredAngularIntegral",
       "source": "lean/Funk/LensPoweredAngularIntegral.lean",
       "source_sha256": "67790f243166733f26bd1be4eb0eb0e2e6c8164594d79477c0189c39ccb4de8b",
-      "first_body_line": 38735,
+      "first_body_line": 38739,
       "body_lines": 141,
       "compatibility_patch": null
     },
@@ -3056,7 +3056,7 @@
       "module": "Funk.LensPoweredProbability",
       "source": "lean/Funk/LensPoweredProbability.lean",
       "source_sha256": "442817326f538ec8eec4ae940d9007b492cf6dbb9419785e75c659feb6379882",
-      "first_body_line": 38882,
+      "first_body_line": 38886,
       "body_lines": 104,
       "compatibility_patch": null
     },
@@ -3064,7 +3064,7 @@
       "module": "Funk.LensStandardBoundaryProbability",
       "source": "lean/Funk/LensStandardBoundaryProbability.lean",
       "source_sha256": "1d1deb85fa0fb9bc299af7dc21069bb47b8d92553f43a283feb1f5fceef83313",
-      "first_body_line": 38992,
+      "first_body_line": 38996,
       "body_lines": 34,
       "compatibility_patch": null
     },
@@ -3072,7 +3072,7 @@
       "module": "Funk.LensPoweredBoundaryLimit",
       "source": "lean/Funk/LensPoweredBoundaryLimit.lean",
       "source_sha256": "d37af89ec45b7ba4cb98a17a9f91cd39a7992e41f68004c4cabf4fff8b58b0e8",
-      "first_body_line": 39032,
+      "first_body_line": 39036,
       "body_lines": 83,
       "compatibility_patch": null
     },
@@ -3080,7 +3080,7 @@
       "module": "Funk.LensPoweredReverseFatou",
       "source": "lean/Funk/LensPoweredReverseFatou.lean",
       "source_sha256": "a28b30b3c827902c189e8c799d547a935b84b3d7bf8eda222f5ba41c8530892f",
-      "first_body_line": 39121,
+      "first_body_line": 39125,
       "body_lines": 122,
       "compatibility_patch": null
     },
@@ -3088,7 +3088,7 @@
       "module": "Funk.MainTheorems",
       "source": "lean/Funk/MainTheorems.lean",
       "source_sha256": "04f43c5d9560aef1c51f7180355cae6db2e0f37fb6d11196a634d3fc636f0b52",
-      "first_body_line": 39249,
+      "first_body_line": 39253,
       "body_lines": 20,
       "compatibility_patch": null
     },
@@ -3096,7 +3096,7 @@
       "module": "Funk.PublicationStatements",
       "source": "lean/Funk/PublicationStatements.lean",
       "source_sha256": "e0ed96920562e3fb8fde5527e6b76cf6634e6a2408765c6540569976ab3a265c",
-      "first_body_line": 39275,
+      "first_body_line": 39279,
       "body_lines": 124,
       "compatibility_patch": null
     },
@@ -3104,13 +3104,41 @@
       "module": "Funk.OpenBodyConvention",
       "source": "lean/Funk/OpenBodyConvention.lean",
       "source_sha256": "0c2d87fb658fb88bb421f7428c8d014180350dbdca779cda8fedd6e5a15df1b8",
-      "first_body_line": 39405,
+      "first_body_line": 39409,
       "body_lines": 55,
       "compatibility_patch": null
+    },
+    {
+      "module": "FormalConjecturesUtil.Answer.Syntax",
+      "source": "lean/vendor/formal-conjectures/FormalConjecturesUtil/Answer/Syntax.lean",
+      "source_sha256": "4572fc294df840c091b79350951760f742eb26f890b48cd329a19995a1e2344c",
+      "first_body_line": 39470,
+      "body_lines": 28,
+      "compatibility_patch": null
+    },
+    {
+      "module": "FormalConjecturesUtil.Answer",
+      "source": "lean/vendor/formal-conjectures/FormalConjecturesUtil/Answer.lean",
+      "source_sha256": "c8b3b31e9bb25c511e577b1812159a210e9346720f19ec6c6b30905a0802db7a",
+      "first_body_line": 39504,
+      "body_lines": 176,
+      "compatibility_patch": null,
+      "tooling_adaptation": "Remove google.answer option registration; fix its original default AnswerSetting.alwaysTrue."
+    },
+    {
+      "module": "FinalTheorems",
+      "source": "lean/FinalTheorems.lean",
+      "source_sha256": "439a32a78778723f73dad12df36bce189926021b98bb5a849916cb353a965b95",
+      "first_body_line": 39686,
+      "body_lines": 101,
+      "compatibility_patch": null,
+      "tooling_adaptation": "Remove FC metadata attributes; preserve all geometric definitions, theorem types and proofs."
     }
   ],
-  "modules": 388,
+  "modules": 391,
   "mathlib_imports": [
+    "Batteries.Lean.Expr",
+    "Lean.Elab.SyntheticMVars",
     "Mathlib.Algebra.BigOperators.Ring.Finset",
     "Mathlib.Algebra.Order.BigOperators.Group.Finset",
     "Mathlib.Algebra.Order.Star.Real",
@@ -3299,10 +3327,10 @@
     "Mathlib.Topology.UniformSpace.HeineCantor",
     "Mathlib.Topology.UniformSpace.UniformConvergenceTopology"
   ],
-  "bytes": 1803117,
-  "lines": 39468,
-  "sha256": "3e4ebf438f4f963a5fcad26e87f613ebe408562f7a46bd702347f0643bd81304",
-  "transformation": "Remove imports; dependency order; one section per source; two continuity API ports in the live edition.",
+  "bytes": 1815409,
+  "lines": 39799,
+  "sha256": "2617bb82530b5ccf39159f58f1573be3b76c36ba62ac1fdbe07366fa846eb168",
+  "transformation": "Remove imports/module visibility; dependency order; one section per source; default-mode FC answer elaboration and removal of FC metadata attributes; two continuity API ports in the live edition.",
   "compatibility_patches": [
     {
       "module": "OAI.Analysis.Mahler.NormSquareJet",

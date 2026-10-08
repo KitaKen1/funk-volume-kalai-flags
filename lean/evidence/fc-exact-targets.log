@@ -1,0 +1,5 @@
+Exact FC target type match: FunkVolume.symmetricFunkVolume
+Exact FC target type match: Funk.FormalConjectures.kalaiFullFlags
+FC geometric declarations matched: 15 (types and definition bodies)
+'FunkVolume.symmetricFunkVolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Funk.FormalConjectures.kalaiFullFlags' depends on axioms: [propext, Classical.choice, Quot.sound]
