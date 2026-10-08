@@ -1,0 +1,19 @@
+"4.34.1"
+FunkKalaiLean4Web.lean:34423:50: warning: This simp argument is unused:
+  wedge_zero_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [boundaryResidualFin, wedgePowerVariation]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Funk.symmetricFunk_lower_bound : Funk.FunkLowerBoundGoal
+Funk.kalai_full_flags : Funk.KalaiFullFlagsGoal
+Funk.symmetricFunk_metric_radius {n : ℕ} (hn : 1 ≤ n) (K : Set (Funk.Space n)) (hK : Funk.IsSymmetricConvexBody K)
+  {R : ℝ} (hR : 0 < R) :
+  Funk.funkVolume K (1 - Real.exp (-R)) < ⊤ ∧
+    ENNReal.ofReal (2 ^ n / ↑n.factorial * Real.log (2 * Real.exp R - 1) ^ n) ≤ Funk.funkVolume K (1 - Real.exp (-R))
+Funk.kalai_halfspace_full_flags {n : ℕ} (hn : 1 ≤ n) (P : Set (Funk.Space n)) (hp : Funk.IsFinitePolytope P)
+  (hP : Funk.IsSymmetricConvexBody P) :
+  Finite (Funk.HalfspaceFullFlag P) ∧ 2 ^ n * n.factorial ≤ Nat.card (Funk.HalfspaceFullFlag P)
+'Funk.symmetricFunk_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Funk.kalai_full_flags' depends on axioms: [propext, Classical.choice, Quot.sound]

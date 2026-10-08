@@ -1,0 +1,52 @@
+"4.34.1"
+Funk.symmetricFunk_lower_bound : Funk.FunkLowerBoundGoal
+'Funk.symmetricFunk_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.kalai_full_flags : Funk.KalaiFullFlagsGoal
+'Funk.kalai_full_flags' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.mem_polarIncidence {n : ℕ} (K : Set (Funk.Space n)) (x y : Funk.Space n) :
+  (x, y) ∈ Funk.polarIncidence K ↔ y ∈ Funk.coordinatePolar (Funk.translate K x)
+'Funk.mem_polarIncidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.isClosed_polarIncidence {n : ℕ} (K : Set (Funk.Space n)) : IsClosed (Funk.polarIncidence K)
+'Funk.isClosed_polarIncidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.isClosed_translated_coordinatePolar {n : ℕ} (K : Set (Funk.Space n)) (x : Funk.Space n) :
+  IsClosed (Funk.coordinatePolar (Funk.translate K x))
+'Funk.isClosed_translated_coordinatePolar' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.polarIncidence_indicator_section {n : ℕ} (K : Set (Funk.Space n)) (x : Funk.Space n) :
+  (fun y => (Funk.polarIncidence K).indicator (fun x => 1) (x, y)) =
+    (Funk.coordinatePolar (Funk.translate K x)).indicator fun x => 1
+'Funk.polarIncidence_indicator_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.measurable_polarVolume_kernel {n : ℕ} (K : Set (Funk.Space n)) :
+  Measurable fun x => MeasureTheory.volume (Funk.coordinatePolar (Funk.translate K x))
+'Funk.measurable_polarVolume_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.funkVolume_eq_polarIncidence_integral {n : ℕ} (K : Set (Funk.Space n)) (τ : ℝ) :
+  Funk.funkVolume K τ =
+    ∫⁻ (p : Funk.Space n × Funk.Space n),
+      (Funk.polarIncidence K).indicator (fun x => 1)
+        p ∂(MeasureTheory.volume.restrict ((fun y => τ • y) '' K)).prod MeasureTheory.volume
+'Funk.funkVolume_eq_polarIncidence_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.symmetricFunk_explicit {n : ℕ} (hn : 1 ≤ n) (K : Set (Funk.Space n)) (hc : IsCompact K) (hv : Convex ℝ K)
+  (hs : ∀ x ∈ K, -x ∈ K) (hi : 0 ∈ interior K) {τ : ℝ} (hτ0 : 0 < τ) (hτ1 : τ < 1) :
+  ∫⁻ (x : Funk.Space n) in (fun y => τ • y) '' K, MeasureTheory.volume {y | ∀ z ∈ K, y ⬝ᵥ (z - x) ≤ 1} < ⊤ ∧
+    ENNReal.ofReal ((4 * Real.artanh τ) ^ n / ↑n.factorial) ≤
+      ∫⁻ (x : Funk.Space n) in (fun y => τ • y) '' K, MeasureTheory.volume {y | ∀ z ∈ K, y ⬝ᵥ (z - x) ≤ 1}
+'Funk.symmetricFunk_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.symmetricFunk_metric_radius {n : ℕ} (hn : 1 ≤ n) (K : Set (Funk.Space n)) (hK : Funk.IsSymmetricConvexBody K)
+  {R : ℝ} (hR : 0 < R) :
+  Funk.funkVolume K (1 - Real.exp (-R)) < ⊤ ∧
+    ENNReal.ofReal (2 ^ n / ↑n.factorial * Real.log (2 * Real.exp R - 1) ^ n) ≤ Funk.funkVolume K (1 - Real.exp (-R))
+'Funk.symmetricFunk_metric_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.kalai_halfspace_full_flags {n : ℕ} (hn : 1 ≤ n) (P : Set (Funk.Space n)) (hp : Funk.IsFinitePolytope P)
+  (hP : Funk.IsSymmetricConvexBody P) :
+  Finite (Funk.HalfspaceFullFlag P) ∧ 2 ^ n * n.factorial ≤ Nat.card (Funk.HalfspaceFullFlag P)
+'Funk.kalai_halfspace_full_flags' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.translated_coordinatePolar_closure {n : ℕ} (K : Set (Funk.Space n)) (x : Funk.Space n) :
+  Funk.coordinatePolar (Funk.translate (closure K) x) = Funk.coordinatePolar (Funk.translate K x)
+'Funk.translated_coordinatePolar_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.translated_coordinatePolar_interior {n : ℕ} {K : Set (Funk.Space n)} (hK : Funk.IsSymmetricConvexBody K)
+  (x : Funk.Space n) : Funk.coordinatePolar (Funk.translate K x) = Funk.coordinatePolar (Funk.translate (interior K) x)
+'Funk.translated_coordinatePolar_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+Funk.funkVolume_open_body_eq {n : ℕ} {K : Set (Funk.Space n)} (hK : Funk.IsSymmetricConvexBody K) {τ : ℝ} (hτ : τ ≠ 0) :
+  ∫⁻ (x : Funk.Space n) in (fun y => τ • y) '' interior K,
+      MeasureTheory.volume (Funk.coordinatePolar (Funk.translate (interior K) x)) =
+    Funk.funkVolume K τ
+'Funk.funkVolume_open_body_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

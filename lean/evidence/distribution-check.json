@@ -1,0 +1,102 @@
+{
+  "format": 4,
+  "status": "passed",
+  "checked_at": "2026-10-08T01:13:19.255601+00:00",
+  "original_mathematical_sources_byte_identical": 392,
+  "funk_modules": 163,
+  "vendored_oai_modules": 228,
+  "vendored_fc_utility_modules": 4,
+  "frozen_target_sha256": "1a41a129829f6319dfba8b40687917a5f26ce9535cf779934176a6357f02ee27",
+  "fc_statement_in_proof_dependencies": false,
+  "fc_statement_compilation": "fc-statement-check.json",
+  "exact_goal_type_checks": 2,
+  "modular_build_exit_code": 0,
+  "standalone_compilation": {
+    "errors": 0,
+    "warnings": 39,
+    "final_axiom_reports": 2,
+    "axioms": {
+      "Funk.symmetricFunk_lower_bound": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Funk.kalai_full_flags": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "log_sha256": "1ef7d8702521946233f3ee413f8b31f545bb69f2ff602ca43c13a2610bcba51e",
+    "edition": "live",
+    "exit_code": 0,
+    "lean": "4.35.0-rc4",
+    "mathlib": "021ce68bf125a049beee22b3fc7664d78728e21d",
+    "modules": 388,
+    "bytes": 1803117,
+    "sha256": "3e4ebf438f4f963a5fcad26e87f613ebe408562f7a46bd702347f0643bd81304",
+    "source_bodies_unchanged": false,
+    "compatibility_replacements": 2,
+    "replacement_modules": [
+      "OAI.Analysis.Mahler.NormSquareJet",
+      "OAI.Analysis.Mahler.LogScalarJet"
+    ],
+    "mathematical_statements_unchanged": true
+  },
+  "pinned_original_standalone_compilation": {
+    "errors": 0,
+    "warnings": 1,
+    "final_axiom_reports": 2,
+    "axioms": {
+      "Funk.symmetricFunk_lower_bound": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Funk.kalai_full_flags": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "log_sha256": "c15e52c05907de4427f626a51df056fc533931e899d8e075eb62d19dac97a192",
+    "edition": "pinned-4.34.1",
+    "exit_code": 0,
+    "lean": "4.34.1",
+    "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "modules": 388,
+    "bytes": 1802943,
+    "sha256": "8066498e3241204fd40a1846671d95b16d8a361d886398f40a2cb7577a283a93",
+    "source_bodies_unchanged": true
+  },
+  "build_cache_reused": true,
+  "independent_kernel_replay_this_package_run": false,
+  "public_lean4web_server_tested": true,
+  "public_lean4web_status": "passed",
+  "public_lean4web_evidence": "lean4web-live.json",
+  "public_lean4web_evidence_sha256": "28fb2b263c234ef3f0151ca799697ab360b31e6301a4e5b9e78d3b5e6a3266d4",
+  "public_lean4web_mathlib": "9e6b3aac99b624d10c84653ab9c5357283b9b3b8",
+  "no_sorryAx_in_complete_proofs": true,
+  "third_party_semantic_review_complete": false,
+  "github_published": false,
+  "fc_style_reference": "https://github.com/KitaKen1/bapat-lal-q-permanent-lean/blob/main/FClikelean/QPermanentMonotonicity.lean",
+  "fc_style_reference_sha256": "52e26cf79c1ef5a3ea0b1cf8a399e558015d7185bbf1f17ac18ab62896a6d5de",
+  "fc_statement_files": [
+    {
+      "file": "FClikelean/KalaiFullFlags.lean",
+      "sha256": "5b63fc0a56e159affe1c77b798ee88057869e4d2853cf17399c71c24ec0df160",
+      "target": "Funk.FormalConjectures.kalaiFullFlags",
+      "scope": "Kalai's full flag conjecture"
+    },
+    {
+      "file": "FClikelean/SymmetricFunkVolume.lean",
+      "sha256": "bed7e8ae34aca48c19d1b63f49502cba905735ada6674427d23e091bac833fa2",
+      "target": "FunkVolume.symmetricFunkVolume",
+      "scope": "numerical symmetric Funk-volume lower bound, without equality cases"
+    }
+  ],
+  "fc_statement_role": "two separate FC problem statements with intentional by sorry",
+  "fc_statement_compilation_sha256": "c5c32715a76ed5994f098407b3ed3fde5406ca003bce8b6c850b44a7edffd1ca",
+  "unchanged_complete_web_sources_this_update": true,
+  "github_repository": "https://github.com/KitaKen1/funk-volume-kalai-flags"
+}

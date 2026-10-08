@@ -1,0 +1,26 @@
+{
+  "commit": "d838afa7a62f66dc034c96fb011c10b9bde3f44c",
+  "count": 4,
+  "modules": [
+    {
+      "module": "FormalConjecturesUtil.Answer",
+      "sha256": "c8b3b31e9bb25c511e577b1812159a210e9346720f19ec6c6b30905a0802db7a",
+      "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/d838afa7a62f66dc034c96fb011c10b9bde3f44c/FormalConjecturesUtil/Answer.lean"
+    },
+    {
+      "module": "FormalConjecturesUtil.Answer.Syntax",
+      "sha256": "4572fc294df840c091b79350951760f742eb26f890b48cd329a19995a1e2344c",
+      "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/d838afa7a62f66dc034c96fb011c10b9bde3f44c/FormalConjecturesUtil/Answer/Syntax.lean"
+    },
+    {
+      "module": "FormalConjecturesUtil.Attributes.Basic",
+      "sha256": "181a7168432ef2c7768616117daf1b60552206caa49f6d96e2d86fb0b7e66ca3",
+      "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/d838afa7a62f66dc034c96fb011c10b9bde3f44c/FormalConjecturesUtil/Attributes/Basic.lean"
+    },
+    {
+      "module": "FormalConjecturesUtil.Attributes.AMS",
+      "sha256": "e5a6b4b0cd42e1ad11e84b75bd89f78a9797a98e5b23d8b956f13190b9078d96",
+      "url": "https://raw.githubusercontent.com/google-deepmind/formal-conjectures/d838afa7a62f66dc034c96fb011c10b9bde3f44c/FormalConjecturesUtil/Attributes/AMS.lean"
+    }
+  ]
+}

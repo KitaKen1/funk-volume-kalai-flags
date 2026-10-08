@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "status": "passed",
+  "checked_at": "2026-10-08T00:34:48.845908+00:00",
+  "lean": "4.34.1",
+  "source_files_checked": 395,
+  "unchanged_upstream_modules": 228,
+  "exact_goal_type_checks": 2,
+  "axioms": {
+    "Funk.symmetricFunk_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.kalai_full_flags": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.mem_polarIncidence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.isClosed_polarIncidence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.isClosed_translated_coordinatePolar": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.polarIncidence_indicator_section": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.measurable_polarVolume_kernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.funkVolume_eq_polarIncidence_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.symmetricFunk_explicit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.symmetricFunk_metric_radius": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.kalai_halfspace_full_flags": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.translated_coordinatePolar_closure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.translated_coordinatePolar_interior": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Funk.funkVolume_open_body_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "executions": [
+    {
+      "command": [
+        "lake",
+        "--wfail",
+        "build"
+      ],
+      "directory": "lean",
+      "log": "package-build.log",
+      "exit_code": 0,
+      "seconds": 2.902,
+      "log_sha256": "9819edbbc34618df7e3b6ffa65585b0fef903b5c547d7fe65e638c70fc048f49"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "-Ewarning",
+        "PackageAuditsg9wub7s.lean"
+      ],
+      "directory": "lean",
+      "log": "package-axioms.log",
+      "exit_code": 0,
+      "seconds": 12.992,
+      "log_sha256": "39263b3709a3872b24d7bfd8cc3a304e8f1f01f2eef830faad6e1f57596b6f4d"
+    }
+  ],
+  "ordinary_lean_compilation": true,
+  "independent_kernel_replay_this_run": false,
+  "standalone_compiled_this_run": false,
+  "standalone_lean": "4.35.0-rc4",
+  "standalone_mathlib": "021ce68bf125a049beee22b3fc7664d78728e21d",
+  "standalone_sha256": "3e4ebf438f4f963a5fcad26e87f613ebe408562f7a46bd702347f0643bd81304",
+  "build_cache_scope": "Existing fixed-version artifacts may be reused; not a cold build.",
+  "third_party_semantic_review_complete": false
+}

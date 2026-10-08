@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "historical_evidence": true,
+  "same_physical_host": true,
+  "third_party_semantic_review_complete": false,
+  "publication_replay": {
+    "status": "passed",
+    "finished_at": "2026-10-07T21:26:38.898483+00:00",
+    "independent_kernel_replay": true,
+    "constant_graph_comparison": true,
+    "roots": [
+      "Funk.symmetricFunk_lower_bound",
+      "Funk.kalai_full_flags",
+      "Funk.mem_polarIncidence",
+      "Funk.isClosed_polarIncidence",
+      "Funk.isClosed_translated_coordinatePolar",
+      "Funk.polarIncidence_indicator_section",
+      "Funk.measurable_polarVolume_kernel",
+      "Funk.funkVolume_eq_polarIncidence_integral",
+      "Funk.symmetricFunk_explicit",
+      "Funk.symmetricFunk_metric_radius",
+      "Funk.kalai_halfspace_full_flags",
+      "Funk.translated_coordinatePolar_closure",
+      "Funk.translated_coordinatePolar_interior",
+      "Funk.funkVolume_open_body_eq"
+    ],
+    "reachable_declarations": 67170,
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "original_record_sha256": "10ef27559025883ac942b432abd5f2f9db3e7b1c4e32bae1fe6ce1de02c491b0"
+  },
+  "source_reproduction": {
+    "status": "passed",
+    "finished_at": "2026-10-07T21:56:23.230645+00:00",
+    "build_jobs": 4123,
+    "full_dependency_cold_build": true,
+    "independent_kernel_replay": true,
+    "reachable_declarations": 67081,
+    "toolchain_reused": true,
+    "package_git_sources_reused": true,
+    "proof_build_artifacts_copied": false,
+    "download_or_system_proof_cache_enabled": false,
+    "original_record_sha256": "d6dfea8f16aaa91a5ddaca824f17e31f4d7f7f635fc1d5562814ab1423985680"
+  },
+  "packaged_logs": {
+    "original-checked-statements.txt": "5afaa1104fbaa4cdb9cf2527ae2c408431932801b1e803563342d3111e11b33d",
+    "original-cold-build.log": "2cf80dad8183535becd1564f0ac4bbaf6c4ab669408a724c3789be90c12a824d",
+    "original-cold-nanoda.log": "85cac834613c5f75816d3838ed65a09aa5378cb7b211b209037af5a58c0f39a5",
+    "original-comparator.log": "d3f2e0678cbe435241d8b357da54e380c3e125a327b5861db4d259f828190a73",
+    "original-publication-nanoda.log": "b96422548b4eeef3128e74005561b6e0889bc033ee68b487772a34888ffaff6f"
+  }
+}

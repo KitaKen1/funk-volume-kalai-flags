@@ -1,0 +1,12 @@
+name = "funk_lean4web"
+version = "0.1.0"
+defaultTargets = ["FunkKalaiLean4Web"]
+
+[[lean_lib]]
+name = "FunkKalaiLean4Web"
+weakLeanArgs = ["-j1"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "021ce68bf125a049beee22b3fc7664d78728e21d"

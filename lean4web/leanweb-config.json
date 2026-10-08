@@ -1,0 +1,9 @@
+{
+  "name": "Funk / Kalai (_LeanVers_)",
+  "default": false,
+  "hidden": false,
+  "sortOrder": 50,
+  "examples": [
+    {"file": "FunkKalaiLean4Web.lean", "name": "Complete Funk / Kalai proof"}
+  ]
+}

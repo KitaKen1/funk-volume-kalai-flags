@@ -1,0 +1,67 @@
+{
+  "format": 2,
+  "status": "compiled",
+  "checked_at": "2026-10-08T01:13:19.255601+00:00",
+  "sources": [
+    {
+      "file": "FClikelean/KalaiFullFlags.lean",
+      "sha256": "5b63fc0a56e159affe1c77b798ee88057869e4d2853cf17399c71c24ec0df160",
+      "target": "Funk.FormalConjectures.kalaiFullFlags",
+      "scope": "Kalai's full flag conjecture"
+    },
+    {
+      "file": "FClikelean/SymmetricFunkVolume.lean",
+      "sha256": "bed7e8ae34aca48c19d1b63f49502cba905735ada6674427d23e091bac833fa2",
+      "target": "FunkVolume.symmetricFunkVolume",
+      "scope": "numerical symmetric Funk-volume lower bound, without equality cases"
+    }
+  ],
+  "lean": "4.34.1",
+  "targets": [
+    "Funk.FormalConjectures.kalaiFullFlags",
+    "FunkVolume.symmetricFunkVolume"
+  ],
+  "proof_slot": "by sorry",
+  "intentional_statement_placeholder": true,
+  "included_in_verified_proof_dependencies": false,
+  "official_fc_utility_commit": "d838afa7a62f66dc034c96fb011c10b9bde3f44c",
+  "official_fc_utility_modules": 4,
+  "axioms": {
+    "Funk.FormalConjectures.kalaiFullFlags": [
+      "propext",
+      "sorryAx",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FunkVolume.symmetricFunkVolume": [
+      "propext",
+      "sorryAx",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "funk_model_matches_proof": {
+    "symmetric_convex_body": "Iff.rfl",
+    "funk_volume": "rfl",
+    "complete_right_hand_proposition": "rfl against Funk.FunkLowerBoundGoal"
+  },
+  "model_comparison_checks": 3,
+  "log": "fc-statement.log",
+  "log_sha256": "5c4174f7b792a57ce1c5f2be12ba491cbffb61ba47bdc9f305f6fbec55de098f",
+  "build_log": "fc-statement-build.log",
+  "build_log_sha256": "4078f9d13a7c67c044906e13891dbfe9f34805cb5e8b5fedc5207c9ed70beacd",
+  "complete_proof_axioms": {
+    "Funk.symmetricFunk_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Funk.kalai_full_flags": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "exact_goal_type_checks": 2,
+  "proof_repository": "https://github.com/KitaKen1/funk-volume-kalai-flags"
+}

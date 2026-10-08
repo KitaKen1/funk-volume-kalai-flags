@@ -1,0 +1,25 @@
+"4.34.1"
+Funk.FormalConjectures.kalaiFullFlags :
+  True ↔
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (P : Set (Fin n → ℝ)),
+          Funk.FormalConjectures.IsFinitePolytope P →
+            Funk.FormalConjectures.IsSymmetricConvexBody P →
+              Finite (Funk.FormalConjectures.FullFlag P) ∧
+                2 ^ n * n.factorial ≤ Nat.card (Funk.FormalConjectures.FullFlag P)
+FunkVolume.symmetricFunkVolume :
+  True ↔
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (K : Set (Fin n → ℝ)),
+          FunkVolume.IsSymmetricConvexBody K →
+            ∀ (τ : ℝ),
+              0 < τ →
+                τ < 1 →
+                  FunkVolume.funkVolume K τ < ⊤ ∧
+                    ENNReal.ofReal ((4 * Real.artanh τ) ^ n / ↑n.factorial) ≤ FunkVolume.funkVolume K τ
+'Funk.FormalConjectures.kalaiFullFlags' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'FunkVolume.symmetricFunkVolume' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Funk.symmetricFunk_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Funk.kalai_full_flags' depends on axioms: [propext, Classical.choice, Quot.sound]

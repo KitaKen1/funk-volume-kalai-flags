@@ -1,0 +1,122 @@
+theorem Funk.symmetricFunk_lower_bound : Funk.FunkLowerBoundGoal := _
+
+theorem Funk.kalai_full_flags : Funk.KalaiFullFlagsGoal := _
+
+theorem Funk.mem_polarIncidence :
+  forall {n : Nat} (K : Set (Funk.Space n)) (x y : Funk.Space n),
+  Iff (Membership.mem (Funk.polarIncidence K) (Prod.mk x y))
+    (Membership.mem (Funk.coordinatePolar (Funk.translate K x)) y) :=
+  _
+
+theorem Funk.isClosed_polarIncidence : forall {n : Nat} (K : Set (Funk.Space n)), IsClosed (Funk.polarIncidence K) := _
+
+theorem Funk.isClosed_translated_coordinatePolar :
+  forall {n : Nat} (K : Set (Funk.Space n)) (x : Funk.Space n), IsClosed (Funk.coordinatePolar (Funk.translate K x)) :=
+  _
+
+theorem Funk.polarIncidence_indicator_section :
+  forall {n : Nat} (K : Set (Funk.Space n)) (x : Funk.Space n),
+  Eq
+    (fun (y : Funk.Space n) =>
+    Set.indicator (Funk.polarIncidence K)
+      (fun (x._@.Funk.PublicationStatements.1001926063._hygCtx._hyg.30 : Prod (Funk.Space n) (Funk.Space n)) =>
+      OfNat.ofNat 1) (Prod.mk x y))
+    (Set.indicator (Funk.coordinatePolar (Funk.translate K x))
+      (fun (x._@.Funk.PublicationStatements.1001926063._hygCtx._hyg.56 : Funk.Space n) => OfNat.ofNat 1)) :=
+  _
+
+theorem Funk.measurable_polarVolume_kernel :
+  forall {n : Nat} (K : Set (Funk.Space n)),
+  Measurable
+    (fun (x : Funk.Space n) =>
+    DFunLike.coe MeasureTheory.MeasureSpace.volume (Funk.coordinatePolar (Funk.translate K x))) :=
+  _
+
+theorem Funk.funkVolume_eq_polarIncidence_integral :
+  forall {n : Nat} (K : Set (Funk.Space n)) (τ : Real),
+  Eq (Funk.funkVolume K τ)
+    (MeasureTheory.lintegral
+      (MeasureTheory.Measure.prod
+        (MeasureTheory.Measure.restrict MeasureTheory.MeasureSpace.volume
+          (Set.image (fun (y : Funk.Space n) => HSMul.hSMul τ y) K)) MeasureTheory.MeasureSpace.volume)
+      (fun (p : Prod (Funk.Space n) (Funk.Space n)) =>
+      Set.indicator (Funk.polarIncidence K)
+        (fun (x._@.Funk.PublicationStatements.1001926063._hygCtx._hyg.30 : Prod (Funk.Space n) (Funk.Space n)) =>
+        OfNat.ofNat 1) p)) :=
+  _
+
+theorem Funk.symmetricFunk_explicit :
+  forall {n : Nat} (hn : LE.le (OfNat.ofNat 1) n) (K : Set (Funk.Space n)),
+  IsCompact K → Convex Real K → (forall (x : Funk.Space n), Membership.mem K x → Membership.mem K (Neg.neg x)) →
+  Membership.mem (interior K) (OfNat.ofNat 0) → (forall {τ : Real},
+  LT.lt (OfNat.ofNat 0) τ → LT.lt τ (OfNat.ofNat 1) → And
+    (LT.lt
+      (MeasureTheory.lintegral
+        (MeasureTheory.Measure.restrict MeasureTheory.MeasureSpace.volume
+          (Set.image (fun (y : Funk.Space n) => HSMul.hSMul τ y) K))
+        (fun (x : Funk.Space n) =>
+        DFunLike.coe MeasureTheory.MeasureSpace.volume
+          (Set.ofPred
+            (fun (y : Funk.Space n) =>
+            forall (z : Funk.Space n),
+            Membership.mem K z → LE.le (dotProduct y (HSub.hSub z x)) (OfNat.ofNat 1))))) Top.top)
+    (LE.le
+      (ENNReal.ofReal
+        (HDiv.hDiv (HPow.hPow (HMul.hMul (OfNat.ofNat 4) (Real.artanh τ)) n) (Nat.cast (Nat.factorial n))))
+      (MeasureTheory.lintegral
+        (MeasureTheory.Measure.restrict MeasureTheory.MeasureSpace.volume
+          (Set.image (fun (y : Funk.Space n) => HSMul.hSMul τ y) K))
+        (fun (x : Funk.Space n) =>
+        DFunLike.coe MeasureTheory.MeasureSpace.volume
+          (Set.ofPred
+            (fun (y : Funk.Space n) =>
+            forall (z : Funk.Space n),
+            Membership.mem K z → LE.le (dotProduct y (HSub.hSub z x)) (OfNat.ofNat 1))))))) :=
+  _
+
+theorem Funk.symmetricFunk_metric_radius :
+  forall {n : Nat},
+  LE.le (OfNat.ofNat 1) n → (forall (K : Set (Funk.Space n)) (hK : Funk.IsSymmetricConvexBody K) {R : Real},
+  LT.lt (OfNat.ofNat 0) R → And (LT.lt (Funk.funkVolume K (HSub.hSub (OfNat.ofNat 1) (Real.exp (Neg.neg R)))) Top.top)
+    (LE.le
+      (ENNReal.ofReal
+        (HMul.hMul (HDiv.hDiv (HPow.hPow (OfNat.ofNat 2) n) (Nat.cast (Nat.factorial n)))
+          (HPow.hPow (Real.log (HSub.hSub (HMul.hMul (OfNat.ofNat 2) (Real.exp R)) (OfNat.ofNat 1))) n)))
+      (Funk.funkVolume K (HSub.hSub (OfNat.ofNat 1) (Real.exp (Neg.neg R)))))) :=
+  _
+
+theorem Funk.kalai_halfspace_full_flags :
+  forall {n : Nat} (hn : LE.le (OfNat.ofNat 1) n) (P : Set (Funk.Space n)),
+  Funk.IsFinitePolytope P → Funk.IsSymmetricConvexBody P → And (Finite (Funk.HalfspaceFullFlag P))
+    (LE.le (HMul.hMul (HPow.hPow (OfNat.ofNat 2) n) (Nat.factorial n)) (Nat.card (Funk.HalfspaceFullFlag P))) :=
+  _
+
+theorem Funk.translated_coordinatePolar_closure :
+  forall {n : Nat} (K : Set (Funk.Space n)) (x : Funk.Space n),
+  Eq (Funk.coordinatePolar (Funk.translate (closure K) x)) (Funk.coordinatePolar (Funk.translate K x)) :=
+  _
+
+theorem Funk.translated_coordinatePolar_interior :
+  forall {n : Nat} {K : Set (Funk.Space n)},
+  Funk.IsSymmetricConvexBody K → (forall (x : Funk.Space n),
+  Eq (Funk.coordinatePolar (Funk.translate K x)) (Funk.coordinatePolar (Funk.translate (interior K) x))) :=
+  _
+
+theorem Funk.funkVolume_open_body_eq :
+  forall {n : Nat} {K : Set (Funk.Space n)},
+  Funk.IsSymmetricConvexBody K → (forall {τ : Real},
+  Ne τ (OfNat.ofNat 0) → Eq
+    (MeasureTheory.lintegral
+      (MeasureTheory.Measure.restrict MeasureTheory.MeasureSpace.volume
+        (Set.image (fun (x : Funk.Space n) => HSMul.hSMul τ x) (interior K)))
+      (fun (x : Funk.Space n) =>
+      DFunLike.coe MeasureTheory.MeasureSpace.volume (Funk.coordinatePolar (Funk.translate (interior K) x))))
+    (Funk.funkVolume K τ)) :=
+  _
+
+axiom propext {a b : Prop} : Iff a b → Eq a b
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Prop} {a b : α} : r a b → Eq (Quot.mk r a) (Quot.mk r b)
+
+axiom Classical.choice.{u} {α : Sort u} : Nonempty α → α
+

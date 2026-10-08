@@ -1,0 +1,1110 @@
+{
+  "format": 1,
+  "status": "passed",
+  "started_at": "2026-10-08T00:23:29.784Z",
+  "server": "https://live.lean-lang.org/",
+  "project": "MathlibDemo",
+  "source_sha256": "3e4ebf438f4f963a5fcad26e87f613ebe408562f7a46bd702347f0643bd81304",
+  "source_bytes": 1803117,
+  "whole_file_submitted_to_lsp": true,
+  "errors": [],
+  "warnings": [
+    {
+      "fullRange": {
+        "end": {
+          "character": 29,
+          "line": 304
+        },
+        "start": {
+          "character": 4,
+          "line": 304
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 29,
+          "line": 304
+        },
+        "start": {
+          "character": 4,
+          "line": 304
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 66,
+          "line": 489
+        },
+        "start": {
+          "character": 41,
+          "line": 489
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 66,
+          "line": 489
+        },
+        "start": {
+          "character": 41,
+          "line": 489
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 66,
+          "line": 507
+        },
+        "start": {
+          "character": 41,
+          "line": 507
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 66,
+          "line": 507
+        },
+        "start": {
+          "character": 41,
+          "line": 507
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 46,
+          "line": 585
+        },
+        "start": {
+          "character": 8,
+          "line": 585
+        }
+      },
+      "message": "`MultilinearMap.domCoprod_alternization` has been deprecated: Use `MultilinearMap.domCoprod_alternatization` instead\n\nHint: Replace the deprecated name:\n  MultilinearMap.domCoprod_alterna̲t̲ization",
+      "range": {
+        "end": {
+          "character": 46,
+          "line": 585
+        },
+        "start": {
+          "character": 8,
+          "line": 585
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 66,
+          "line": 489
+        },
+        "start": {
+          "character": 41,
+          "line": 489
+        }
+      },
+      "message": "This simp argument is unused:\n  AlternatingMap.smul_apply\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [AlternatingMap.domCoprod.summand_mk'', smul_apply, MultilinearMap.domDomCongr_apply,\n    MultilinearMap.domCoprod_apply, AlternatingMap.coe_multilinearMap, smul_eq_mul]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "range": {
+        "end": {
+          "character": 66,
+          "line": 489
+        },
+        "start": {
+          "character": 41,
+          "line": 489
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4"
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 66,
+          "line": 507
+        },
+        "start": {
+          "character": 41,
+          "line": 507
+        }
+      },
+      "message": "This simp argument is unused:\n  AlternatingMap.smul_apply\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [AlternatingMap.domCoprod.summand_mk'', smul_apply, MultilinearMap.domDomCongr_apply,\n    MultilinearMap.domCoprod_apply, AlternatingMap.coe_multilinearMap, smul_eq_mul]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "range": {
+        "end": {
+          "character": 66,
+          "line": 507
+        },
+        "start": {
+          "character": 41,
+          "line": 507
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4"
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 48,
+          "line": 670
+        },
+        "start": {
+          "character": 24,
+          "line": 670
+        }
+      },
+      "message": "`AlternatingMap.neg_apply` has been deprecated: Use `_root_.neg_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `_root_.neg_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵n̵e̵g̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲n̲e̲g̲_̲a̲p̲p̲l̲y̲",
+      "range": {
+        "end": {
+          "character": 48,
+          "line": 670
+        },
+        "start": {
+          "character": 24,
+          "line": 670
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 48,
+          "line": 877
+        },
+        "start": {
+          "character": 24,
+          "line": 877
+        }
+      },
+      "message": "`AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲",
+      "range": {
+        "end": {
+          "character": 48,
+          "line": 877
+        },
+        "start": {
+          "character": 24,
+          "line": 877
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 82,
+          "line": 971
+        },
+        "start": {
+          "character": 57,
+          "line": 971
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲",
+      "range": {
+        "end": {
+          "character": 82,
+          "line": 971
+        },
+        "start": {
+          "character": 57,
+          "line": 971
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 83,
+          "line": 979
+        },
+        "start": {
+          "character": 58,
+          "line": 979
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲",
+      "range": {
+        "end": {
+          "character": 83,
+          "line": 979
+        },
+        "start": {
+          "character": 58,
+          "line": 979
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 46,
+          "line": 2809
+        },
+        "start": {
+          "character": 8,
+          "line": 2809
+        }
+      },
+      "message": "`MultilinearMap.domCoprod_alternization` has been deprecated: Use `MultilinearMap.domCoprod_alternatization` instead\n\nHint: Replace the deprecated name:\n  MultilinearMap.domCoprod_alterna̲t̲ization",
+      "range": {
+        "end": {
+          "character": 46,
+          "line": 2809
+        },
+        "start": {
+          "character": 8,
+          "line": 2809
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 53,
+          "line": 3203
+        },
+        "start": {
+          "character": 28,
+          "line": 3203
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 53,
+          "line": 3203
+        },
+        "start": {
+          "character": 28,
+          "line": 3203
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 38,
+          "line": 3339
+        },
+        "start": {
+          "character": 13,
+          "line": 3339
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 38,
+          "line": 3339
+        },
+        "start": {
+          "character": 13,
+          "line": 3339
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 38,
+          "line": 4151
+        },
+        "start": {
+          "character": 13,
+          "line": 4151
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 38,
+          "line": 4151
+        },
+        "start": {
+          "character": 13,
+          "line": 4151
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 38,
+          "line": 5766
+        },
+        "start": {
+          "character": 13,
+          "line": 5766
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲",
+      "range": {
+        "end": {
+          "character": 38,
+          "line": 5766
+        },
+        "start": {
+          "character": 13,
+          "line": 5766
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 65,
+          "line": 6731
+        },
+        "start": {
+          "character": 40,
+          "line": 6731
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲",
+      "range": {
+        "end": {
+          "character": 65,
+          "line": 6731
+        },
+        "start": {
+          "character": 40,
+          "line": 6731
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 65,
+          "line": 22579
+        },
+        "start": {
+          "character": 40,
+          "line": 22579
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 65,
+          "line": 22579
+        },
+        "start": {
+          "character": 40,
+          "line": 22579
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 65,
+          "line": 22579
+        },
+        "start": {
+          "character": 40,
+          "line": 22579
+        }
+      },
+      "message": "This simp argument is unused:\n  AlternatingMap.smul_apply\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [MultilinearMap.alternatization_apply, smul_apply, MultilinearMap.domDomCongr_apply,\n    Finset.smul_sum]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "range": {
+        "end": {
+          "character": 65,
+          "line": 22579
+        },
+        "start": {
+          "character": 40,
+          "line": 22579
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4"
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 44,
+          "line": 22741
+        },
+        "start": {
+          "character": 19,
+          "line": 22741
+        }
+      },
+      "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
+      "range": {
+        "end": {
+          "character": 44,
+          "line": 22741
+        },
+        "start": {
+          "character": 19,
+          "line": 22741
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 61,
+          "line": 22743
+        },
+        "start": {
+          "character": 37,
+          "line": 22743
+        }
+      },
+      "message": "`AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲",
+      "range": {
+        "end": {
+          "character": 61,
+          "line": 22743
+        },
+        "start": {
+          "character": 37,
+          "line": 22743
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 44,
+          "line": 22741
+        },
+        "start": {
+          "character": 19,
+          "line": 22741
+        }
+      },
+      "message": "This simp argument is unused:\n  AlternatingMap.zero_apply\n\nHint: Omit it from the simp argument list.\n  [apply] simp\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "range": {
+        "end": {
+          "character": 44,
+          "line": 22741
+        },
+        "start": {
+          "character": 19,
+          "line": 22741
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4"
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 60,
+          "line": 22754
+        },
+        "start": {
+          "character": 35,
+          "line": 22754
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 60,
+          "line": 22754
+        },
+        "start": {
+          "character": 35,
+          "line": 22754
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 92,
+          "line": 22961
+        },
+        "start": {
+          "character": 67,
+          "line": 22961
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 92,
+          "line": 22961
+        },
+        "start": {
+          "character": 67,
+          "line": 22961
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 29,
+          "line": 23032
+        },
+        "start": {
+          "character": 4,
+          "line": 23032
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 29,
+          "line": 23032
+        },
+        "start": {
+          "character": 4,
+          "line": 23032
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 38,
+          "line": 23326
+        },
+        "start": {
+          "character": 13,
+          "line": 23326
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 38,
+          "line": 23326
+        },
+        "start": {
+          "character": 13,
+          "line": 23326
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 65,
+          "line": 23346
+        },
+        "start": {
+          "character": 40,
+          "line": 23346
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 65,
+          "line": 23346
+        },
+        "start": {
+          "character": 40,
+          "line": 23346
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 54,
+          "line": 23473
+        },
+        "start": {
+          "character": 29,
+          "line": 23473
+        }
+      },
+      "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
+      "range": {
+        "end": {
+          "character": 54,
+          "line": 23473
+        },
+        "start": {
+          "character": 29,
+          "line": 23473
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 51,
+          "line": 23891
+        },
+        "start": {
+          "character": 26,
+          "line": 23891
+        }
+      },
+      "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
+      "range": {
+        "end": {
+          "character": 51,
+          "line": 23891
+        },
+        "start": {
+          "character": 26,
+          "line": 23891
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 73,
+          "line": 23904
+        },
+        "start": {
+          "character": 49,
+          "line": 23904
+        }
+      },
+      "message": "`AlternatingMap.add_apply` has been deprecated: Use `add_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲",
+      "range": {
+        "end": {
+          "character": 73,
+          "line": 23904
+        },
+        "start": {
+          "character": 49,
+          "line": 23904
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 38,
+          "line": 24016
+        },
+        "start": {
+          "character": 13,
+          "line": 24016
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 38,
+          "line": 24016
+        },
+        "start": {
+          "character": 13,
+          "line": 24016
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 74,
+          "line": 24332
+        },
+        "start": {
+          "character": 49,
+          "line": 24332
+        }
+      },
+      "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
+      "range": {
+        "end": {
+          "character": 74,
+          "line": 24332
+        },
+        "start": {
+          "character": 49,
+          "line": 24332
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 74,
+          "line": 24332
+        },
+        "start": {
+          "character": 49,
+          "line": 24332
+        }
+      },
+      "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
+      "range": {
+        "end": {
+          "character": 74,
+          "line": 24332
+        },
+        "start": {
+          "character": 49,
+          "line": 24332
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 37,
+          "line": 24785
+        },
+        "start": {
+          "character": 13,
+          "line": 24785
+        }
+      },
+      "message": "`AlternatingMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲u̲b̲_̲a̲p̲p̲l̲y̲",
+      "range": {
+        "end": {
+          "character": 37,
+          "line": 24785
+        },
+        "start": {
+          "character": 13,
+          "line": 24785
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 31,
+          "line": 25107
+        },
+        "start": {
+          "character": 6,
+          "line": 25107
+        }
+      },
+      "message": "`AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply",
+      "range": {
+        "end": {
+          "character": 31,
+          "line": 25107
+        },
+        "start": {
+          "character": 6,
+          "line": 25107
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 57,
+          "line": 25114
+        },
+        "start": {
+          "character": 32,
+          "line": 25114
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 57,
+          "line": 25114
+        },
+        "start": {
+          "character": 32,
+          "line": 25114
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 55,
+          "line": 25211
+        },
+        "start": {
+          "character": 30,
+          "line": 25211
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲",
+      "range": {
+        "end": {
+          "character": 55,
+          "line": 25211
+        },
+        "start": {
+          "character": 30,
+          "line": 25211
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 33,
+          "line": 25605
+        },
+        "start": {
+          "character": 8,
+          "line": 25605
+        }
+      },
+      "message": "`AlternatingMap.smul_apply` has been deprecated: Use `smul_apply` instead\n\nNote: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).\n\nHint: Replace the deprecated name:\n  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵smul_apply",
+      "range": {
+        "end": {
+          "character": 33,
+          "line": 25605
+        },
+        "start": {
+          "character": 8,
+          "line": 25605
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4",
+      "tags": [
+        2
+      ]
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 33,
+          "line": 25605
+        },
+        "start": {
+          "character": 8,
+          "line": 25605
+        }
+      },
+      "message": "This simp argument is unused:\n  AlternatingMap.smul_apply\n\nHint: Omit it from the simp argument list.\n  [apply] simp [smul_eq_mul, Complex.real_smul, Fintype.card_sum, card_wedgePowerSlots, add_comm]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "range": {
+        "end": {
+          "character": 33,
+          "line": 25605
+        },
+        "start": {
+          "character": 8,
+          "line": 25605
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4"
+    },
+    {
+      "fullRange": {
+        "end": {
+          "character": 66,
+          "line": 34425
+        },
+        "start": {
+          "character": 50,
+          "line": 34425
+        }
+      },
+      "message": "This simp argument is unused:\n  wedge_zero_right\n\nHint: Omit it from the simp argument list.\n  [apply] simp [boundaryResidualFin, wedgePowerVariation]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+      "range": {
+        "end": {
+          "character": 66,
+          "line": 34425
+        },
+        "start": {
+          "character": 50,
+          "line": 34425
+        }
+      },
+      "severity": 2,
+      "source": "Lean 4"
+    }
+  ],
+  "final_axioms": {
+    "Funk.symmetricFunk_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Funk.kalai_full_flags": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "toolchain": "leanprover/lean4:v4.35.0-rc4",
+  "mathlib": "9e6b3aac99b624d10c84653ab9c5357283b9b3b8",
+  "manifest_sha256": "7e51b621236ddf348c1a83685f559d8ed67da650ceb652c99768c54c92281c19",
+  "server_info": {
+    "name": "Lean 4 Server",
+    "version": "0.3.0"
+  },
+  "processing_finished": true,
+  "finished_at": "2026-10-08T00:25:44.103Z",
+  "reason": null,
+  "no_sorryAx": true
+}

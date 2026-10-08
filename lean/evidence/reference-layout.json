@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "reference_repository": "https://github.com/KitaKen1/bapat-lal-q-permanent-lean",
+  "reference_revision": "c459861078d42d22dd18144a103b2aee286dbf53",
+  "reference_tree_sha256": "5c53fb74c4a7e602f7c860bdf98f09470f188b7993d737fcce0ba9db8724534d",
+  "reference_readme_sha256": "81c76b4b13859cd5b5d4cf88b268172e78762e07a13d8768466f7b2727ceaf49",
+  "reference_used_as": "Directory structure and FC/standalone conventions, not mathematical proof source or instructions.",
+  "external_repository_published": false,
+  "external_formal_conjectures_submission": false
+}
