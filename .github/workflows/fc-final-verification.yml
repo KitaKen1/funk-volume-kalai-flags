@@ -1,0 +1,120 @@
+name: FC6926 final theorem verification
+
+on:
+  push:
+    branches: [main, fc-6926-public-verification]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fc6926-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    env:
+      LEAN_NUM_THREADS: '2'
+    steps:
+      - name: Require the public proof repository
+        env:
+          PRIVATE: ${{ github.event.repository.private }}
+        run: |
+          test "$GITHUB_REPOSITORY" = KitaKen1/funk-volume-kalai-flags
+          test "$PRIVATE" = false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Prepare disposable runner
+        run: |
+          test "$GITHUB_ACTIONS" = true
+          test "$RUNNER_ENVIRONMENT" = github-hosted
+          test "$RUNNER_OS" = Linux
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/.ghcup
+          sudo fallocate -l 12G /fc6926-swap
+          sudo chmod 600 /fc6926-swap
+          sudo mkswap /fc6926-swap
+          sudo swapon /fc6926-swap
+          free -h
+          df -h /
+      - name: Install pinned Lean manager and Rust toolchain
+        run: |
+          curl -sSfL https://github.com/leanprover/elan/releases/download/v4.1.2/elan-x86_64-unknown-linux-gnu.tar.gz -o "$RUNNER_TEMP/elan.tar.gz"
+          # The release archive digest is checked before executing it.
+          echo "f81c2e48c1588d4612cd2c8851947898a45ac8d72748a07dff3a5694f1cf589b  $RUNNER_TEMP/elan.tar.gz" | sha256sum -c -
+          tar -xzf "$RUNNER_TEMP/elan.tar.gz" -C "$RUNNER_TEMP"
+          "$RUNNER_TEMP/elan-init" -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+          echo "$HOME/.cargo/bin" >> "$GITHUB_PATH"
+          rustup toolchain install 1.90.0 --profile minimal
+      - name: Check immutable proof, PR snapshot and generated Challenge
+        run: python3 leanWithComparator/scripts/make_challenge.py --check
+      - name: Fetch pinned dependencies and trusted Mathlib cache
+        working-directory: leanWithComparator
+        run: lake exe cache get
+      - name: Build pinned comparator core, exporter and nanoda
+        run: python3 leanWithComparator/scripts/setup_tools.py
+      - name: Restore build products for the same pinned proof and dependencies
+        id: proof-cache
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: |
+            lean/.lake/build
+            leanWithComparator/.lake/build
+          key: fc6926-linux-4341-${{ hashFiles('leanWithComparator/reference/proof-source-lock.json', 'leanWithComparator/lake-manifest.json', 'leanWithComparator/lean-toolchain', 'leanWithComparator/ChallengeFC.lean') }}
+          restore-keys: fc6926-linux-4341-
+      - name: Compare the exact FC final theorem and replay it with nanoda
+        env:
+          FC_PROOF_CACHE_HIT: ${{ steps.proof-cache.outputs.cache-hit }}
+          FC_PROOF_CACHE_MATCHED_KEY: ${{ steps.proof-cache.outputs.cache-matched-key }}
+        run: python3 leanWithComparator/scripts/verify.py
+      - name: Require every verification stage
+        run: |
+          python3 - <<'PY'
+          import json
+          p='leanWithComparator/evidence/result.json'
+          d=json.load(open(p))
+          assert d['status']=='passed'
+          assert d['target']=='Funk.FormalConjectures.kalaiFullFlags'
+          assert all(d[k] for k in ['comparator','independent_nanoda_replay','negative_controls'])
+          assert d['raw_pr_model_target_agreement']
+          assert d['definition_holes']==[]
+          assert set(d['reported_axioms']) <= {'propext','Classical.choice','Quot.sound'}
+          assert len(d['controls']['cases'])==7
+          PY
+      - name: Save complete or partial pinned proof build products
+        if: always() && steps.proof-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: |
+            lean/.lake/build
+            leanWithComparator/.lake/build
+          key: fc6926-linux-4341-${{ hashFiles('leanWithComparator/reference/proof-source-lock.json', 'leanWithComparator/lake-manifest.json', 'leanWithComparator/lean-toolchain', 'leanWithComparator/ChallengeFC.lean') }}
+      - name: Upload success or failure evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: fc6926-evidence-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            leanWithComparator/evidence/**/*.json
+            leanWithComparator/evidence/**/*.log
+            leanWithComparator/evidence/**/*.txt
+            leanWithComparator/.tools/logs/
+            leanWithComparator/.tools/tools-lock.json
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Preserve exported environments for comparison diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: fc6926-debug-exports-${{ github.run_id }}-${{ github.run_attempt }}
+          path: leanWithComparator/evidence/*.ndjson
+          retention-days: 7
+          if-no-files-found: ignore

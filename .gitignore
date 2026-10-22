@@ -6,3 +6,7 @@ __pycache__/
 *.olean.private
 *.olean.server
 .DS_Store
+
+# Verification tools and generated run evidence
+leanWithComparator/.tools/
+leanWithComparator/evidence/

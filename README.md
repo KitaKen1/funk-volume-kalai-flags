@@ -375,3 +375,13 @@ and equality cases are not formalized here.
 | 2023 | [Faifman–Vernicos–Walsh](https://arxiv.org/abs/2306.09268) | Partial proof | Proved the Funk-volume conjecture for unconditional bodies and related large-radius volume growth to complete flag counts. |
 | 2026 | **This repo (Kenta Kitamura)** | **Lean 4 proof** | **Proves Kalai's full flag conjecture in all positive dimensions.** Includes an [FC-style statement](FClikelean/KalaiFullFlags.lean) and a [complete proof](lean/FinalTheorems.lean). |
 | 2026 | **This repo (Kenta Kitamura)** | **Supporting Lean 4 proof** | **Proves the numerical Funk-volume lower bound for all origin-symmetric convex bodies, including finiteness.** Includes an [FC-style statement](FClikelean/SymmetricFunkVolume.lean) and a [complete proof](lean/FinalTheorems.lean). |
+
+## Reproducible FC final-target verification
+
+The [verification harness](leanWithComparator/README.md) compares the pinned
+FC PR statement and geometric definitions with the final theorem, audits its
+axioms, and independently checks the exported proof dependencies with nanoda.
+Run it through [GitHub Actions](https://github.com/KitaKen1/funk-volume-kalai-flags/actions/workflows/fc-final-verification.yml)
+or follow the pinned local instructions. The three permitted axioms are
+`propext`, `Classical.choice`, and `Quot.sound`; the run artifacts contain
+Lean's actual axiom report, the independent-checker result and negative controls.

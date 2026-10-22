@@ -1,0 +1,14 @@
+name = "fccompare"
+defaultTargets = ["fccompare"]
+
+[[lean_lib]]
+name = "Comparator"
+srcDir = "../.tools/comparator"
+
+[[lean_exe]]
+name = "fccompare"
+root = "CompareFC"
+
+[[require]]
+name = "lean4export"
+path = "../.tools/lean4export"

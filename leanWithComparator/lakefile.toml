@@ -1,0 +1,32 @@
+name = "fc6926verification"
+version = "0.1.0"
+defaultTargets = ["ChallengeFC", "SolutionFC", "AuditFC"]
+
+[[require]]
+name = "funk"
+path = "../lean"
+
+[[lean_lib]]
+name = "ChallengeFC"
+[lean_lib.leanOptions]
+warn.sorry = false
+
+[[lean_lib]]
+name = "RawPRFC"
+[lean_lib.leanOptions]
+warn.sorry = false
+
+[[lean_lib]]
+name = "ModelAuditFC"
+
+[[lean_lib]]
+name = "SolutionFC"
+
+[[lean_lib]]
+name = "AuditFC"
+
+[[lean_lib]]
+name = "Controls"
+globs = ["Controls.+"]
+[lean_lib.leanOptions]
+warn.sorry = false

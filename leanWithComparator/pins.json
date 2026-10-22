@@ -1,0 +1,37 @@
+{
+  "lean": "leanprover/lean4:v4.34.1",
+  "rust": "1.90.0",
+  "target": "Funk.FormalConjectures.kalaiFullFlags",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "model_roots": [
+    "Funk.FormalConjectures.IsSymmetricConvexBody",
+    "Funk.FormalConjectures.IsFinitePolytope",
+    "Funk.FormalConjectures.FullFlag",
+    "Funk.FormalConjectures.FullFlag.mk",
+    "Funk.FormalConjectures.FullFlag.faces",
+    "Funk.FormalConjectures.FullFlag.nonempty",
+    "Funk.FormalConjectures.FullFlag.convex",
+    "Funk.FormalConjectures.FullFlag.extreme",
+    "Funk.FormalConjectures.FullFlag.proper",
+    "Funk.FormalConjectures.FullFlag.dimension",
+    "Funk.FormalConjectures.FullFlag.chain"
+  ],
+  "tools": {
+    "comparator": {
+      "repository": "https://github.com/leanprover/comparator.git",
+      "commit": "d03acab154d269c06e60e4de7e4cc85deebff94b"
+    },
+    "lean4export": {
+      "repository": "https://github.com/leanprover/lean4export.git",
+      "commit": "076e8e57707e813375e8f9da8bf989799ace9680"
+    },
+    "nanoda": {
+      "repository": "https://github.com/robsimmons/nanoda_lib.git",
+      "commit": "68d5ca9db226849b41a6fff59d796ff19d0a8840"
+    }
+  }
+}
