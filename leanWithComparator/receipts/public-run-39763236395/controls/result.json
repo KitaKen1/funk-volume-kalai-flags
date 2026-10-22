@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "fixture_target": "FCControl.target",
+  "cases": {
+    "Sorry": {
+      "expected": "reject",
+      "passed": true,
+      "stage": "comparator",
+      "reason": "Illegal axiom detected: 'sorryAx'",
+      "execution": {
+        "argv": [
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Challenge.ndjson",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Sorry.ndjson",
+          "FCControl.target",
+          "FCControl.Subject"
+        ],
+        "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+        "returncode": 1,
+        "seconds": 0.075,
+        "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Sorry-compare.log",
+        "log_sha256": "8e3e62573f1848fe37a7bf493d712016fcf635b28ab9d6fcccd7014bfd8b36a6"
+      }
+    },
+    "Axiom": {
+      "expected": "reject",
+      "passed": true,
+      "stage": "comparator",
+      "reason": "Illegal axiom detected: 'FCControl.cheat'",
+      "execution": {
+        "argv": [
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Challenge.ndjson",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Axiom.ndjson",
+          "FCControl.target",
+          "FCControl.Subject"
+        ],
+        "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+        "returncode": 1,
+        "seconds": 0.054,
+        "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Axiom-compare.log",
+        "log_sha256": "2c90a5a770e448b37f60289c1877556c0c8400953a8f66776b05d931af5c3b82"
+      }
+    },
+    "Weakened": {
+      "expected": "reject",
+      "passed": true,
+      "stage": "comparator",
+      "reason": "Const does not match",
+      "execution": {
+        "argv": [
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Challenge.ndjson",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Weakened.ndjson",
+          "FCControl.target",
+          "FCControl.Subject"
+        ],
+        "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+        "returncode": 1,
+        "seconds": 0.055,
+        "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Weakened-compare.log",
+        "log_sha256": "3dfee65500ed5057b7b78d0ee04025df1d3f93e072efde0731174155b8b2d38e"
+      }
+    },
+    "Type": {
+      "expected": "reject",
+      "passed": true,
+      "stage": "comparator",
+      "reason": "theorem statement do not match",
+      "execution": {
+        "argv": [
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Challenge.ndjson",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Type.ndjson",
+          "FCControl.target",
+          "FCControl.Subject"
+        ],
+        "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+        "returncode": 1,
+        "seconds": 0.054,
+        "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Type-compare.log",
+        "log_sha256": "d35ff60965855c005c64efec1f72ee52d12d14d13a1e1245ab88cf733ce611a0"
+      }
+    },
+    "Missing": {
+      "expected": "reject",
+      "passed": true,
+      "stage": "comparator",
+      "reason": "Const not found in solution",
+      "execution": {
+        "argv": [
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Challenge.ndjson",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Missing.ndjson",
+          "FCControl.target",
+          "FCControl.Subject"
+        ],
+        "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+        "returncode": 1,
+        "seconds": 0.054,
+        "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Missing-compare.log",
+        "log_sha256": "40d45beed30fbb4d0f20f3af5848015648d3bc015114839f8cac6a9c53b61fe8"
+      }
+    },
+    "Valid": {
+      "expected": "accept",
+      "passed": true,
+      "stage": "comparator+nanoda",
+      "nanoda_execution": {
+        "argv": [
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/nanoda/target/release/nanoda_bin",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/valid-nanoda.json"
+        ],
+        "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+        "returncode": 0,
+        "seconds": 0.002,
+        "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/valid-nanoda.log",
+        "log_sha256": "06ed6a8913e3b1a5b465f26f70ffb031c1dc2f6db2e83058e00643596acb86db"
+      }
+    },
+    "Broken": {
+      "expected": "reject",
+      "passed": true,
+      "stage": "nanoda",
+      "mutation": "target proof replaced by its type expression",
+      "comparator_accepted": true,
+      "execution": {
+        "argv": [
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/nanoda/target/release/nanoda_bin",
+          "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/broken-nanoda.json"
+        ],
+        "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+        "returncode": 101,
+        "seconds": 0.002,
+        "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/broken-nanoda.log",
+        "log_sha256": "36fe2cd55de4f5ea16ad37de5706a1fbc499ae2c47aace0bd7a7552f57a09537"
+      }
+    }
+  },
+  "scope": "Small compiled fixtures, using the same driver, exporter, checker and axiom policy"
+}

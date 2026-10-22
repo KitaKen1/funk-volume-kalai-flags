@@ -1,0 +1,7 @@
+CHALLENGE NAME: FCControl.Subject; LEVELS: []
+CHALLENGE TYPE: Lean.Expr.sort (Lean.Level.zero)
+CHALLENGE VALUE: Lean.Expr.app (Lean.Expr.app (Lean.Expr.const `And []) (Lean.Expr.const `True [])) (Lean.Expr.const `True [])
+SOLUTION NAME: FCControl.Subject; LEVELS: []
+SOLUTION TYPE: Lean.Expr.sort (Lean.Level.zero)
+SOLUTION VALUE: Lean.Expr.const `True []
+uncaught exception: Const does not match between challenge and target 'FCControl.Subject'

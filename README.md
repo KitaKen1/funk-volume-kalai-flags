@@ -385,3 +385,7 @@ Run it through [GitHub Actions](https://github.com/KitaKen1/funk-volume-kalai-fl
 or follow the pinned local instructions. The three permitted axioms are
 `propext`, `Classical.choice`, and `Quot.sound`; the run artifacts contain
 Lean's actual axiom report, the independent-checker result and negative controls.
+
+The [successful public run](https://github.com/KitaKen1/funk-volume-kalai-flags/actions/runs/39763236395)
+checked 67,109 declarations. Its [saved evidence](leanWithComparator/receipts/public-run-39763236395/README.md)
+includes Lean's [actual three-axiom report](leanWithComparator/receipts/public-run-39763236395/axioms.log).

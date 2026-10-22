@@ -1,0 +1,474 @@
+{
+  "status": "passed",
+  "started_at": "2026-10-22T10:32:27.452478+00:00",
+  "target": "Funk.FormalConjectures.kalaiFullFlags",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "definition_holes": [],
+  "executions": {
+    "challenge-build": {
+      "argv": [
+        "lake",
+        "--wfail",
+        "build",
+        "ChallengeFC",
+        "RawPRFC"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+      "returncode": 0,
+      "seconds": 13.328,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/challenge-build.log",
+      "log_sha256": "1b59a92857652da261ebf0c5fe80632e5c2f4b17c0c974d8bf7e077b1bdf66cc"
+    },
+    "challenge-export": {
+      "argv": [
+        "lake",
+        "env",
+        "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/lean4export/.lake/build/bin/lean4export",
+        "ChallengeFC",
+        "--",
+        "Funk.FormalConjectures.kalaiFullFlags",
+        "Funk.FormalConjectures.IsSymmetricConvexBody",
+        "Funk.FormalConjectures.IsFinitePolytope",
+        "Funk.FormalConjectures.FullFlag",
+        "Funk.FormalConjectures.FullFlag.mk",
+        "Funk.FormalConjectures.FullFlag.faces",
+        "Funk.FormalConjectures.FullFlag.nonempty",
+        "Funk.FormalConjectures.FullFlag.convex",
+        "Funk.FormalConjectures.FullFlag.extreme",
+        "Funk.FormalConjectures.FullFlag.proper",
+        "Funk.FormalConjectures.FullFlag.dimension",
+        "Funk.FormalConjectures.FullFlag.chain",
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+      "returncode": 0,
+      "seconds": 6.945,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/challenge-export.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "solution-build": {
+      "argv": [
+        "lake",
+        "--wfail",
+        "build",
+        "SolutionFC",
+        "AuditFC",
+        "ModelAuditFC"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+      "returncode": 0,
+      "seconds": 678.381,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/solution-build.log",
+      "log_sha256": "c5cf1947af4a8b1d47bfd1107bd09e7c74b654433bb9a31cd43884e607bab065"
+    },
+    "raw-pr-model-agreement": {
+      "argv": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "-Ewarning",
+        "ModelAuditFC.lean"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+      "returncode": 0,
+      "seconds": 5.6,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/raw-pr-model-agreement.log",
+      "log_sha256": "9bfb4c2363c4b2ffbedd188d2059b96cbc46bdc868cb1628e26cd245b8a3e7d9"
+    },
+    "axioms": {
+      "argv": [
+        "lake",
+        "env",
+        "lean",
+        "-j1",
+        "-Ewarning",
+        "AuditFC.lean"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+      "returncode": 0,
+      "seconds": 3.667,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/axioms.log",
+      "log_sha256": "b25de549701bc617650b302674ecde2d69dc806d46c9daeb304bc680a31723c0"
+    },
+    "solution-export": {
+      "argv": [
+        "lake",
+        "env",
+        "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/lean4export/.lake/build/bin/lean4export",
+        "SolutionFC",
+        "--",
+        "Funk.FormalConjectures.kalaiFullFlags",
+        "Funk.FormalConjectures.IsSymmetricConvexBody",
+        "Funk.FormalConjectures.IsFinitePolytope",
+        "Funk.FormalConjectures.FullFlag",
+        "Funk.FormalConjectures.FullFlag.mk",
+        "Funk.FormalConjectures.FullFlag.faces",
+        "Funk.FormalConjectures.FullFlag.nonempty",
+        "Funk.FormalConjectures.FullFlag.convex",
+        "Funk.FormalConjectures.FullFlag.extreme",
+        "Funk.FormalConjectures.FullFlag.proper",
+        "Funk.FormalConjectures.FullFlag.dimension",
+        "Funk.FormalConjectures.FullFlag.chain",
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+      "returncode": 0,
+      "seconds": 31.55,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/solution-export.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "comparator": {
+      "argv": [
+        "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+        "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/challenge.ndjson",
+        "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/solution.ndjson",
+        "Funk.FormalConjectures.kalaiFullFlags",
+        "Funk.FormalConjectures.IsSymmetricConvexBody",
+        "Funk.FormalConjectures.IsFinitePolytope",
+        "Funk.FormalConjectures.FullFlag",
+        "Funk.FormalConjectures.FullFlag.mk",
+        "Funk.FormalConjectures.FullFlag.faces",
+        "Funk.FormalConjectures.FullFlag.nonempty",
+        "Funk.FormalConjectures.FullFlag.convex",
+        "Funk.FormalConjectures.FullFlag.extreme",
+        "Funk.FormalConjectures.FullFlag.proper",
+        "Funk.FormalConjectures.FullFlag.dimension",
+        "Funk.FormalConjectures.FullFlag.chain"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+      "returncode": 0,
+      "seconds": 24.079,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/comparator.log",
+      "log_sha256": "4c9f49443d529e501aab8f335d0161e59c7b07559e33e47ab6aebb84734db602"
+    },
+    "nanoda": {
+      "argv": [
+        "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/nanoda/target/release/nanoda_bin",
+        "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/nanoda-config.json"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+      "returncode": 0,
+      "seconds": 63.223,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/nanoda.log",
+      "log_sha256": "b1d883729ba6fa295445ba521049dd939b16a384cf60eb7bd896296c50f2e699"
+    }
+  },
+  "comparator": true,
+  "independent_nanoda_replay": true,
+  "negative_controls": true,
+  "scope": {
+    "mathlib_cache": "Trusted fixed-revision Mathlib cache may be used",
+    "proof_build_cache_hit": false,
+    "proof_build_cache_matched_key": "",
+    "full_dependency_cold_build": false,
+    "landrun_pipeline": false,
+    "adversarial_build_sandbox": false,
+    "independent_human_semantic_review": false
+  },
+  "environment": {
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "architecture": "x86_64",
+    "lean": "leanprover/lean4:v4.34.1",
+    "rust": "1.90.0"
+  },
+  "ci": {
+    "repository": "KitaKen1/funk-volume-kalai-flags",
+    "sha": "b46f8c30d2be8a8ad388a82098019358503c22b6",
+    "run_id": "39763236395",
+    "run_attempt": "1",
+    "url": "https://github.com/KitaKen1/funk-volume-kalai-flags/actions/runs/39763236395"
+  },
+  "inputs": {
+    "proof_commit": "5b92194f6b5ed49f380a6412b120ad256d850740",
+    "proof_files": 439,
+    "proof_lock_sha256": "ad9a7beee08d764848ecbd29b991d1e544831495d9e39c26e433366eb1e30a1d",
+    "pr_statement": {
+      "repository": "KitaKen1/formal-conjectures",
+      "commit": "decbde8be8be440b1b10c3f4e516d39896bb4b2c",
+      "path": "FormalConjectures/Arxiv/2306.09268/KalaiFullFlags.lean",
+      "git_blob": "6968faaa76ffaf62c026b00f2346c8f613558992",
+      "sha256": "7d917839b5c22bcc09e0707075c926dcfb37112c67ee783ff37c52b833dfca4f"
+    },
+    "dependency_revisions": {
+      "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "plausible": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "LeanSearchClient": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "importGraph": "e928b72544873815af278d38681b31c0293588e3",
+      "proofwidgets": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "aesop": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "Qq": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "batteries": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "Cli": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+    },
+    "publication_metadata": {
+      "commit": "0c71197074dd57cea6d8669218ae42fa43e7eddc",
+      "files": {
+        "lean/evidence/distribution-check.json": {
+          "original_sha256": "b232ecad38c894a9f7544e7b873ec96dcd096d9573f159cda1feaf29da92a5df",
+          "published_sha256": "0d34c483120d2dc88aeca68e51bafeb0e5173676aeb9e28661c0a5d5ab787bf2"
+        },
+        "lean/evidence/github-publication.json": {
+          "original_sha256": "76848d7de87140dbac792c58c1ba9de4f448717cdd8a69606931cac9fc8ab1d4",
+          "published_sha256": "01bddfeb800cc28553e8205b4722d769b376d60079d4467686865aeaca743ab0"
+        },
+        "lean/evidence/reference-layout.json": {
+          "original_sha256": "063ade80fb15bd15bd305d6802da739d4d5f4d9fbd0549aa96e63bfaf0a88803",
+          "published_sha256": "ed28b80f54dc9b3661bc8433fd3349b1ba179a2c22f6aa7ee83b760fbd1cbac7"
+        }
+      },
+      "note": "Only publication receipts differ from the proof commit. All proof sources, vendored sources and Lean dependency configuration remain byte-identical."
+    }
+  },
+  "challenge_generation": {
+    "namespace_body_verbatim": true,
+    "namespace_body_sha256": "95214cfed550382b261ee848eac0f1445280281c4abfb86b15e480e3ee43fbd6",
+    "changes": [
+      "replace module/public import/public section wrapper with 4.34.1 imports",
+      "Challenge only: disable redundant CompletePartialOrder.toPartialOrder instance path"
+    ],
+    "raw_pr_variant": "RawPRFC.lean, without instance-path alignment",
+    "answer": "answer(True), unchanged",
+    "placeholder": "one intentional Challenge sorry"
+  },
+  "verification_git_sha": "b46f8c30d2be8a8ad388a82098019358503c22b6",
+  "current_stage": "complete",
+  "raw_pr_model_target_agreement": true,
+  "reported_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "export_meta": {
+    "exporter": {
+      "name": "lean4export",
+      "version": "3.1.0"
+    },
+    "format": {
+      "version": "3.1.0"
+    },
+    "lean": {
+      "githash": "5045d0056413266e57c625dcd7c365b10e377c52",
+      "version": "4.34.1"
+    }
+  },
+  "compared_model_roots": [
+    "Funk.FormalConjectures.IsSymmetricConvexBody",
+    "Funk.FormalConjectures.IsFinitePolytope",
+    "Funk.FormalConjectures.FullFlag",
+    "Funk.FormalConjectures.FullFlag.mk",
+    "Funk.FormalConjectures.FullFlag.faces",
+    "Funk.FormalConjectures.FullFlag.nonempty",
+    "Funk.FormalConjectures.FullFlag.convex",
+    "Funk.FormalConjectures.FullFlag.extreme",
+    "Funk.FormalConjectures.FullFlag.proper",
+    "Funk.FormalConjectures.FullFlag.dimension",
+    "Funk.FormalConjectures.FullFlag.chain"
+  ],
+  "checked_declarations": 67109,
+  "controls": {
+    "status": "passed",
+    "fixture_target": "FCControl.target",
+    "cases": {
+      "Sorry": {
+        "expected": "reject",
+        "passed": true,
+        "stage": "comparator",
+        "reason": "Illegal axiom detected: 'sorryAx'",
+        "execution": {
+          "argv": [
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Challenge.ndjson",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Sorry.ndjson",
+            "FCControl.target",
+            "FCControl.Subject"
+          ],
+          "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+          "returncode": 1,
+          "seconds": 0.075,
+          "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Sorry-compare.log",
+          "log_sha256": "8e3e62573f1848fe37a7bf493d712016fcf635b28ab9d6fcccd7014bfd8b36a6"
+        }
+      },
+      "Axiom": {
+        "expected": "reject",
+        "passed": true,
+        "stage": "comparator",
+        "reason": "Illegal axiom detected: 'FCControl.cheat'",
+        "execution": {
+          "argv": [
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Challenge.ndjson",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Axiom.ndjson",
+            "FCControl.target",
+            "FCControl.Subject"
+          ],
+          "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+          "returncode": 1,
+          "seconds": 0.054,
+          "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Axiom-compare.log",
+          "log_sha256": "2c90a5a770e448b37f60289c1877556c0c8400953a8f66776b05d931af5c3b82"
+        }
+      },
+      "Weakened": {
+        "expected": "reject",
+        "passed": true,
+        "stage": "comparator",
+        "reason": "Const does not match",
+        "execution": {
+          "argv": [
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Challenge.ndjson",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Weakened.ndjson",
+            "FCControl.target",
+            "FCControl.Subject"
+          ],
+          "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+          "returncode": 1,
+          "seconds": 0.055,
+          "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Weakened-compare.log",
+          "log_sha256": "3dfee65500ed5057b7b78d0ee04025df1d3f93e072efde0731174155b8b2d38e"
+        }
+      },
+      "Type": {
+        "expected": "reject",
+        "passed": true,
+        "stage": "comparator",
+        "reason": "theorem statement do not match",
+        "execution": {
+          "argv": [
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Challenge.ndjson",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Type.ndjson",
+            "FCControl.target",
+            "FCControl.Subject"
+          ],
+          "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+          "returncode": 1,
+          "seconds": 0.054,
+          "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Type-compare.log",
+          "log_sha256": "d35ff60965855c005c64efec1f72ee52d12d14d13a1e1245ab88cf733ce611a0"
+        }
+      },
+      "Missing": {
+        "expected": "reject",
+        "passed": true,
+        "stage": "comparator",
+        "reason": "Const not found in solution",
+        "execution": {
+          "argv": [
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Challenge.ndjson",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Missing.ndjson",
+            "FCControl.target",
+            "FCControl.Subject"
+          ],
+          "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+          "returncode": 1,
+          "seconds": 0.054,
+          "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/Missing-compare.log",
+          "log_sha256": "40d45beed30fbb4d0f20f3af5848015648d3bc015114839f8cac6a9c53b61fe8"
+        }
+      },
+      "Valid": {
+        "expected": "accept",
+        "passed": true,
+        "stage": "comparator+nanoda",
+        "nanoda_execution": {
+          "argv": [
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/nanoda/target/release/nanoda_bin",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/valid-nanoda.json"
+          ],
+          "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+          "returncode": 0,
+          "seconds": 0.002,
+          "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/valid-nanoda.log",
+          "log_sha256": "06ed6a8913e3b1a5b465f26f70ffb031c1dc2f6db2e83058e00643596acb86db"
+        }
+      },
+      "Broken": {
+        "expected": "reject",
+        "passed": true,
+        "stage": "nanoda",
+        "mutation": "target proof replaced by its type expression",
+        "comparator_accepted": true,
+        "execution": {
+          "argv": [
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/nanoda/target/release/nanoda_bin",
+            "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/broken-nanoda.json"
+          ],
+          "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator",
+          "returncode": 101,
+          "seconds": 0.002,
+          "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/evidence/controls/broken-nanoda.log",
+          "log_sha256": "36fe2cd55de4f5ea16ad37de5706a1fbc499ae2c47aace0bd7a7552f57a09537"
+        }
+      }
+    },
+    "scope": "Small compiled fixtures, using the same driver, exporter, checker and axiom policy"
+  },
+  "evidence_sha256": {
+    "comparator.log": "4c9f49443d529e501aab8f335d0161e59c7b07559e33e47ab6aebb84734db602",
+    "nanoda-config.json": "dfb1305ea7dc9b52848976c6517077f1893fe8e27e6bc6204f8d93f53e2c528b",
+    "challenge-export.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "axioms.log": "b25de549701bc617650b302674ecde2d69dc806d46c9daeb304bc680a31723c0",
+    "solution.ndjson": "d9aa239200475a504457565fee2a01a400616e136e39f635ea7c0b3ced704497",
+    "checked-statements.txt": "542c9539d5aa5c8aa54aee016c51a44e53543d8b11ca6fbdf810877158d172bf",
+    "solution-build.log": "c5cf1947af4a8b1d47bfd1107bd09e7c74b654433bb9a31cd43884e607bab065",
+    "tools-lock.json": "68975e91ee1812b72a2f6197db0991957a6333ea9092ce4f20f91becba3d1b3e",
+    "challenge.ndjson": "36222dbf3c19d13c798b1e16b1cbae8e186f28e56b7c0a6d3796ddd3428cd272",
+    "challenge-build.log": "1b59a92857652da261ebf0c5fe80632e5c2f4b17c0c974d8bf7e077b1bdf66cc",
+    "raw-pr-model-agreement.log": "9bfb4c2363c4b2ffbedd188d2059b96cbc46bdc868cb1628e26cd245b8a3e7d9",
+    "solution-export.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "nanoda.log": "b1d883729ba6fa295445ba521049dd939b16a384cf60eb7bd896296c50f2e699",
+    "controls/Valid-export.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "controls/Axiom-compare.log": "2c90a5a770e448b37f60289c1877556c0c8400953a8f66776b05d931af5c3b82",
+    "controls/Sorry-compare.log": "8e3e62573f1848fe37a7bf493d712016fcf635b28ab9d6fcccd7014bfd8b36a6",
+    "controls/Weakened-compare.log": "3dfee65500ed5057b7b78d0ee04025df1d3f93e072efde0731174155b8b2d38e",
+    "controls/Challenge-build.log": "c70ecc20fa0904af644d2774ceface190776beb7b1c8696ad09391562053189e",
+    "controls/Valid-compare.log": "b1545aeb5538257ae0ec3d081c92eb7ac7c17f3547900411451a4ff81e0c9f0b",
+    "controls/valid-nanoda.json": "0fc2c6a5241d2dbeeafb22ce34383be081cc80364ce816ba47964def3142aa0d",
+    "controls/Weakened-build.log": "227a8f81a92e0e38e9b1a1de2d77db4e3c30a89add42602b07dd5ef1f364220d",
+    "controls/broken-nanoda.json": "527e093389a84619549c06a3ff558782fb0acdd7e6faf34d9e48af69930e2469",
+    "controls/Type.ndjson": "503727b05486cf1e0f79890f369fdbf2c93cbd48c863b4c2bbe85cc1d4a54c58",
+    "controls/Axiom.ndjson": "2c01d3bf2b2625dc297c55aafb437b5c0844e36ab1ac7dd788fc972bc7fbe6cb",
+    "controls/valid-statements.txt": "db3ba2e2dc279e021f6d817402d0f0faa11639612507696950a246f15eeac4f9",
+    "controls/Valid.ndjson": "d9d94cd792df7e6399ff44e1132ff87f09f4b019cc0b2db55dd4d4ce40a7e055",
+    "controls/Weakened.ndjson": "dcda5ce07d3e9bdacac81997c3d3cc8f12cd4d794fd144d82265345ff55ebcba",
+    "controls/Sorry-export.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "controls/Missing.ndjson": "e007364822282e526a265080f499fcc1812c7bd73c0a812b4a0befaf01015d3b",
+    "controls/Challenge-export.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "controls/Sorry.ndjson": "26b2d86fcd8337fb2771a355d2f36b286b54e5a80a50ba7eef9d1932979b4f6c",
+    "controls/Valid-build.log": "eccf63e7d62c6f3f1b9723f4ff3a7c0e83689f46e1bfb11c480319b5e73acd02",
+    "controls/Missing-build.log": "28a1b5b7ab26e314215cab4e190d5684a0645194f220f1cef20fff0495a768f1",
+    "controls/broken-nanoda.log": "36fe2cd55de4f5ea16ad37de5706a1fbc499ae2c47aace0bd7a7552f57a09537",
+    "controls/Weakened-export.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "controls/broken-compare.log": "b1545aeb5538257ae0ec3d081c92eb7ac7c17f3547900411451a4ff81e0c9f0b",
+    "controls/Sorry-build.log": "2a6fc0abddaaa943229936dac5b2ef09598cc27f9163b683e9d3af5b96f8807e",
+    "controls/Type-build.log": "da7010db04da283010d9a65245912992d8dcd22e6256002192ea8bf22fab51a7",
+    "controls/Type-compare.log": "d35ff60965855c005c64efec1f72ee52d12d14d13a1e1245ab88cf733ce611a0",
+    "controls/result.json": "75e3bcc589e1860f4a406b9dd9867e421d495a3bd9c0b55ad9e89fbd0a3e6261",
+    "controls/Missing-export.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "controls/Axiom-export.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "controls/Challenge.ndjson": "2eb9f7274a5625069d659309179618a0bd3fa83522a9184cbbf1568df77b428c",
+    "controls/valid-nanoda.log": "06ed6a8913e3b1a5b465f26f70ffb031c1dc2f6db2e83058e00643596acb86db",
+    "controls/Type-export.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "controls/Axiom-build.log": "b21256b89097b500b4d887a3eeacdbefeb493a6094f1ce033a8432fbf1c523d9",
+    "controls/Broken.ndjson": "41dde3d01af3f295284e3751533a9ad9725c6a961a1c2e7ce0d190061e6e08ab",
+    "controls/Missing-compare.log": "40d45beed30fbb4d0f20f3af5848015648d3bc015114839f8cac6a9c53b61fe8",
+    "controls/broken-statements.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tool-build-logs/nanoda-tests.log": "2005642bc6b5756bc489d82be9743798ea4129f274f3c3c978dfbc59559aba82",
+    "tool-build-logs/exporter.log": "f3b9d012affdd333a5f6abd16fea917116b6ade3a8f49446c86df4cfd85b34f0",
+    "tool-build-logs/driver.log": "ae79a3fab34a8dee50d1e8a4f0810337ee1afd9b4a2dfda0edbd34020d2cc6d1",
+    "tool-build-logs/nanoda.log": "2f9980a196f5e1fd8f41d22d64722131cd55deee9456cf9c58171ae390bdc32f"
+  },
+  "finished_at": "2026-10-22T10:46:31.558294+00:00"
+}

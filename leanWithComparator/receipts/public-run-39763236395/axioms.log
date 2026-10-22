@@ -1,0 +1,10 @@
+Funk.FormalConjectures.kalaiFullFlags :
+  True ↔
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (P : Set (Fin n → ℝ)),
+          Funk.FormalConjectures.IsFinitePolytope P →
+            Funk.FormalConjectures.IsSymmetricConvexBody P →
+              Finite (Funk.FormalConjectures.FullFlag P) ∧
+                2 ^ n * n.factorial ≤ Nat.card (Funk.FormalConjectures.FullFlag P)
+'Funk.FormalConjectures.kalaiFullFlags' depends on axioms: [propext, Classical.choice, Quot.sound]

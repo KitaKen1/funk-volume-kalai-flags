@@ -5,6 +5,12 @@ Formal Conjectures PR statement. The public workflow runs in
 `KitaKen1/funk-volume-kalai-flags` and requires the repository to be public.
 The same checks first passed in a private sandbox trial.
 
+The [public run 39763236395](https://github.com/KitaKen1/funk-volume-kalai-flags/actions/runs/39763236395)
+passed on `b46f8c30d2be8a8ad388a82098019358503c22b6`. Its
+[saved evidence](receipts/public-run-39763236395/README.md), including the
+[actual axiom report](receipts/public-run-39763236395/axioms.log) and
+[nanoda result](receipts/public-run-39763236395/nanoda.log), is retained here.
+
 ## Inputs
 
 - PR statement: `KitaKen1/formal-conjectures@decbde8be8be440b1b10c3f4e516d39896bb4b2c`,

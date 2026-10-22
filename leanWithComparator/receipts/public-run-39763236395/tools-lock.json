@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "started_at": "2026-10-22T10:31:34.515085+00:00",
+  "tools": {
+    "comparator": {
+      "repository": "https://github.com/leanprover/comparator.git",
+      "commit": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+      "actual_commit": "d03acab154d269c06e60e4de7e4cc85deebff94b"
+    },
+    "lean4export": {
+      "repository": "https://github.com/leanprover/lean4export.git",
+      "commit": "076e8e57707e813375e8f9da8bf989799ace9680",
+      "actual_commit": "076e8e57707e813375e8f9da8bf989799ace9680"
+    },
+    "nanoda": {
+      "repository": "https://github.com/robsimmons/nanoda_lib.git",
+      "commit": "68d5ca9db226849b41a6fff59d796ff19d0a8840",
+      "actual_commit": "68d5ca9db226849b41a6fff59d796ff19d0a8840"
+    }
+  },
+  "executions": [
+    {
+      "argv": [
+        "lake",
+        "build"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/lean4export",
+      "returncode": 0,
+      "seconds": 5.951,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/logs/exporter.log",
+      "log_sha256": "f3b9d012affdd333a5f6abd16fea917116b6ade3a8f49446c86df4cfd85b34f0"
+    },
+    {
+      "argv": [
+        "cargo",
+        "+1.90.0",
+        "build",
+        "--release",
+        "--locked",
+        "--jobs",
+        "2"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/nanoda",
+      "returncode": 0,
+      "seconds": 19.814,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/logs/nanoda.log",
+      "log_sha256": "2f9980a196f5e1fd8f41d22d64722131cd55deee9456cf9c58171ae390bdc32f"
+    },
+    {
+      "argv": [
+        "cargo",
+        "+1.90.0",
+        "test",
+        "--release",
+        "--locked",
+        "--lib",
+        "--jobs",
+        "2"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/nanoda",
+      "returncode": 0,
+      "seconds": 19.392,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/logs/nanoda-tests.log",
+      "log_sha256": "2005642bc6b5756bc489d82be9743798ea4129f274f3c3c978dfbc59559aba82"
+    },
+    {
+      "argv": [
+        "lake",
+        "build"
+      ],
+      "cwd": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver",
+      "returncode": 0,
+      "seconds": 6.454,
+      "log": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/logs/driver.log",
+      "log_sha256": "ae79a3fab34a8dee50d1e8a4f0810337ee1afd9b4a2dfda0edbd34020d2cc6d1"
+    }
+  ],
+  "finished_at": "2026-10-22T10:32:26.713591+00:00",
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "architecture": "x86_64",
+  "lean": "leanprover/lean4:v4.34.1",
+  "rust": "1.90.0",
+  "binaries": {
+    "exporter": {
+      "path": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/lean4export/.lake/build/bin/lean4export",
+      "sha256": "8c5d64ba68f4d3a68b3bcb7e1c5f188e35ae573b29470b8d4530a62324c9ddd1"
+    },
+    "nanoda": {
+      "path": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/.tools/nanoda/target/release/nanoda_bin",
+      "sha256": "fb5c026599d3dcdfbae26000d6d4335e74e1e5fe4f0b28495f44ac26a309b759"
+    },
+    "comparator": {
+      "path": "/home/runner/work/funk-volume-kalai-flags/funk-volume-kalai-flags/leanWithComparator/compare-driver/.lake/build/bin/fccompare",
+      "sha256": "d227492e97794f9de2b4255f4a427df4b93be3a89f9909ae1c805c9ba18b3573"
+    }
+  }
+}

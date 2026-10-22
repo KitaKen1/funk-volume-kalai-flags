@@ -1,0 +1,15 @@
+theorem Funk.FormalConjectures.kalaiFullFlags :
+  Iff True
+    (forall (n : Nat) (a._@._internal._hyg.0 : LE.le (OfNat.ofNat 1) n) (P : Set (Fin n → Real)),
+    Funk.FormalConjectures.IsFinitePolytope P → Funk.FormalConjectures.IsSymmetricConvexBody P → And
+      (Finite (Funk.FormalConjectures.FullFlag P))
+      (LE.le (HMul.hMul (HPow.hPow (OfNat.ofNat 2) n) (Nat.factorial n))
+        (Nat.card (Funk.FormalConjectures.FullFlag P)))) :=
+  _
+
+axiom propext {a b : Prop} : Iff a b → Eq a b
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Prop} {a b : α} : r a b → Eq (Quot.mk r a) (Quot.mk r b)
+
+axiom Classical.choice.{u} {α : Sort u} : Nonempty α → α
+
