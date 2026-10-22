@@ -130,7 +130,7 @@ estimates we need are
 
 ```math
 1\ \le\ \sum_I\mu_\tau^{\otimes n}(E_I)
-\ \le\ \frac{n!}{(4\mathrm{artanh}\tau)^n}V_P(\tau).\tag{1}
+\ \le\ \frac{n!}{(4\mathrm{artanh}\tau)^n}V_P(\tau).\qquad\text{(1)}
 ```
 
 **2. The geometric upper estimate in (1).** Fix signs
@@ -159,7 +159,7 @@ give, respectively,
 \mu_\tau^{\otimes n}(E_I)=
 n!\left(\frac{\tau}{4\mathrm{artanh}\tau}\right)^n
 \sum_\varepsilon\int_{S_{I,\varepsilon}}
-\mathrm{vol}\Delta_{I,\varepsilon}(X)\,dX.\tag{2}
+\mathrm{vol}\Delta_{I,\varepsilon}(X)\,dX.\qquad\text{(2)}
 ```
 
 The crucial geometric fact is that these feasible simplices have disjoint
@@ -199,7 +199,7 @@ These properties yield the holomorphic mass estimate
 
 ```math
 M_k:=n!\sum_I\int_{\{z\in\Omega:u_k(z)<1\}}
-|\det D(f_k)_I(z)|^2\,dV_{2n}(z)\ \ge\ (\pi k)^n.\tag{3}
+|\det D(f_k)_I(z)|^2\,dV_{2n}(z)\ \ge\ (\pi k)^n.\qquad\text{(3)}
 ```
 
 To see the reason for this estimate, use
